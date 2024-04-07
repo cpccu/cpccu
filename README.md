@@ -1,4 +1,4 @@
-# Project 7 - CPCCU Portal
+# CPCCU Portal
 
 ## Project Overview
 Name: Competitive Programming Camp City University
