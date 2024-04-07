@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPCCU</title>
+    <link rel="icon" href="./images/logos/cpccu.png" />
+    <link href="./output.css" rel="stylesheet" />
+    <!-- <link href="./input.css" rel="stylesheet"> -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  </head>
+
+  <body>
+
+    <!-- navbar -->
+    <nav class="container w-10/12 mx-auto p-2 mt-5 bg-darkBlue border-orange-600 rounded-md fixed top-0 left-5 right-5">
+
+      <!-- flex container -->
+      <div class="flex items-center justify-between">
+
+        <!-- logo -->
+        <div class="flex justify-center items-center space-x-3">
+          <img src="./images/logos/cpccu.png" class="h-10 w-10" alt="logo" />
+          <h1
+            class="mdd:flex items-center justify-center text-white font-serif text-2xl font-bold hover:text-orange-500 cursor-pointer md:text-lg">CPCCU
+          </h1>
+        </div>
+
+        <!-- menu item -->
+        <div
+          class="hidden items-center justify-center text-white space-x-6 px-20 mdd:flex md:text-lg md:font-normal trans"
+        >
+          <a href="#" class="hover:text-orange-600 trans">Roadmaps</a>
+          <a href="#" class="hover:text-orange-600 trans">About Us</a>
+          <a href="#" class="hover:text-orange-600 trans">Careers</a>
+          <a href="#" class="hover:text-orange-600 trans">Contact</a>
+          <a href="#" class="hover:text-orange-600 trans">Community</a>
+        </div>
+
+        <!-- button get -->
+        <div
+          class="trans bg-brightRed hover:bg-orange-500 font-bold text-white hidden mdd:flex md:font-normal items-center justify-center px-5 py-2 rounded-full whitespace-nowrap"
+        >
+          <a href="#">Get Started </a>
+        </div>
+
+        <!--hamburger menu list -->
+        <button
+          id="menu-btn"
+          class="hamburger justify-center items-center mdd:hidden self-end focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- mobile menu -->
+      <div class="mdd:hidden">
+        <div
+          id="menu"
+          class="absolute hidden trans border rounded-lg top-full flex-col bg-white px-5 right-0 py-1 mt-2"
+        >
+          <a
+            href="#"
+            class="hover:text-orange-600 trans py-1 px-1 hover:ring-1 ring-orange-500 rounded-full text-center mb-2"
+            >Roadmaps</a
+          >
+          <a
+            href="#"
+            class="hover:text-orange-600 trans py-1 px-1 hover:ring-1 ring-orange-500 rounded-full text-center mb-2"
+            >About Us</a
+          >
+          <a
+            href="#"
+            class="hover:text-orange-600 trans py-1 px-1 hover:ring-1 ring-orange-500 rounded-full text-center mb-2"
+            >Careers</a
+          >
+          <a
+            href="#"
+            class="hover:text-orange-600 trans py-1 px-1 hover:ring-1 ring-orange-500 rounded-full text-center mb-2"
+            >Contact</a
+          >
+          <a
+            href="#"
+            class="hover:text-orange-600 trans py-1 px-1 hover:ring-1 ring-orange-500 rounded-full text-center mb-2"
+            >Community</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero sec -->
+    <section class="mt-24 w-10/12 mx-auto" id="hero">
+      <!-- flex container -->
+      <div
+        class="container flex flex-col-reverse items-center px-4 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row"
+      >
+        <!-- left   -->
+        <div class="flex flex-col mb-8 space-y-12 md:w-1/2">
+          <h1
+            class="max-w-md text-3xl font-bold text-center md:text-6xl md:text-left">
+            Join the journey of programming, learn & grow with us!
+          </h1>
+          <p
+            class="max-w-md text-lg text-center text-darkGrayishBlue md:text-left">
+            Are you passionate about coding and want to learn new things? Do you
+            want to collaborate with like-minded people and grow your skills?
+            Join our programming club and be a part of a community that values
+            knowledge and friendship.
+          </p>
+          <div class="flex justify-center md:justify-start">
+            <a
+              href="#"
+              class="trans p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-orange-500 md:block"
+              >Sign Up!</a
+            >
+          </div>
+        </div>
+
+        <!-- image -->
+        <div class="md:w-1/2">
+          <!-- <img src="./images/hero-image.jpg" alt="" class="rounded-3xl" /> -->
+          <!-- <img src="./images/join.png" alt="" class="rounded-3xl" /> -->
+          <img src="./images/join.gif" alt="" class="rounded-3xl" />
+          <!-- <video src="./images/join.mp4" autoplay muted loop class="w-full h-full object-cover rounded-3xl"></video> -->
+          
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="features"
+      class="bg-gray-100 w-10/12 mx-auto rounded-3xl items-center md:my-8"
+    >
+      <!-- flex container -->
+      <div
+        class="container flex flex-col p-3 md:px-4 md:p-4 mx-auto space-y-12 md:space-y-0 md:flex-row"
+      >
+        <!-- what now -->
+        <div class="flex flex-col justify-center space-y-12 md:w-1/2">
+          <h2
+            class="max-w-md text-3xl md:text-6xl font-bold text-center md:text-left">
+            How to join?
+          </h2>
+          <p class="max-w-sm text-center text-blue-950 md:text-left">
+            We have a few steps to help you get started.
+          </p>
+        </div>
+
+        <!-- numbered list -->
+        <div class="flex flex-col space-y-8 md:w-1/2">
+          <!-- list 1 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+          >
+            <!-- heading -->
+            <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-2 bg-brightRed"
+                >
+                  01
+                </div>
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                  Contact a member of club
+                </h3>
+              </div>
+            </div>
+
+            <!-- for boro screen -->
+            <div class="">
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Contact a member of club
+              </h3>
+              <p class="text-blue-900 hidden mb-4 font-bold md:block">
+                Here is where you can contact a member of our programming club.
+              </p>
+            </div>
+          </div>
+
+          <!-- list 2 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+          >
+            <!-- heading -->
+            <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-2 bg-brightRed"
+                >
+                  02
+                </div>
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                  Fill the registration form
+                </h3>
+              </div>
+            </div>
+
+            <!-- for boro screen -->
+            <div class="">
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Fill the registration form
+              </h3>
+              <p class="text-blue-900 hidden mb-4 font-bold md:block">
+                You need to fill up the registration form via online form or a
+                physical form
+              </p>
+            </div>
+          </div>
+
+          <!-- list 3 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+          >
+            <!-- heading -->
+            <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-2 bg-brightRed"
+                >
+                  03
+                </div>
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                  Make a pair with a member
+                </h3>
+              </div>
+            </div>
+
+            <!-- for boro screen -->
+            <div class="">
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Make a pair with a member
+              </h3>
+              <p class="text-blue-900 hidden mb-4 font-bold md:block">
+                Contact a member of our programming club. Then you can make a
+                pair with a member
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials">
+      <!-- heading -->
+      <h2 class="text-4xl font-bold text-center mt-[20px] mb-[54px]">Testimonials</h2>
+
+      <!-- container to heading and testimonial blocks -->
+      <div class="max-w-6xl px-5 mx-auto text-center">
+        <!-- testimonial blocks -->
+        <div class="flex flex-col mt-10 md:flex-row md:space-x-6">
+          <!-- testimonial 1 -->
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 hover:ring-1 transition-all duration-500"
+          >
+            <img
+              src="./images/cpccu-peoples/tarikul.jpg"
+              alt=""
+              class="w-16 -mt-14 rounded-3xl"
+            />
+            <h4 class="text-lg font-bold">Tarikul Islam</h4>
+            <p class="text-sm text-darkGrayishBlue">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+
+          <!-- testimonial 2 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 hover:ring-1 transition-all duration-500"
+          >
+            <img
+              src="./images/cpccu-peoples/boni.jpg"
+              alt=""
+              class="w-16 -mt-14 rounded-3xl"
+            />
+            <h4 class="text-lg font-bold">Boni Yeamin Laju</h4>
+            <p class="text-sm text-darkGrayishBlue">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+
+          <!-- testimonial 3 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 hover:ring-1 transition-all duration-500"
+          >
+            <img
+              src="./images/cpccu-peoples/zubayer.jpeg"
+              alt=""
+              class="w-16 -mt-14 rounded-3xl"
+            />
+            <h4 class="text-lg font-bold">Zubayer Bin Ayub</h4>
+            <p class="text-sm text-darkGrayishBlue">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+
+        <!-- button for change -->
+        <div class="p-2 m-2 flex justify-center items-center">
+          <a
+            href="#"
+            class="p-3 px-6 pt-2 text-white trans bg-brightRed rounded-full baseline hover:bg-orange-500 md:block"
+            >Meet them!</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- red section -->
+    <section id="red" class="bd-brightRed w-10/12 mx-auto">
+      <!-- flex container -->
+      <div
+        class="container flex flex-col items-center justify-between px-6 py-24 mx-auto bg-brightRed rounded-3xl space-y-12 md:py-12 md:flex-row md:space-y-0"
+      >
+        <!-- heading -->
+        <h2
+          class="text-2xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left"
+        >
+          Ready to build your community?
+        </h2>
+
+        <!-- button -->
+        <div class="">
+          <a
+            href="#"
+            class="p-3 px-6 trans bg-black text-white rounded-full self-baseline shadow-2xl text-lg font-semibold hover:text-brightRed"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-veryDarkBlue mt-10">
+      <!-- flex container -->
+      <div
+        class="container flex flex-col-reverse justify-between lg:px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+      >
+        <!-- logo and social links container -->
+        <div
+          class="flex flex-col-reverse items-center justify-between px-6 space-y-12 md:flex-col md:space-y-5 md:items start"
+        >
+          <div class="mx-auto my-6 text-center text-white md:hidden">
+            Copyright &copy; 2022 CPCCU || City University Bangladesh
+          </div>
+          <!-- logo -->
+          <div class="">
+            <img src="images/logos/cpccu.png" alt="" class="" />
+          </div>
+
+          <!-- social links -->
+          <div class="flex justify-center space-x-4">
+            <!-- linkedin -->
+            <a href="https://www.linkedin.com/groups/14380055/"
+              ><img src="images/logos/linkedin.png" alt="" class="h-8"
+            /></a>
+            <!-- facebook -->
+            <a href="https://www.facebook.com/groups/cpccu/"
+              ><img src="images/logos/facebook.png" alt="" class="h-8"
+            /></a>
+            <!-- github -->
+            <a href="https://github.com/cpccu"
+              ><img src="images/logos/github.png" alt="" class="h-8"
+            /></a>
+            <!-- youtube -->
+            <a href="#"
+              ><img src="images/logos/youtube.png" alt="" class="h-8"
+            /></a>
+          </div>
+        </div>
+
+        <!-- list container -->
+        <div class="flex justify-center items-center text-center space-x-32">
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed trans">Home</a>
+            <a href="#" class="hover:text-brightRed trans">Roadmaps</a>
+            <a href="#" class="hover:text-brightRed trans">Community</a>
+            <a href="#" class="hover:text-brightRed trans">Careers</a>
+          </div>
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed trans">About Us</a>
+            <a href="#" class="hover:text-brightRed trans">Contact</a>
+            <a href="#" class="hover:text-brightRed trans">Media</a>
+            <a href="#" class="hover:text-brightRed trans">Policy</a>
+          </div>
+        </div>
+
+        <!-- input container -->
+        <div class="flex flex-col justify-evenly">
+          <div>
+            <form action="">
+              <div class="flex space-x-3">
+                <input
+                  type="text"
+                  class="flex-1 px-4 rounded-full focus:outline-none"
+                  placeholder="Search"
+                />
+                <button
+                  class="px-6 py-2 text-white rounded-full trans bg-brightRed hover:bg-orange-500 focus:outline-none"
+                >
+                  Go
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div
+            class="hidden text-white md:block md:justify-center md:items-center"
+          >
+            Copyright &copy; 2022 CPCCU || City University Bangladesh
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
