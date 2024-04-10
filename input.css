@@ -6,6 +6,7 @@
   @apply transition-all duration-300;
 }
 
+
 body {
   background-image: url("");
   background-repeat: no-repeat;
@@ -65,3 +66,4 @@ body {
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+
