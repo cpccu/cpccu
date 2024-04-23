@@ -7,16 +7,6 @@
   rounded-full transition-all duration-300;
 }
 
-.nav {
-  @apply absolute h-screen shadow shadow-black bg-gray-800/70 top-0 bottom-0 px-20 py-20 text-center transition-all duration-500
-  md:bg-transparent md:h-full md:shadow-none md:relative md:flex gap-3 md:px-0 md:py-0 md:left-0 md:transition-none;
-}
-
-.nav-item {
-  @apply my-1 px-5 py-3 rounded-full hover:text-primary font-semibold
-  md:my-0 md:px-0 md:py-0;
-}
-
 .animated-text {
   -webkit-mask-image: linear-gradient(
     90deg,
