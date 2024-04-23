@@ -8,12 +8,9 @@ import Footer from "./components/footer";
 import { useState } from "react";
 
 export default function Home() {
-  const [loading, setLoading] = useState(true);
   return (
-    <section className="lg:px-28 md:px-12 md:pt-8 overflow-x-hidden scroll-smooth flex flex-col">
-      {/* start nav bar */}
+    <section className="lg:px-28 md:px-12 md:pt-8 overflow-x-hidden flex flex-col">
       <NavBar />
-      {/* end nav bar */}
       <Hero />
       <JoinClub />
       <Testimonials />

@@ -85,7 +85,7 @@ export default function OurGallery() {
     </main>
   ) : (
     <main className=" mx-5 md:mx-3">
-      <div className="mx-auto w-40 h-6 md:h-10 rounded-full mt-10 loading "></div>
+      <div className="mx-auto w-40 h-8 md:h-10 rounded-full mt-10 loading "></div>
       <section className="min-h-[230px] md:min-h-[500px] grid grid-cols-12 grid-rows-7 gap-1 md:gap-3 mt-5 md:mt-12 rounded-lg overflow-hidden">
         <div className="border loading h-full w-full col-span-2 row-span-3"></div>
         <div className="border loading h-full w-full col-span-4 row-span-3"></div>
