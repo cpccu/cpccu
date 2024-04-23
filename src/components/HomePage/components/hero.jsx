@@ -4,7 +4,7 @@ import heroImg from "/src/assets/img/hero.png";
 export default function Hero() {
   const [allText, setText] = useState(true);
   return (
-    <main className=" px-5 my-5 md:px-2 mt-4  md:mt-10">
+    <main className=" px-5 md:px-0 my-5 mt-4  md:mt-10">
       <h1 className="py-4 text-center text-2xl md:text-3xl font-bold text-black/80">
         <marquee className="animated-text">
           Competitive Programming Camp City University

@@ -34,7 +34,7 @@ export default function Event() {
           <h1 className="text-center text-2xl md:text-3xl font-bold my-5 mt-9 md:my-10 md:mt-20">
             Upcoming Events
           </h1>
-          <section className="bg-[#F0F4F7] shadow-md grid md:grid-cols-2 items-center justify-center mx-3 rounded-xl overflow-hidden">
+          <section className="bg-[#F0F4F7] mx-3 md:mx-0 shadow-md grid md:grid-cols-2 items-center justify-center  rounded-xl overflow-hidden">
             <img
               className="h-full w-full object-fill"
               src={data[0].img}
@@ -70,7 +70,7 @@ export default function Event() {
       ) : (
         <main>
           <div className="w-52 h-8 md:h-11 my-5 mt-9 md:my-10 md:mt-20 mx-auto rounded-full loading"></div>
-          <section className="bg-[#F0F4F7] shadow-md grid md:grid-cols-2 items-center justify-center mx-3 rounded-xl overflow-hidden">
+          <section className="bg-[#F0F4F7] shadow-md grid md:grid-cols-2 items-center justify-center mx-3 md:mx-0 rounded-xl overflow-hidden">
             <div className="min-h-72 md:min-h-80 loading"></div>
             <section className="flex flex-col px-10 py-9 w-screen md:w-full">
               <div className="h-7 w-60 rounded-full mb-7 loading"></div>
@@ -92,7 +92,7 @@ export default function Event() {
         </main>
       )}
 
-      <footer className="flex justify-between items-center my-12 mx-3 bg-primary rounded-xl px-8 py-4">
+      <footer className="flex justify-between items-center my-12 mx-2 md:mx-0 bg-primary rounded-xl px-8 py-4">
         <h3 className="md:text-2xl lg:text-3xl font-bold text-white">
           Ready To Build Your Community?
         </h3>

@@ -35,7 +35,7 @@ export default function NavBar() {
   }, []);
 
   return (
-    <nav className="px-8 md:mt-8 sticky top-0 z-50 h-14 w-full bg-header flex flex-row-reverse md:flex-row items-center justify-between py-3 text-white shadow-md shadow-black/90">
+    <nav className="px-8 md:mt-8 sticky top-3 z-50 h-14 w-full bg-header flex flex-row-reverse md:flex-row items-center justify-between py-3 text-white shadow-md shadow-black/90">
       <div className="flex items-center justify-center gap-2 cursor-pointer">
         <img className="h-9" src={Logo} alt="CPCCU" />
         <h1 className="text-2xl font-custom">CPCCU</h1>
