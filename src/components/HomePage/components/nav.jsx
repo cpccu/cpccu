@@ -6,7 +6,6 @@ import { useEffect, useRef, useState } from "react";
 export default function NavBar() {
   const navbar = useRef(null);
   const toggler = useRef(null);
-  const navPosition = useRef(null);
   const [navClose, setNavOpen] = useState({ open: false, icon: NavIcon });
 
   const navBarHandler = () => {
@@ -37,7 +36,7 @@ export default function NavBar() {
   return (
     <nav
       className="px-8 md:mt-8 sticky top-0 z-50 h-28 w-full bg-header
-  flex items-center justify-between py-3 text-white"
+  flex items-center justify-between py-3 text-white shadow-md shadow-black/90"
     >
       <div className="flex items-center justify-center gap-2 cursor-pointer">
         <img className="h-9" src={Logo} alt="CPCCU" />
