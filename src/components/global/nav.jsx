@@ -50,7 +50,12 @@ export default function NavBar() {
         <li>
           <NavLink
             to="/"
-            className={({ isActive }) => `${isActive && "text-primary"}`}
+            className={({ isActive }) =>
+              `${
+                isActive &&
+                "text-primary ring-1 ring-primary rounded-full px-3 py-1"
+              }`
+            }
           >
             Home
           </NavLink>
@@ -58,7 +63,12 @@ export default function NavBar() {
         <li>
           <NavLink
             to="/gallery"
-            className={({ isActive }) => `${isActive && "text-primary"}`}
+            className={({ isActive }) =>
+              `${
+                isActive &&
+                "text-primary ring-1 ring-primary rounded-full px-3 py-1"
+              }`
+            }
           >
             Gallery
           </NavLink>
@@ -66,7 +76,12 @@ export default function NavBar() {
         <li>
           <NavLink
             to="/about"
-            className={({ isActive }) => `${isActive && "text-primary"}`}
+            className={({ isActive }) =>
+              `${
+                isActive &&
+                "text-primary ring-1 ring-primary rounded-full px-3 py-1"
+              }`
+            }
           >
             About us
           </NavLink>
@@ -74,7 +89,12 @@ export default function NavBar() {
         <li>
           <NavLink
             to="/contact"
-            className={({ isActive }) => `${isActive && "text-primary"}`}
+            className={({ isActive }) =>
+              `${
+                isActive &&
+                "text-primary ring-1 ring-primary rounded-full px-3 py-1"
+              }`
+            }
           >
             Contact
           </NavLink>
