@@ -1,10 +1,24 @@
 import LiveIcon from "/src/assets/icons/live.png";
 import TeleIcon from "/src/assets/icons/telephone.png";
+import contactIcon from "/src/assets/icons/contact.jpg";
 
 export default function Contact() {
   return (
-    <main className="bg-black/10 pt-8">
-      <section className="p-2 md:p-5 flex gap-3 md:gap-5 ">
+    <main className="">
+      <section className="flex relative">
+        <img
+          className=" h-40 md:h-80 w-full object-cover"
+          src={contactIcon}
+          alt=""
+        />
+        <div className=" absolute inset-0 bg-header/50 flex items-center justify-center">
+          <h1 className="text-3xl md:text-5xl font-bold text-white font-custom">
+            Contact us
+          </h1>
+        </div>
+      </section>
+
+      <section className="p-2 md:p-5 flex gap-3 md:gap-5 bg-black/10">
         <Service img={LiveIcon} btnName={"Live Chat"} />
         <Service img={TeleIcon} btnName={"Live Call"} />
       </section>
