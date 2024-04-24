@@ -4,36 +4,9 @@ import TeleIcon from "/src/assets/icons/telephone.png";
 export default function Contact() {
   return (
     <main>
-      <section className="my-10 flex flex-col md:flex-row items-center  gap-7 mx-4 md:mx-0">
-        <div className="flex md:flex-col gap-5 w-full">
-          <Service img={LiveIcon} btnName={"Live Chat"} />
-          <Service img={TeleIcon} btnName={"Live Call"} />
-        </div>
-        <div className="flex flex-col w-full">
-          <input
-            className="border px-3 py-2"
-            type="text"
-            placeholder="Enter your name"
-          />
-          <input
-            className="border px-3 py-2"
-            type="email"
-            placeholder="Enter your Email"
-          />
-          <input
-            className="border px-3 py-2"
-            type="text"
-            placeholder="Enter your numer"
-          />
-          <textarea
-            className="border px-3 py-2"
-            placeholder="write your message"
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
-        </div>
+      <section className="p-2 md:p-5 flex gap-3 md:gap-5 bg-black/10">
+        <Service img={LiveIcon} btnName={"Live Chat"} />
+        <Service img={TeleIcon} btnName={"Live Call"} />
       </section>
       <section>
         <iframe
@@ -50,15 +23,36 @@ export default function Contact() {
 
 function Service({ img, btnName, btnLink }) {
   return (
-    <div className="border w-full flex flex-col items-center justify-center px-5 md:px-28 py-5 rounded">
-      <img className="w-16 mb-2" src={img} alt="live chat" />
-      <p className="mb-4 font-semibold text-black/70">For Support</p>
-      <button
-        className="border px-3 py-2 font-semibold text-white bg-primary hover:bg-primary/90
-          rounded hover:ring-1 ring-primary transition-all duration-300"
-      >
-        {btnName}
-      </button>
-    </div>
+    <main className="flex gap-7 border items-center justify-between px-8 py-4 bg-white rounded shadow md:shadow-lg">
+      <section className="flex flex-col items-center justify-center">
+        <img src={img} alt={btnName} />
+        <h1 className="font-semibold text-black/70 my-3 md:hidden">
+          For Support
+        </h1>
+        <button className="md:self-start bg-primary hover:bg-primary/85 text-white px-3 py-2 md:mt-5 rounded transition-all duration-300">
+          {btnName}
+        </button>
+      </section>
+      <section className="hidden md:block">
+        <h1 className="text-2xl font-bold mb-5 text-black/70">For Support</h1>
+        <p className="text-black/75">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          similique soluta praesentium ipsam qui beatae at, officia quis magnam
+          nemo?
+        </p>
+      </section>
+    </main>
+  );
+}
+
+function FromSection() {
+  return (
+    <from>
+      <input
+        className="py-2 px-3 border-b-2
+       border-black/40 rounded-full outline-none"
+        type="text"
+      />
+    </from>
   );
 }
