@@ -17,11 +17,19 @@ export default function Contact() {
           </h1>
         </div>
       </section>
+      {/* header section end */}
+
+      {/* Contact section start */}
 
       <section className="p-2 md:p-5 flex gap-3 md:gap-5 bg-black/10">
         <Service img={LiveIcon} btnName={"Live Chat"} />
         <Service img={TeleIcon} btnName={"Live Call"} />
       </section>
+
+      {/* contact section end */}
+
+      {/* map section start */}
+
       <section>
         <iframe
           className="w-full  h-80 loading"
@@ -31,6 +39,8 @@ export default function Contact() {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
+
+      {/* map section end */}
     </main>
   );
 }
