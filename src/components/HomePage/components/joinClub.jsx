@@ -21,7 +21,7 @@ export default function JoinClub() {
     <>
       <section
         className="grid gap-8 md:grid-cols-2 mt-16 py-10 px-5 md:px-9
-      mx-4 md:mx-2  bg-black/10 rounded-lg"
+      mx-4 md:mx-0  bg-black/10 rounded-lg"
       >
         <div className="flex flex-col items-center justify-center">
           <h3 className="text-3xl md:text-4xl font-bold text-black/80">

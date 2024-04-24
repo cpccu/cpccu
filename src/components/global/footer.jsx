@@ -7,7 +7,7 @@ import CallIcon from "/src/assets/icons/call.svg";
 export default function Footer() {
   return (
     <main
-      className="bg-footer mx-3 px-10 pt-10 rounded-t-xl text-white grid 
+      className="bg-footer mx-0 px-10 pt-10  text-white grid 
     grid-cols-2 md:grid-cols-5 items-center justify-center gap-2 md:gap-0"
     >
       <div className="col-span-2 md:col-span-1 flex items-center justify-center mb-5 md:mb-0">
