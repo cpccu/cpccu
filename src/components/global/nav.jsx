@@ -45,7 +45,7 @@ export default function NavBar() {
         className={` ${navClose.open ? "right-0" : "-right-[60%]"}
          transition-all duration-500  absolute h-screen w-[60%] bg-header/70 top-0 bottom-0 
         md:bg-transparent md:h-full flex flex-col justify-center items-center
-       md:static md:flex-row md:justify-center md:items-center gap-7 font-semibold text-white`}
+       md:static md:flex-row md:justify-center md:items-center gap-7 font-semibold text-white font-custom`}
       >
         <li>
           <NavLink
