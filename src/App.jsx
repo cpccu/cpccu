@@ -2,7 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/HomePage/Home";
 import Layout from "./components/layout/layout";
 import Contact from "./components/ContactPage/contact";
-
+import OurGallery from "./components/HomePage/components/ourGallery";
+import aboutUs from "./components/HomePage/components/aboutUs";
 function App() {
   return (
     <>
@@ -10,8 +11,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="" element={<Home />}></Route>
-            <Route path="gallery" element={""}></Route>
-            <Route path="about" element={""}></Route>
+            <Route path="gallery" element={<OurGallery />}></Route>
+            <Route path="about" element={<aboutUs />}></Route>
             <Route path="contact" element={<Contact />}></Route>
           </Route>
         </Routes>

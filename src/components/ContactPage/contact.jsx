@@ -58,8 +58,7 @@ export default function Contact() {
           ></textarea>
 
           <button
-            className="border self-start px-5 py-2 font-semibold bg-primary hover:bg-primary/85 hover:ring-1 transition-all duration-300
-           ring-primary text-white rounded"
+            className="border self-start px-5 py-2 font-semibold bg-primary hover:bg-primary/85 hover:ring-1 transition-all duration-300 ring-primary text-white rounded"
           >
             Sent your messsage
           </button>
