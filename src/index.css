@@ -2,49 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn {
-  @apply bg-primary hover:bg-primary/80 px-5 py-2  hover:ring-2 ring-gray-600/40
-  rounded-full transition-all duration-300;
+body {
+  scroll-behavior: smooth;
 }
 
-.animated-text {
-  -webkit-mask-image: linear-gradient(
-    90deg,
-    transparent,
-    #fff 20%,
-    #fff 85%,
-    transparent
-  );
+.padding {
+  @apply px-[1.1em] md:px-[2.5em] lg:px-[2.9em] xl:px-[7em];
+}
+.trans {
+  @apply transition-all duration-500;
 }
 
-.bulet {
-  @apply bg-primary rounded-full h-9 w-9 text-white font-bold flex items-center justify-center;
-}
-
-.cardBody {
-  -webkit-mask-image: linear-gradient(
-    90deg,
-    transparent,
-    #898787 5%,
-    #898787 90%,
-    transparent
-  );
-}
-
-.cardBody::-webkit-scrollbar {
-  width: 0px;
-}
-
-.loading {
-  opacity: 0.7;
-  animation: load 1s linear infinite alternate;
-}
-
-@keyframes load {
-  from {
-    background-color: hsl(200, 20%, 75%);
-  }
-  to {
-    background-color: hsl(200, 20%, 95%);
-  }
+.conText {
+  @apply md:text-lg lg:text-[1.1rem] leading-7;
 }

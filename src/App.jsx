@@ -1,25 +1,34 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./components/HomePage/Home";
-import Layout from "./components/layout/layout";
-import Contact from "./components/ContactPage/contact";
-import OurGallery from "./components/HomePage/components/ourGallery";
-import aboutUs from "./components/HomePage/components/aboutUs";
-function App() {
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import Layout from "./LayOut";
+import Home from "./components/Layout/Home";
+import Event from "./components/Layout/Event";
+import ComingSoon from "./components/ComingSoon";
+import { useEffect } from "react";
+import Gallery from "./components/Layout/Gallery";
+
+export default function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route path="" element={<Home />}></Route>
-            <Route path="gallery" element={<OurGallery />}></Route>
-            <Route path="about" element={<aboutUs />}></Route> 
-            {/* not working this about us page */}
-            <Route path="contact" element={<Contact />}></Route>
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="event" element={<Event />} />
+          <Route path="gallery" element={<Gallery />} />
+          <Route path="about" element={<ComingSoon />} />
+          <Route path="contact" element={<ComingSoon />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+export function ScrollToTop() {
+  const loc = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [loc.pathname]);
+
+  return null;
+}

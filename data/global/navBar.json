@@ -1,0 +1,22 @@
+[
+  {
+    "page": "Home",
+    "path": "/"
+  },
+  {
+    "page": "Event",
+    "path": "/event"
+  },
+  {
+    "page": "Gallery",
+    "path": "/gallery"
+  },
+  {
+    "page": "About",
+    "path": "/about"
+  },
+  {
+    "page": "Contact",
+    "path": "/contact"
+  }
+]

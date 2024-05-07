@@ -1,0 +1,82 @@
+{
+  "name": "CPCCU",
+  "shortName": "City University",
+  "img": "https://i.ibb.co/smKGqmH/cpccu.png",
+  "alt": "Logo",
+  "email": "rahulroynipon@gamil.com",
+  "phone": "+88017177-91358",
+  "media": [
+    {
+      "url": "https://www.facebook.com/groups/cpccu/"
+    },
+    {
+      "url": "https://chat.whatsapp.com/BxznCy84PILHEcUBxE8orM"
+    },
+    {
+      "url": "https://www.linkedin.com/groups/14380055/"
+    },
+    {
+      "url": "https://github.com/cpccu"
+    }
+  ],
+
+  "Footer1": {
+    "conText": "We are legend Lorem ipsum dolor sitmet, nsecte ipisicing eit, sed do eiusmod tempor incidunt ut et do maga aliqua enim ad minim."
+  },
+
+  "Footer2": {
+    "header": "Get In Touch",
+    "conText": "We are legend Lorem ipsum dolor sitmet, nsecte ipisicing eit, sed."
+  },
+  "useFullLink": {
+    "header": "Usefull Link",
+    "element": [
+      {
+        "linkName": "code force",
+        "url": ""
+      },
+      {
+        "linkName": "Hacker rank",
+        "url": ""
+      },
+      {
+        "linkName": "Becrownd",
+        "url": ""
+      },
+      {
+        "linkName": "Earth rank",
+        "url": ""
+      },
+      {
+        "linkName": "code force",
+        "url": ""
+      }
+    ]
+  },
+  "org": {
+    "header": "University",
+    "element": [
+      {
+        "linkName": "City university",
+        "url": ""
+      },
+      {
+        "linkName": "Home page",
+        "url": ""
+      },
+      {
+        "linkName": "All pages",
+        "url": ""
+      },
+      {
+        "linkName": "code force",
+        "url": ""
+      },
+      {
+        "linkName": "Footer page",
+        "url": ""
+      }
+    ]
+  },
+  "rights": "2024 City University, All Rights Reserved"
+}
