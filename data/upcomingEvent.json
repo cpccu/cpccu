@@ -1,9 +1,9 @@
 [
   {
-    "img": "https://i.ibb.co/SrJSHrW/university.png",
+    "img": "https://i.ibb.co/bb8j4Tj/poster-cpccu.png",
     "alt": "Alternative text for the image",
-    "headLine": "Lady Code Chanllenge",
-    "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
+    "headLine": "Code Queens Chanllenge",
+    "textContext": "Code Queens programming contest is only for Girls in our CSE department. It's a great opportunity to showcase your skills and be a part of a community of girls who are passionate about programming. We encourage all the girls to join and show us what you have. Hope everyone joins and have a great time!",
     "btnText": "registration",
     "btnLink": "https://forms.gle/NbyNjyhKBibmJvSh8",
     "date": "2024-05-10"
