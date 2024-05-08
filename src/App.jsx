@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-import Layout from "./LayOut";
+import LayOut from "./LayOut";
 import Home from "./components/Layout/Home";
 import Event from "./components/Layout/Event";
 import ComingSoon from "./components/ComingSoon";
@@ -11,7 +11,7 @@ export default function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<LayOut />}>
           <Route index element={<Home />} />
           <Route path="event" element={<Event />} />
           <Route path="gallery" element={<Gallery />} />
