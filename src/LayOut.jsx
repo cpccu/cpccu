@@ -4,7 +4,7 @@ import NavBar from "./components/Global/NavBar";
 import Footer from "./components/Global/Footer";
 import GoToTop from "./components/Global/GoToTop";
 
-export default function LayOut() {
+export default function Layout() {
   return (
     <>
       <Header />

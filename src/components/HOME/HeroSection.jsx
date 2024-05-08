@@ -2,14 +2,14 @@ import { useContext } from "react";
 import Hero from "../../../data/home/Hero.json";
 import OurMissionScroll from "../../Context/OurMessionScroll/OurMessionScroll";
 import { Link as ScrollMission } from "react-scroll";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function HeroSection() {
   const { target } = useContext(OurMissionScroll);
   const navigate = useNavigate();
 
   const goToAbout = () => {
-    navigate("/about");
+    navigate("/about/history");
   };
 
   return (
