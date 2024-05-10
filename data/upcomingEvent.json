@@ -1,15 +1,15 @@
 [
   {
-    "img": "https://i.ibb.co/bb8j4Tj/poster-cpccu.png",
+    "img": "https://i.ibb.co/9YXcGpc/425943191-1372144293666521-7298216344604561759-n.jpg",
     "alt": "Alternative text for the image",
-    "headLine": "Code Queens Chanllenge",
-    "textContext": "Code Queens programming contest is only for Girls in our CSE department. It's a great opportunity to showcase your skills and be a part of a community of girls who are passionate about programming. We encourage all the girls to join and show us what you have. Hope everyone joins and have a great time!",
+    "headLine": "Lady Code Chanllenge",
+    "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
     "btnText": "registration",
     "btnLink": "https://forms.gle/NbyNjyhKBibmJvSh8",
     "date": "2024-05-10"
   },
   {
-    "img": "https://i.ibb.co/SrJSHrW/university.png",
+    "img": "https://i.ibb.co/0mKRsm2/photo-1617142020925-0ab8d60eff68.jpg",
     "alt": "Alternative text for the image",
     "headLine": "Headline for the upcoming data",
     "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
@@ -25,6 +25,87 @@
     "btnText": "registration",
     "btnLink": "https://forms.gle/emZrbY5nX72qxY7C6",
     "date": "2024-08-01"
+  },
+  {
+    "img": "https://i.ibb.co/SrJSHrW/university.png",
+    "alt": "Alternative text for the image",
+    "headLine": "Headline for the upcoming data",
+    "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
+    "btnText": "registration",
+    "btnLink": "https://forms.gle/emZrbY5nX72qxY7C6",
+    "date": "2024-09-01"
+  },
+  {
+    "img": "https://i.ibb.co/9YXcGpc/425943191-1372144293666521-7298216344604561759-n.jpg",
+    "alt": "Alternative text for the image",
+    "headLine": "Lady Code Chanllenge",
+    "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
+    "btnText": "registration",
+    "btnLink": "https://forms.gle/NbyNjyhKBibmJvSh8",
+    "date": "2024-05-10"
+  },
+  {
+    "img": "https://i.ibb.co/0mKRsm2/photo-1617142020925-0ab8d60eff68.jpg",
+    "alt": "Alternative text for the image",
+    "headLine": "Headline for the upcoming data",
+    "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
+    "btnText": "registration",
+    "btnLink": "https://forms.gle/emZrbY5nX72qxY7C6",
+    "date": "2024-07-16"
+  },
+  {
+    "img": "https://i.ibb.co/SrJSHrW/university.png",
+    "alt": "Alternative text for the image",
+    "headLine": "Headline for the upcoming data",
+    "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
+    "btnText": "registration",
+    "btnLink": "https://forms.gle/emZrbY5nX72qxY7C6",
+    "date": "2024-08-01"
+  },
+  {
+    "img": "https://i.ibb.co/SrJSHrW/university.png",
+    "alt": "Alternative text for the image",
+    "headLine": "Headline for the upcoming data",
+    "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
+    "btnText": "registration",
+    "btnLink": "https://forms.gle/emZrbY5nX72qxY7C6",
+    "date": "2024-09-01"
+  },
+  {
+    "img": "https://i.ibb.co/9YXcGpc/425943191-1372144293666521-7298216344604561759-n.jpg",
+    "alt": "Alternative text for the image",
+    "headLine": "Lady Code Chanllenge",
+    "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
+    "btnText": "registration",
+    "btnLink": "https://forms.gle/NbyNjyhKBibmJvSh8",
+    "date": "2024-05-10"
+  },
+  {
+    "img": "https://i.ibb.co/0mKRsm2/photo-1617142020925-0ab8d60eff68.jpg",
+    "alt": "Alternative text for the image",
+    "headLine": "Headline for the upcoming data",
+    "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
+    "btnText": "registration",
+    "btnLink": "https://forms.gle/emZrbY5nX72qxY7C6",
+    "date": "2024-07-16"
+  },
+  {
+    "img": "https://i.ibb.co/SrJSHrW/university.png",
+    "alt": "Alternative text for the image",
+    "headLine": "Headline for the upcoming data",
+    "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
+    "btnText": "registration",
+    "btnLink": "https://forms.gle/emZrbY5nX72qxY7C6",
+    "date": "2024-08-01"
+  },
+  {
+    "img": "https://i.ibb.co/SrJSHrW/university.png",
+    "alt": "Alternative text for the image",
+    "headLine": "Headline for the upcoming data",
+    "textContext": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quam illum fugiat! Deserunt labore nulla eos ipsum tempore perspiciatis libero cupiditate recusandae officia voluptas laboriosam, enim, facere sapiente, in pariatur?",
+    "btnText": "registration",
+    "btnLink": "https://forms.gle/emZrbY5nX72qxY7C6",
+    "date": "2024-09-01"
   },
   {
     "img": "https://i.ibb.co/SrJSHrW/university.png",
