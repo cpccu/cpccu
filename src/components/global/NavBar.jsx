@@ -170,8 +170,8 @@ export function NavItem({ setOpen }) {
                     <p>{item?.page}</p>
                     <FontAwesomeIcon
                       className={`${
-                        aboutOpen && "-rotate-180"
-                      } lg:group-hover:-rotate-180 trans`}
+                        aboutOpen ? "-rotate-180 lg:rotate-0" : "rotate-0"
+                      }  trans`}
                       icon={faChevronDown}
                     />
                   </button>

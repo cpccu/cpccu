@@ -45,7 +45,7 @@ const EventLayout = ({ clName }) => {
   return data ? (
     <div
       className={cn(
-        "text-white bg-header relative z-30 p-5 md:p-10 lg:p-12 ",
+        "text-white bg-header relative z-30 p-5 md:p-10 lg:p-12",
         clName
       )}
     >
@@ -75,7 +75,7 @@ const EventLayout = ({ clName }) => {
         </button>
       </section>
 
-      <section className="absolute -top-8 left-0 right-0 flex items-center justify-center lg:justify-end">
+      <section className="absolute -top-12 lg:-top-8 left-0 right-0 flex items-center justify-center lg:justify-end">
         <div className="text-2xl md:text-3xl font-bold text-gray-900 bg-white px-8 py-3 lg:mr-12  shadow-xl">
           Upcoming Event
         </div>
