@@ -1,6 +1,6 @@
 {
-  "name": "CPCCU",
-  "shortName": "City University",
+  "name": "Competitive Programming Camp City University",
+  "shortName": "CPCCU",
   "img": "https://i.ibb.co/smKGqmH/cpccu.png",
   "alt": "Logo",
   "email": "rahulroynipon@gamil.com",
@@ -32,24 +32,28 @@
     "header": "Usefull Link",
     "element": [
       {
-        "linkName": "code force",
-        "url": ""
+        "linkName": "Codeforces",
+        "url": "https://codeforces.com/ratings/organization/4353"
       },
       {
-        "linkName": "Hacker rank",
-        "url": ""
+        "linkName": "HackerRank",
+        "url": "https://hackerrank.com"
       },
       {
-        "linkName": "Becrownd",
-        "url": ""
+        "linkName": "Beecrowd",
+        "url": "https://judge.beecrowd.com/en/users/university/city"
       },
       {
-        "linkName": "Earth rank",
-        "url": ""
+        "linkName": "Hacker Earth",
+        "url": "https://www.hackerearth.com/"
       },
       {
-        "linkName": "code force",
-        "url": ""
+        "linkName": "Code Chef",
+        "url": "https://www.codechef.com/"
+      },
+      {
+        "linkName": "Vjudge",
+        "url": "https://vjudge.net/group/cpccu"
       }
     ]
   },
@@ -58,18 +62,14 @@
     "element": [
       {
         "linkName": "City university",
-        "url": ""
+        "url": "https://www.cityuniversity.ac.bd/"
       },
       {
         "linkName": "Home page",
         "url": ""
       },
       {
-        "linkName": "All pages",
-        "url": ""
-      },
-      {
-        "linkName": "code force",
+        "linkName": "Site Map",
         "url": ""
       },
       {
