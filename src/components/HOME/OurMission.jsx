@@ -18,7 +18,7 @@ export default function OurMission() {
   return (
     <section
       id="ourMission"
-      class="relative flex items-center justify-end px-[0.2em] lg:px-[2.9em] xl:px-[7em] pb-12 lg:py-40"
+      class="mt-24 relative flex items-center justify-end px-[0.2em] lg:px-[2.9em] xl:px-[7em] pb-12 lg:py-40"
     >
       <main
         class=" px-3 py-5 md:px-10 md:py-12 bg-header/10 ring-header/35 flex flex-col  items-start justify-center gap-10 ring-1 
