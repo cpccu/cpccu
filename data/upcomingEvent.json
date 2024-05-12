@@ -1,5 +1,14 @@
 [
   {
+    "img": "https://i.ibb.co/3dmHQSB/poster-cpccu-1.png",
+    "alt": "Alternative text for the image",
+    "headLine": "Beat The Champ",
+    "textContext": "A programming contest where participants compete to solve challenging problems and showcase their coding skills. The contest is open to all and offers a great opportunity to learn and grow in the field of programming.",
+    "btnText": "registration",
+    "btnLink": "https://forms.gle/gAbdnSiq6aJ2NXRL7",
+    "date": "2024-05-15"
+  }, 
+  {
     "img": "https://i.ibb.co/bb8j4Tj/poster-cpccu.png",
     "alt": "Alternative text for the image",
     "headLine": "Code Queens Chanllenge",
