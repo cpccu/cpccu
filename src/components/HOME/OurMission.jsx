@@ -35,6 +35,10 @@ export default function OurMission() {
         <section class="flex flex-col gap-4">
           <p class="text-gray-800">{Data?.context1}</p>
           <p class="text-gray-800">{Data?.context2}</p>
+          <p class="text-gray-800">{Data?.context3}</p>
+          <p class="text-gray-800">{Data?.context4}</p>
+          <p class="text-gray-800">{Data?.context5}</p>
+          <p class="text-gray-800">{Data?.context6}</p>
         </section>
         <button
           onClick={goToAbout}
