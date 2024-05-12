@@ -21,10 +21,10 @@ const UpComingEventCard = ({ data, clName }) => {
       </section>
       <section className="h-full lg:col-span-4 flex flex-col items-start gap-4">
         <TimeBox date={data?.date} />
-        <h1 className="text-2xl font-semibold lg:line-clamp-1">
+        <h1 className="text-6xl font-semibold lg:line-clamp-none">
           {data?.headLine}
         </h1>
-        <p className="font-[450] lg:line-clamp-3">{data?.textContext}</p>
+        <p className="font-4xl lg:line-clamp-none">{data?.textContext}</p>
         {data?.btnLink ? (
           <Link to={data?.btnLink} target="_blank" rel="noopener noreferrer">
             <button
