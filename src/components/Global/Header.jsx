@@ -1,20 +1,30 @@
 import { Link } from "react-router-dom";
 import InstitudeInfo from "../../../data/global/institude.json";
+import { FaRegUser } from "react-icons/fa";
+import { IoMailOpenOutline } from "react-icons/io5";
+import { MdOutlineCall } from "react-icons/md";
 
 export default function Header() {
   return (
     <header
       className={` bg-blue-950 hidden md:flex text-white justify-between items-center padding`}
     >
-      <div className="flex gap-5 font-semibold text-sm">
+      <div className="flex gap-7 font-semibold text-sm">
         <p>
-          <Link to={`mailto:${InstitudeInfo?.email}`}>
-            Email: {InstitudeInfo?.email}
+          <Link
+            className="flex items-center justify-center gap-2"
+            to={`mailto:${InstitudeInfo?.email}`}
+          >
+            <IoMailOpenOutline size={25} />
+            <span>{InstitudeInfo?.email}</span>
           </Link>
         </p>
         <p>
-          <Link to={`tel:${InstitudeInfo?.phone}`}>
-            Hotline: {InstitudeInfo?.phone}
+          <Link
+            className="flex items-center justify-center gap-2"
+            to={`tel:${InstitudeInfo?.phone}`}
+          >
+            <MdOutlineCall size={25} /> <span>{InstitudeInfo?.phone}</span>
           </Link>
         </p>
       </div>

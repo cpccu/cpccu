@@ -10,7 +10,7 @@ const UpComingEventCard = ({ data, clName }) => {
         clName
       )}
     >
-      <section className="lg:col-span-3  lg:h-[34em] lg:w-[34em] overflow-hidden ">
+      <section className="lg:col-span-3 h-[16.5em] overflow-hidden ">
         <img
           className="h-full w-full object-cover"
           src={data?.img}
@@ -21,10 +21,10 @@ const UpComingEventCard = ({ data, clName }) => {
       </section>
       <section className="h-full lg:col-span-4 flex flex-col items-start gap-4">
         <TimeBox date={data?.date} />
-        <h1 className="text-4xl font-semibold lg:line-clamp-none">
+        <h1 className="text-2xl font-semibold lg:line-clamp-1">
           {data?.headLine}
         </h1>
-        <p className="font-4xl lg:line-clamp-none">{data?.textContext}</p>
+        <p className="font-[450] lg:line-clamp-3">{data?.textContext}</p>
         {data?.btnLink ? (
           <Link to={data?.btnLink} target="_blank" rel="noopener noreferrer">
             <button
