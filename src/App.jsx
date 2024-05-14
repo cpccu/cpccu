@@ -3,13 +3,16 @@ import Layout from "./LayOut";
 import Home from "./components/Layout/Home";
 import Event from "./components/Layout/Event";
 import ComingSoon from "./components/ComingSoon";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Gallery from "./components/Layout/Gallery";
 import AboutLayout from "./AboutLayout";
 import Contact from "./components/Layout/Contact";
 import Blog from "./components/Layout/Blog";
+import Committee from "./components/Layout/AboutLayout/Committee";
+import Profile from "./components/Layout/Profile";
 
 export default function App() {
+  const [ID, setID] = useState("nipon");
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -18,13 +21,14 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<AboutLayout />}>
             <Route path="history" element={<ComingSoon />} />
-            <Route path="committee" element={<ComingSoon />} />
+            <Route path="committee" element={<Committee />} />
             <Route path="member" element={<ComingSoon />} />
           </Route>
           <Route path="event" element={<Event />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="blog" element={<Blog />} />
           <Route path="contact" element={<Contact />} />
+          <Route path={`profile/:${ID ? ID : "id"}`} element={<Profile />} />
         </Route>
       </Routes>
     </BrowserRouter>
