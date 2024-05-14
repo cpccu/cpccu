@@ -28,7 +28,8 @@ export default function App() {
           <Route path="gallery" element={<Gallery />} />
           <Route path="blog" element={<Blog />} />
           <Route path="contact" element={<Contact />} />
-          <Route path={`profile/:${ID ? ID : "id"}`} element={<Profile />} />
+          <Route path={`profile/${ID}`} element={<Profile />} />
+          <Route path="profile/:id" element={<Profile />} />
         </Route>
       </Routes>
     </BrowserRouter>
