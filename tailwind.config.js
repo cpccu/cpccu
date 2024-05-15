@@ -20,6 +20,7 @@ export default {
         responsibility: "#ECF1F5",
         textWhite: "E7E7E7",
         scroll: "#334caf",
+        pText: "#223f6f",
       },
       fontFamily: {
         custom: ["Inria Sans"],

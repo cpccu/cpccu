@@ -184,6 +184,7 @@ export function NavItem({ setOpen }) {
                     {item?.element.map((ele, num) => (
                       <NavLink
                         to={ele?.path}
+                        key={num}
                         className={({ isActive }) =>
                           `${
                             isActive ? "text-header" : "text-gray-900"
@@ -191,9 +192,7 @@ export function NavItem({ setOpen }) {
                         }
                         onClick={() => setOpen(false)}
                       >
-                        <li className="w-full px-6" key={num}>
-                          {ele?.page}
-                        </li>
+                        <li className="w-full px-6">{ele?.page}</li>
                       </NavLink>
                     ))}
                   </ul>
