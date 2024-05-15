@@ -68,15 +68,12 @@
         "url": "https://www.cityuniversity.ac.bd/"
       },
       {
-        "linkName": "Home page",
-        "url": ""
+        "linkName": "Faculty of CSE dept",
+        "url": "https://www.cityuniversity.ac.bd/dept-of-computer-science&engineering"
       },
+      
       {
-        "linkName": "Site Map",
-        "url": ""
-      },
-      {
-        "linkName": "Footer page",
+        "linkName": "Join Us",
         "url": ""
       }
     ]
