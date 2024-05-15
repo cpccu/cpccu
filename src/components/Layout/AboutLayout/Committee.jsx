@@ -1,9 +1,9 @@
 import AboutCardLayout from "../../ABOUT/AboutCardLayout";
 
-export default function Committee() {
+export default function Committee({ setIDname }) {
   return (
     <>
-      <AboutCardLayout />
+      <AboutCardLayout setIDname={setIDname} />
     </>
   );
 }

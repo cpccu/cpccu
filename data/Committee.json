@@ -4,19 +4,22 @@
     "img": "https://i.ibb.co/cChqx4h/shoriful.jpg",
     "name": "Shoriful Islam Ashiq",
     "position": "President",
-    "email": "mdsiaofficial@gmail.com"
+    "email": "mdsiaofficial@gmail.com",
+    "phone": "+8801717791358"
   },
   {
     "type": 1,
     "img": "https://i.ibb.co/B2bCTCY/rafi.jpg",
     "name": "Imrul Hasan Rafi",
     "position": "Vice President",
-    "email": "imrulhasan431@gmail.com"
+    "email": "imrulhasan431@gmail.com",
+    "phone": "+8801717791358"
   },
   {
     "img": "https://i.ibb.co/t3x1BtD/Screenshot-2024-05-15-025744.png",
     "name": "Rahul Roy Nipon",
     "position": "Executive Member",
-    "email": "rahulroynipon@gmail.com"
+    "email": "rahulroynipon@gmail.com",
+    "phone": "+8801717791358"
   }
 ]

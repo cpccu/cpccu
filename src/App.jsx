@@ -13,6 +13,10 @@ import Profile from "./components/Layout/Profile";
 
 export default function App() {
   const [ID, setID] = useState("nipon");
+
+  const setIDname = (newID) => {
+    setID(newID);
+  };
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -21,14 +25,17 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<AboutLayout />}>
             <Route path="history" element={<ComingSoon />} />
-            <Route path="committee" element={<Committee />} />
+            <Route
+              path="committee"
+              element={<Committee setIDname={setIDname} />}
+            />
             <Route path="member" element={<ComingSoon />} />
           </Route>
           <Route path="event" element={<Event />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="blog" element={<Blog />} />
           <Route path="contact" element={<Contact />} />
-          <Route path={`profile/${ID}`} element={<Profile />} />
+          <Route path={`profile/${ID || ""}`} element={<Profile ID={ID} />} />
           <Route path="profile/:id" element={<Profile />} />
         </Route>
       </Routes>

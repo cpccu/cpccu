@@ -1,7 +1,15 @@
 import { MdOutlineEmail } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-export default function AboutCard({ Data }) {
+export default function AboutCard({ Data, setIDname }) {
+  const navigate = useNavigate();
+
+  const onClickProfile = (name) => {
+    const url = name.replace(/\s/g, "").toLowerCase();
+    setIDname(url || "");
+    navigate(`/profile/${url || ""}`);
+  };
+
   return (
     <main className="group bg-white flex flex-col items-center justify-center gap-5 py-3">
       <section className="px-3 py-2 h-[300px]">
@@ -28,8 +36,12 @@ export default function AboutCard({ Data }) {
           <MdOutlineEmail size={20} />
           <span>{Data?.email}</span>
         </Link>
-        <button className="mt-5 px-5 py-3 font-semibold border rounded-full bg-header hover:bg-gray-900 trans text-white">
-          Veiw Profile
+        {/* Adjusted onClick function to use a callback */}
+        <button
+          onClick={() => onClickProfile(Data?.name)} // Pass a callback function
+          className="mt-5 px-5 py-3 font-semibold border rounded-full bg-header hover:bg-gray-900 trans text-white"
+        >
+          View Profile
         </button>
       </section>
     </main>
