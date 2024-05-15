@@ -1,8 +1,4 @@
-# React + Vite
+# Competitive Programming Camp City University
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Committee Info](https://www.figma.com/design/Z2U5SItMdTcUEMJRKRFxqM/poster-for-cpccu?t=nIwwUf6S908cbrB9-1)
+[Figma Design](https://www.figma.com/design/PnjYkzpvTxndltEU6gCxfn/CPCCU-Portal?t=nIwwUf6S908cbrB9-1)
