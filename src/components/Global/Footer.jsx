@@ -89,7 +89,7 @@ export function Touch() {
           </button>
         </form>
 
-        <section className="flex gap-5 flex-wrap">
+        <section className="flex gap-5 flex-wrap justify-center">
           {InstituteInfo?.media.map((item, index) => (
             <Link
               key={index}
@@ -97,8 +97,8 @@ export function Touch() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="bg-header hover:bg-headerHover trans flex items-center justify-center px-3 py-2 rounded-sm">
-                <FontAwesomeIcon className="h-6 w-5" icon={Allicon[index]} />
+              <button className="bg-header hover:bg-headerHover trans flex items-center justify-center px-3 py-2 w-10 h-10">
+                <FontAwesomeIcon className="w-7 h-7" icon={Allicon[index]} />
               </button>
             </Link>
           ))}
