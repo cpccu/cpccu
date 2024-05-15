@@ -26,7 +26,7 @@ export default function HeroSection() {
         <h1 className="font-extrabold capitalize text-[2.3rem] md:text-[4rem] lg:text-[4.5rem]">
           {Hero?.header}
         </h1>
-        <h3 className="text-[1.7rem] md:text-[1.9rem] lg:text-[2rem] text-amber-300">
+        <h3 className="text-[1.7rem] text-center md:text-[1.9rem] lg:text-left lg:text-[2rem] text-amber-300">
           {Hero?.secondheader}
         </h3>
       </section>
