@@ -7,6 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import InstituteInfo from "../../../data/global/institude.json";
 import { Link } from "react-router-dom";
+import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   return (
@@ -64,7 +65,7 @@ export function FooterInfo() {
 // Get In Touch section start
 
 export function Touch() {
-  const Allicon = [faFacebookF, faWhatsapp, faLinkedinIn, faGithub];
+  const Allicon = [faFacebookF, faWhatsapp, faLinkedinIn, faGithub, faDiscord];
   return (
     <section className="col-span-2 md:col-span-1 lg:col-span-3">
       <h1 className="text-2xl font-bold mb-3 md:mb-9">
@@ -97,7 +98,7 @@ export function Touch() {
               rel="noopener noreferrer"
             >
               <button className="bg-header hover:bg-headerHover trans flex items-center justify-center px-3 py-2">
-                <FontAwesomeIcon className="h-5" icon={Allicon[index]} />
+                <FontAwesomeIcon className="h-5 w-5" icon={Allicon[index]} />
               </button>
             </Link>
           ))}
