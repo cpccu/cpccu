@@ -19,7 +19,7 @@ export default function AboutCard({ Data, setIDname }) {
           alt={Data?.name}
         />
       </section>
-      <section className="flex flex-col items-center justify-center gap-1">
+      <section className="flex flex-col items-center text-center justify-center gap-1">
         <h1 className="text-2xl font-semibold capitalize text-pText">
           {Data?.name}
         </h1>

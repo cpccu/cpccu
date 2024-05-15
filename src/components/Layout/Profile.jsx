@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { IoIosCall } from "react-icons/io";
 import { useCallback, useEffect, useState } from "react";
@@ -7,19 +7,21 @@ import info from "./../../../data/Committee.json";
 export default function Profile({ ID }) {
   const [Data, setData] = useState(null);
 
+  const { id } = useParams();
+
   const searchData = useCallback(() => {
     const foundData = info.find(
-      (item) => item.name.replace(/\s/g, "").toLowerCase() === ID
+      (item) => item.name.replace(/\s/g, "").toLowerCase() === (ID || id)
     );
     setData(foundData);
-  }, [ID]);
+  }, [ID, id]);
 
   useEffect(() => {
     searchData();
   }, [searchData]);
 
   if (!Data) {
-    return <div>No data found for the ID: {ID}</div>;
+    return <div>No data found for the ID: {ID || id}</div>;
   }
 
   return (
