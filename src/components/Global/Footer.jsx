@@ -7,7 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import InstituteInfo from "../../../data/global/institude.json";
 import { Link } from "react-router-dom";
-import { faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -89,7 +89,7 @@ export function Touch() {
           </button>
         </form>
 
-        <section className="flex gap-5 flex-wrap justify-center">
+        <section className="flex gap-5 flex-wrap">
           {InstituteInfo?.media.map((item, index) => (
             <Link
               key={index}
