@@ -20,12 +20,10 @@ export default function AboutCard({ Data, setIDname }) {
         />
       </section>
       <section className="flex flex-col items-center justify-center gap-1">
-        <h1 className="text-2xl font-semibold capitalize">{Data?.name}</h1>
-        <p
-          className={`italic capitalize text-xl ${
-            Data?.type == 1 && "font-bold"
-          }`}
-        >
+        <h1 className="text-2xl font-semibold capitalize text-pText">
+          {Data?.name}
+        </h1>
+        <p className={`italic capitalize text-xl ${Data?.type && "font-bold"}`}>
           {Data?.position}
         </p>
 
