@@ -11,8 +11,8 @@ export default function AboutCard({ Data, setIDname }) {
   };
 
   return (
-    <main className="group bg-white flex flex-col items-center justify-center gap-5 py-3">
-      <section className="px-3 py-2 h-[300px]">
+    <main className="group bg-white flex flex-col items-center gap-5 py-3 px-3">
+      <section className="h-[20rem]">
         <img
           className="h-full w-full object-cover group-hover:scale-105 trans"
           src={Data?.img}
