@@ -11,7 +11,10 @@ export default function Profile({ ID }) {
 
   const searchData = useCallback(() => {
     const foundData = info.find(
-      (item) => item.name.replace(/\s/g, "").toLowerCase() === (ID || id)
+      (item) =>
+        item.name.replace(/\s/g, "").toLowerCase() ===
+          (ID || id).toLowerCase() ||
+        item.name.toLowerCase().includes((ID || id).toLowerCase())
     );
     setData(foundData);
   }, [ID, id]);
