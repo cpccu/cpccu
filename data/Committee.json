@@ -18,8 +18,50 @@
   {
     "img": "https://i.ibb.co/t3x1BtD/Screenshot-2024-05-15-025744.png",
     "name": "Rahul Roy Nipon",
-    "position": "Executive Member",
+    "position": "Web Developer",
     "email": "rahulroynipon@gmail.com",
     "phone": "+8801717791358"
-  }
+  },
+  {
+    "img": "https://i.ibb.co/x6BFVkf/391671788-1651904282002109-6632166957336258350-n.jpg",
+    "name": "Md. Anisur Rahman Anik",
+    "position": "General Secretary",
+    "email": "delighteraranik@gmail.com",
+    "phone": "+8801403377849"
+  },
+  {
+    "img": "https://i.ibb.co/x6BFVkf/391671788-1651904282002109-6632166957336258350-n.jpg",
+    "name": "Foysal Ahammed Sami",
+    "position": "Join Secretary",
+    "email": "delighteraranik@gmail.com",
+    "phone": "+8801403377849"
+  },
+  {
+    "img": "https://i.ibb.co/C27wd69/Tahsin.jpg",
+    "name": "Md. Tahsin Ferdous",
+    "position": "Organizing Secretary",
+    "email": "tahsin.ferdous3546@gmail.com",
+    "phone": "+8801310091260"
+  },
+  {
+    "img": "https://i.ibb.co/C27wd69/Tahsin.jpg",
+    "name": "Atikur Rahman Anik",
+    "position": "Club Manager",
+    "email": "tahsin.ferdous3546@gmail.com",
+    "phone": "+8801310091260"
+  },
+  {
+    "img": "https://i.ibb.co/C27wd69/Tahsin.jpg",
+    "name": "Mohammad Shahnur",
+    "position": "Assistant Club Manager",
+    "email": "tahsin.ferdous3546@gmail.com",
+    "phone": "+8801310091260"
+  },
+  {
+    "img": "https://i.ibb.co/C27wd69/Tahsin.jpg",
+    "name": "Mashroor Ahmed",
+    "position": "Treasurer",
+    "email": "tahsin.ferdous3546@gmail.com",
+    "phone": "+8801310091260"
+  },
 ]
