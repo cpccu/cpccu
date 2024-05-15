@@ -124,9 +124,9 @@ export function NavItem({ setOpen }) {
 
   useEffect(() => {
     if (
-      pathname == "/about/history" ||
-      pathname == "/about/committee" ||
-      pathname == "/about/member"
+      pathname == "/history" ||
+      pathname == "/committee" ||
+      pathname == "/member"
     ) {
       setIsOpen(true);
     } else {
