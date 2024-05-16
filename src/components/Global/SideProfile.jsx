@@ -6,13 +6,15 @@ export default function SideProfile() {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="fixed top-52 right-0 z-50 flex items-center justify-center">
+    <section className="fixed top-52 right-0 z-50 flex items-center justify-center group">
       <button
         onClick={() => setOpen((prev) => !prev)}
-        className="bg-headerHover/20 hover:bg-headerHover trans flex items-center justify-center h-8 w-8"
+        className="bg-headerHover/20 group-hover:bg-headerHover trans flex items-center justify-center h-8 w-8"
       >
         <FontAwesomeIcon
-          className={`text-white text-2xl ${isOpen && "rotate-180"} trans`}
+          className={`text-white/60 group-hover:text-white text-2xl ${
+            isOpen && "rotate-180"
+          } trans`}
           icon={faAngleDoubleLeft}
         />
       </button>
