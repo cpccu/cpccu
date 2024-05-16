@@ -13,7 +13,7 @@ export default function SideProfile() {
   }, [pathname]);
 
   return (
-    <section className="fixed top-52 right-0 z-50 flex items-center justify-center group">
+    <section className="fixed top-52 right-0 z-40 flex items-center justify-center group">
       <button
         onClick={() => setOpen((prev) => !prev)}
         className="bg-headerHover/20 group-hover:bg-headerHover trans flex items-center justify-center h-8 w-8"
@@ -29,7 +29,7 @@ export default function SideProfile() {
       <main
         className={`${
           isOpen ? "flex" : "hidden"
-        }  h-20 bg-white items-center justify-center gap-3 px-5 shadow-2xl`}
+        }  h-20 bg-white items-center justify-center gap-3 px-5 shadow-custom`}
       >
         <img
           className="h-12 w-12 ring rounded-full"

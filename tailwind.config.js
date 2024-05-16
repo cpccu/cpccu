@@ -10,6 +10,11 @@ export default {
       xl: "1440px",
       xxl: "1920px",
     },
+
+    boxShadow: {
+      custom: "0px 0px 16px -5px rgba(59,96,201,0.91)",
+    },
+
     extend: {
       colors: {
         primary: "#F35F3B",
