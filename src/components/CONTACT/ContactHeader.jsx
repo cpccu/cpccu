@@ -1,6 +1,11 @@
+import { useContext } from "react";
 import Data from "./../../../data/contact/contact.json";
+import ContactScroll from "./../../Context/ContactScroll/ContactScroll";
+import { Link as ContactScrollLink } from "react-scroll";
 
 export default function ContactHeader() {
+  const { target } = useContext(ContactScroll);
+
   return (
     <header
       style={{
@@ -16,19 +21,19 @@ export default function ContactHeader() {
       </h1>
       <p>{Data?.conText}</p>
 
-      <div
-      // to={scrollTarget || ""}
-      // spy={true}
-      // smooth={true}
-      // offset={-50}
-      // duration={900}
-      // animate={{ duration: 900, easing: "easeInOutCubic" }}
+      <ContactScrollLink
+        to={target || ""}
+        spy={true}
+        smooth={true}
+        offset={-50}
+        duration={900}
+        animate={{ duration: 900, easing: "easeInOutCubic" }}
       >
         <button className="py-3 px-12 font-bold uppercase bg-header hover:bg-white hover:text-gray-700 trans mt-5">
           {Data?.btnText}
         </button>
         {/* target to scroll */}
-      </div>
+      </ContactScrollLink>
     </header>
   );
 }
