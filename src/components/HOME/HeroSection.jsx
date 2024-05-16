@@ -9,7 +9,7 @@ export default function HeroSection() {
   const navigate = useNavigate();
 
   const goToAbout = () => {
-    navigate("/about/history");
+    navigate("/history");
   };
 
   return (

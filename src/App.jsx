@@ -10,6 +10,7 @@ import Contact from "./components/Layout/Contact";
 import Blog from "./components/Layout/Blog";
 import Committee from "./components/Layout/AboutLayout/Committee";
 import Profile from "./components/Layout/Profile";
+import NotFound from "./components/NotFound";
 
 export default function App() {
   const [ID, setID] = useState("nipon");
@@ -38,6 +39,7 @@ export default function App() {
           <Route path={`profile/${ID || ""}`} element={<Profile ID={ID} />} />
           <Route path="profile/:id" element={<Profile />} />
         </Route>
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </BrowserRouter>
   );
