@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 export default function ContactMain() {
   return (
     <main className="px-1 md:px-2 lg:px-[5em] grid  lg:grid-cols-2 gap-10 py-20 bg-responsibility">
@@ -60,6 +62,12 @@ export default function ContactMain() {
               placeholder="Enter your message"
             ></textarea>
           </div>
+          <div className="flex justify-center" onClick={() => {}}>
+              <button className="bg-gray-400 flex gap-3 p-3 m-7 hover:bg-headerHover trans">
+                <h1 className="font-bold">Send</h1>
+                <FontAwesomeIcon className="h-6 w--6" icon={faPaperPlane} />
+              </button>
+            </div>
         </form>
       </section>
     </main>
