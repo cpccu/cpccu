@@ -5,6 +5,7 @@ import ContactScroll from "../../Context/ContactScroll/ContactScroll";
 
 export default function ContactMain() {
   const { setTarget } = useContext(ContactScroll);
+  //add the target for scroll one time
 
   useEffect(() => {
     setTarget("contactTarget");
