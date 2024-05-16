@@ -26,7 +26,7 @@ export default function GalleryCard({ Data }) {
         {Data.map((item, index) => (
           <div key={index} className="w-full h-[16rem] relative group">
             <img
-              className="w-full h-full object-cover opacity-0 transition-opacity duration-500  ease-in-out"
+              className="w-full h-full   object-fill opacity-0 transition-opacity duration-500  ease-in-out"
               src={item?.img}
               alt={`gIMG${index}`}
               style={{ transitionDelay: `${index * 50}ms` }} // Delay transition for each image
