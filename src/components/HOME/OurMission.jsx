@@ -8,7 +8,7 @@ export default function OurMission() {
   const navigate = useNavigate();
 
   const goToAbout = () => {
-    navigate("/about");
+    navigate("/history");
   };
 
   useEffect(() => {
@@ -35,10 +35,10 @@ export default function OurMission() {
         <section className="flex flex-col gap-4">
           <p className="text-gray-800">{Data?.context1}</p>
           <p className="text-gray-800">{Data?.context2}</p>
-          <p className="text-gray-800">{Data?.context3}</p>
+          {/* <p className="text-gray-800">{Data?.context3}</p>
           <p className="text-gray-800">{Data?.context4}</p>
           <p className="text-gray-800">{Data?.context5}</p>
-          <p className="text-gray-800">{Data?.context6}</p>
+          <p className="text-gray-800">{Data?.context6}</p> */}
         </section>
         <button
           onClick={goToAbout}
