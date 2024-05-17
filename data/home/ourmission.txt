@@ -1,6 +1,0 @@
-"context1": "1. Establishing and sustaining a support network for students.",
-  "context2": "2. Offering programming instruction, educational seminars, and open-source software contributions. ",
-  "context3": "3. Allowing students to contribute to communication, queries, and recommendations. ",
-  "context4": "4. Encouraging students to learn and share. ",
-  "context5": "5. Encouraging pupils to think critically, act creatively, and display their abilities.  ",
-  "context6": "6. Developing a cooperative attitude.",
