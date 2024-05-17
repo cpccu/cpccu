@@ -58,7 +58,7 @@ export default function LoginSignup() {
             :
             <div className={s1}>
               <FontAwesomeIcon className={s2} icon={faIdCard} />
-              <input className={s3} type="text" placeholder="Enter your university ID" />
+              <input className={s3} type="number" placeholder="Enter your university ID" />
             </div>
           }
 
@@ -68,7 +68,7 @@ export default function LoginSignup() {
             :
             <div className={s1}>
               <FontAwesomeIcon className={s2} icon={faListOl} />
-              <input className={s3} type="text" placeholder="Enter your university Batch" />
+              <input className={s3} type="number" placeholder="Enter your university Batch" />
             </div>
           }
           <div className={s1}>
