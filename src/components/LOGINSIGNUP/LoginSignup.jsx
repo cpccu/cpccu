@@ -18,9 +18,9 @@ export default function LoginSignup() {
 
 
   // styles here
-  let s1 = `flex items-center m-auto w-[480px] h-[80px] bg-slate-300 rounded-md`;
-  let s2 = `px-[30px] w-7 h-7`;
-  let s3 = `bg-slate-300 w-[24rem] placeholder:capitalize hover:ring-1 hover:ring-header p-3 placeholder:font-bold`;
+  let s1 = `flex items-center m-auto px-[20px] w-[450px] h-[60px] bg-slate-300 rounded-md hover:ring-1 hover:ring-header`;
+  let s2 = `px-4 w-7 h-7`;
+  let s3 = `bg-slate-300 w-[24rem] placeholder:capitalize p-3 placeholder:font-bold`;
   let s4 = `flex gap-2 justify-center items-center w-[120px] h-[40px] text-white bg-header rounded-lg text-[20px] font-bold cursor-pointer`;
   let ss1 = (action === "Log In") ? s4 + ` bg-gray-700 text-gray-400` : s4;
   let ss2 = (action === "Sign Up") ? s4 + ` bg-gray-700 text-gray-400` : s4;
@@ -31,7 +31,7 @@ export default function LoginSignup() {
       <div className="flex flex-col m-auto mt-[50px] bg-white pb-[30px]">
         <div className="flex flex-col items-center gap-[9px] w-[100%] mt-[30px]">
           <div className="text-header font-mono font-extrabold text-[48px]">{action}</div>
-          <div className="w-[120px] h-[4px] bg-headerHover rounded-sm"></div>
+          <div className="w-[140px] h-[4px] bg-headerHover rounded-sm"></div>
         </div>
 
         <div className={`mt-[20px] flex flex-col ${action === "Log In" ? 'gap-[8px]' : 'gap-[25px]'}`}>
@@ -58,7 +58,7 @@ export default function LoginSignup() {
             :
             <div className={s1}>
               <FontAwesomeIcon className={s2} icon={faIdCard} />
-              <input className={s3} type="number" placeholder="Enter your university ID" />
+              <input className={s3} type="number" placeholder="Enter your city university ID" />
             </div>
           }
 
@@ -68,7 +68,7 @@ export default function LoginSignup() {
             :
             <div className={s1}>
               <FontAwesomeIcon className={s2} icon={faListOl} />
-              <input className={s3} type="number" placeholder="Enter your university Batch" />
+              <input className={s3} type="number" placeholder="Enter your city university Batch" />
             </div>
           }
           <div className={s1}>
