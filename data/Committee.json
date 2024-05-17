@@ -1,0 +1,102 @@
+[
+  {
+    "type": 1,
+    "img": "https://i.ibb.co/qJWcghq/ashiq.jpg",
+    "name": "Md Shoriful Islam Ashiq",
+    "position": "President",
+    "email": "mdsiaofficial@gmail.com",
+    "phone": "+8801885981241"
+  },
+  {
+    "type": 1,
+    "img": "https://i.ibb.co/B2bCTCY/rafi.jpg",
+    "name": "Imrul Hasan Rafi",
+    "position": "Vice President",
+    "email": "imrulhasan431@gmail.com",
+    "phone": "+8801865606375"
+  },
+  {
+    "img": "https://i.ibb.co/t3x1BtD/Screenshot-2024-05-15-025744.png",
+    "name": "Rahul Roy Nipon",
+    "position": "Web Developer",
+    "email": "rahulroynipon@gmail.com",
+    "phone": "+8801717791358"
+  },
+  {
+    "img": "https://i.ibb.co/KKFcNyR/IMG-20230216-214256.jpg",
+    "name": "Md. Anisur Rahman Anik",
+    "position": "General Secretary",
+    "email": "delighteraranik@gmail.com",
+    "phone": "+8801403377849"
+  },
+  {
+    "img": "https://i.ibb.co/VTdP4kp/foysal.png",
+    "name": "Foysal Ahammed Sami",
+    "position": "Join Secretary",
+    "email": "foysal.developer@gmail.com",
+    "phone": "+8801610569865"
+  },
+  {
+    "img": "https://i.ibb.co/C27wd69/Tahsin.jpg",
+    "name": "Md. Tahsin Ferdous",
+    "position": "Organizing Secretary",
+    "email": "tahsin.ferdous3546@gmail.com",
+    "phone": "+8801310091260"
+  },
+  {
+    "img": "https://i.ibb.co/QjGrCGt/aranik.jpg",
+    "name": "Atikur Rahman Anik",
+    "position": "Club Manager",
+    "email": "anikislam114911@gmail.com",
+    "phone": "+8801314670069"
+  },
+  {
+    "img": "https://i.ibb.co/bKnfbFB/shahnur.jpg",
+    "name": "Mohammad Shahnur",
+    "position": "Assistant Club Manager",
+    "email": "mdshahnur05@gmail.com",
+    "phone": "+8801637416047 "
+  },
+  {
+    "img": "https://i.ibb.co/fFGNBN7/Whats-App-Image-2024-05-16-at-16-47-10-8ae87e9f.jpg",
+    "name": "Mashroor Ahmed",
+    "position": "Treasurer",
+    "email": "mashroorahmed452@gmail.com",
+    "phone": "+8801917080894"
+  },
+  {
+    "img": "https://i.ibb.co/xXhBfPX/IMG-20211208-180914.jpg",
+    "name": "Mohammad Sohag Mia",
+    "position": "Joint Treasurer",
+    "email": "sohugmia1234@gmail.com",
+    "phone": "+8801887374177"
+  },
+  {
+    "img": "https://i.ibb.co/vC98v81/IMG-20240106-125610.jpg",
+    "name": "Naeem Biswass Niloy",
+    "position": "Media Executive",
+    "email": "niloybiswass097@gmail.com",
+    "phone": "+8801708045058"
+  },
+  {
+    "img": "https://i.ibb.co/YQnPLLK/Whats-App-Image-2024-05-18-at-00-22-10-e29b218e.jpg",
+    "name": "Navid Hassan",
+    "position": "Joint Media Executive",
+    "email": "nha02112002@gmail.com",
+    "phone": "+8801778548640"
+  },
+  {
+    "img": "https://i.ibb.co/X7NY3YZ/IMG-20211208-180914.jpg",
+    "name": "Md. Mahadi Hasan",
+    "position": "Creative Executive",
+    "email": "mahadihasan8461@gmail.com",
+    "phone": "+8801865697584"
+  },
+  {
+    "img": "https://i.ibb.co/4wLTPnm/Whats-App-Image-2024-05-16-at-01-46-35-130822ce.jpg",
+    "name": "Sanchari Karmakar Sakti",
+    "position": "Content Writer",
+    "email": "shaktikarmakar272@gmail.com",
+    "phone": "+8801309960355"
+  }
+]

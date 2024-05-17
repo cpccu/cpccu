@@ -1,0 +1,18 @@
+[
+  {
+    "btnText": "All",
+    "tag": "all"
+  },
+  {
+    "btnText": "Alumni",
+    "tag": "alumni"
+  },
+  {
+    "btnText": "executive",
+    "tag": "executive"
+  },
+  {
+    "btnText": "Member",
+    "tag": "member"
+  }
+]
