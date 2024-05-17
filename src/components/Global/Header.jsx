@@ -29,9 +29,11 @@ export default function Header() {
         </p>
       </div>
       <div className="flex gap-3 items-center font-semibold text-sm">
-        <button className="py-2 px-5 bg-header/90 hover:bg-header trans">
-          Login
-        </button>
+        <Link to="/join">
+          <button className="py-2 px-5 bg-header/90 hover:bg-header trans">
+            Login
+          </button>
+        </Link>
         <button className="py-2 px-5 bg-green-600 hover:bg-green-500 trans">
           Signup
         </button>
