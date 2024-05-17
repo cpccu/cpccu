@@ -34,9 +34,12 @@ export default function Header() {
             Login
           </button>
         </Link>
-        <button className="py-2 px-5 bg-green-600 hover:bg-green-500 trans">
-          Signup
-        </button>
+
+        <Link to="/join">
+          <button className="py-2 px-5 bg-green-600 hover:bg-green-500 trans">
+            Signup
+          </button>
+        </Link>
       </div>
     </header>
   );
