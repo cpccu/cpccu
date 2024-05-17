@@ -1,0 +1,82 @@
+{
+  "name": "CPCCU",
+  "shortName": "City University",
+  "img": "https://i.ibb.co/smKGqmH/cpccu.png",
+  "alt": "Logo",
+  "email": "rahulroynipon@gamil.com",
+  "phone": "+88017177-91358",
+  "media": [
+    {
+      "url": "https://www.facebook.com/groups/cpccu/"
+    },
+    {
+      "url": "https://chat.whatsapp.com/BxznCy84PILHEcUBxE8orM"
+    },
+    {
+      "url": "https://www.linkedin.com/groups/14380055/"
+    },
+    {
+      "url": "https://github.com/cpccu"
+    },
+    {
+      "url": "https://discord.gg/jStJuvU5Vs"
+    }
+  ],
+
+  "Footer1": {
+    "conText": "We are legend Lorem ipsum dolor sitmet, nsecte ipisicing eit, sed do eiusmod tempor incidunt ut et do maga aliqua enim ad minim."
+  },
+
+  "Footer2": {
+    "header": "Get In Touch",
+    "conText": "We are legend Lorem ipsum dolor sitmet, nsecte ipisicing eit, sed."
+  },
+  "useFullLink": {
+    "header": "Usefull Link",
+    "element": [
+      {
+        "linkName": "Codeforces",
+        "url": "https://codeforces.com/ratings/organization/4353"
+      },
+      {
+        "linkName": "HackerRank",
+        "url": "https://hackerrank.com"
+      },
+      {
+        "linkName": "Beecrowd",
+        "url": "https://judge.beecrowd.com/en/users/university/city"
+      },
+      {
+        "linkName": "Hacker Earth",
+        "url": "https://www.hackerearth.com/"
+      },
+      {
+        "linkName": "Code Chef",
+        "url": "https://www.codechef.com/"
+      },
+      {
+        "linkName": "Vjudge",
+        "url": "https://vjudge.net/group/cpccu?r=e5n1ED2ylolVtUokPTkD"
+      }
+    ]
+  },
+  "org": {
+    "header": "University",
+    "element": [
+      {
+        "linkName": "City University",
+        "url": "https://www.cityuniversity.ac.bd/"
+      },
+      {
+        "linkName": "Faculty of CSE dept",
+        "url": "https://www.cityuniversity.ac.bd/dept-of-computer-science&engineering"
+      },
+      
+      {
+        "linkName": "Join Us",
+        "url": ""
+      }
+    ]
+  },
+  "rights": "2024 City University, All Rights Reserved"
+}
