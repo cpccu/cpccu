@@ -6,7 +6,7 @@ export default function LoginSignup() {
   const btn = `uppercase font-semibold h-12 px-1 rounded-full w-full text-sm`;
 
   return (
-    <div className={`bg-white h-svh padding flex px-3`}>
+    <div className={`bg-white h-svh padding flex px-3 pb-12`}>
       <main className="mx-auto lg:min-w-[30rem] lg:w-[60rem] lg:max-w-[70rem] flex flex-col gap-14 items-start justify-center padding">
         {/* logo section start */}
         <section className="flex flex-col self-center items-center justify-center gap-2">
