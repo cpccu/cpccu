@@ -11,6 +11,7 @@ import Blog from "./components/Layout/Blog";
 import Committee from "./components/Layout/AboutLayout/Committee";
 import Profile from "./components/Layout/Profile";
 import NotFound from "./components/NotFound";
+import LoginSignup from "./components/LOGINSIGNUP/LoginSignup";
 
 export default function App() {
   const [ID, setID] = useState("nipon");
@@ -40,6 +41,7 @@ export default function App() {
           <Route path="profile/:id" element={<Profile />} />
         </Route>
         <Route path="*" element={<NotFound />}></Route>
+        <Route path="join" element={<LoginSignup/>}/>
       </Routes>
     </BrowserRouter>
   );
