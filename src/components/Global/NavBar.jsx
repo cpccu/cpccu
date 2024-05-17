@@ -6,7 +6,7 @@ import InstitudeInfo from "../../../data/global/institude.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Data from "../../../data/global/navBar.json";
-
+import GoToTop from "./GoToTop";
 export default function NavBar() {
   const navigate = useNavigate();
   const [fixed, setFixed] = useState(false);
@@ -19,7 +19,8 @@ export default function NavBar() {
   };
 
   const goHome = () => {
-    goTop();
+    // goTop();
+    <GoToTop />;
     return navigate("/");
   };
 
@@ -56,26 +57,28 @@ export default function NavBar() {
   return (
     <main
       className={`${
-        fixed && "md:sticky shadow-xl"
+        fixed && "md:sticky shadow-2xl"
       } sticky top-0 md:static transition-all duration-1000 z-50 bg-white flex items-center justify-between padding`}
     >
       {/* logo and name start */}
-      <section
-        onClick={goHome}
-        className="flex items-center justify-center gap-2 py-2 lg:py-4 cursor-default"
-      >
-        <img
-          className="h-12"
-          src={InstitudeInfo?.img}
-          alt={InstitudeInfo?.alt}
-        />
-        <div>
-          <h1 className="text-xl md:text-2xl text-header font-bold font-custom">
-            {InstitudeInfo?.name}
-          </h1>
-          <p className="text-sm">{InstitudeInfo?.shortName}</p>
-        </div>
-      </section>
+      <NavLink to={"/"} onClick={() => setOpen(false)}>
+        <section
+          onClick={goHome}
+          className="flex items-center justify-center gap-2 py-2 lg:py-4 cursor-default"
+        >
+          <img
+            className="h-12"
+            src={InstitudeInfo?.img}
+            alt={InstitudeInfo?.alt}
+          />
+          <div>
+            <h1 className="text-xl md:text-2xl text-header font-bold font-custom">
+              {InstitudeInfo?.name}
+            </h1>
+            <p className="text-sm">{InstitudeInfo?.shortName}</p>
+          </div>
+        </section>
+      </NavLink>
       {/* logo and name end */}
 
       <section>
@@ -124,9 +127,9 @@ export function NavItem({ setOpen }) {
 
   useEffect(() => {
     if (
-      pathname == "/about/history" ||
-      pathname == "/about/committee" ||
-      pathname == "/about/member"
+      pathname == "/history" ||
+      pathname == "/committee" ||
+      pathname == "/member"
     ) {
       setIsOpen(true);
     } else {

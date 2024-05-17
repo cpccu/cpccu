@@ -1,6 +1,0 @@
-In C++, the vector is a dynamic array that can grow in size. The three declarations you’ve provided are different ways to declare a vector, and here’s what each one means:
-
-
-Difference between vectors in C++
-vector<int> result;
-This declares a vector named result that will store integers (int). Initially, it is empty, and its size will grow dynamically as integers are added to it.

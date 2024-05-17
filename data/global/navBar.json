@@ -10,15 +10,15 @@
     "element": [
       {
         "page": "History",
-        "path": "/about/history"
+        "path": "/history"
       },
       {
         "page": "Committee",
-        "path": "/about/committee"
+        "path": "/committee"
       },
       {
         "page": "member",
-        "path": "/about/member"
+        "path": "/member"
       }
     ]
   },

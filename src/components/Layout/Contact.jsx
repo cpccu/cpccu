@@ -1,11 +1,12 @@
 import ContactHeader from "../CONTACT/ContactHeader";
 import ContactMain from "../CONTACT/ContactMain";
+import ContactScrollProvider from "./../../Context/ContactScroll/ContactScrollProvider";
 
 export default function Contact() {
   return (
-    <main>
+    <ContactScrollProvider>
       <ContactHeader />
       <ContactMain />
-    </main>
+    </ContactScrollProvider>
   );
 }

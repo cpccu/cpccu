@@ -1,5 +1,14 @@
 [
   {
+    "img": "https://i.ibb.co/gtxGhVQ/poster-cpccu-2.png",
+    "alt": "Alternative text for the image",
+    "headLine": "Debugging Derby CPCCU",
+    "textContext": "A programming contest where participants compete to solve challenging problems and showcase their coding skills. The contest is open to all and offers a great opportunity to learn and grow in the field of programming.",
+    "btnText": "Join Vjudge Group",
+    "btnLink": "https://vjudge.net/group/cpccu?r=e5n1ED2ylolVtUokPTkD",
+    "date": "2024-05-22"
+  }, 
+  {
     "img": "https://i.ibb.co/3dmHQSB/poster-cpccu-1.png",
     "alt": "Alternative text for the image",
     "headLine": "Beat The Champ",
