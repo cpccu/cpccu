@@ -4,7 +4,7 @@ import info from "./../../../data/Committee.json";
 import ProfileNotFound from "../ABOUT/ProfileItem/ProfileNotFound";
 import ProfileCard from "./../ABOUT/ProfileItem/ProfileCard";
 
-export default function Profile({ ID }) {
+export default function Profile() {
   const [Data, setData] = useState(null);
 
   const { id } = useParams();
@@ -12,20 +12,15 @@ export default function Profile({ ID }) {
   const searchData = useCallback(() => {
     const foundData = info.find(
       (item) =>
-        item.name.replace(/\s/g, "").toLowerCase() ===
-          (ID || id).toLowerCase() ||
-        item.name.toLowerCase().includes((ID || id).toLowerCase())
+        item.name.replace(/\s/g, "").toLowerCase() === id.toLowerCase() ||
+        item.name.toLowerCase().includes(id.toLowerCase())
     );
     setData(foundData);
-  }, [ID, id]);
+  }, [id]);
 
   useEffect(() => {
     searchData();
   }, [searchData]);
 
-  return Data ? (
-    <ProfileCard Data={Data} />
-  ) : (
-    <ProfileNotFound ID={ID} id={id} />
-  );
+  return Data ? <ProfileCard Data={Data} /> : <ProfileNotFound id={id} />;
 }
