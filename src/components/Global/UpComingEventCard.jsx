@@ -10,9 +10,9 @@ const UpComingEventCard = ({ data, clName }) => {
         clName
       )}
     >
-      <section className="lg:col-span-3 h-[16.5em] overflow-hidden ">
+      <section className="lg:col-span-3 h-[17rem] overflow-hidden ">
         <img
-          className="h-full w-full object-cover"
+          className="h-full w-full object-fit"
           src={data?.img}
           alt={data?.alt}
         />
