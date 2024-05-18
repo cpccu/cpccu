@@ -8,6 +8,8 @@ export default function HeroSection() {
   const { target } = useContext(OurMissionScroll);
   const navigate = useNavigate();
 
+  const heroContext = Hero?.context;
+
   const goToAbout = () => {
     navigate("/history");
   };
@@ -20,32 +22,33 @@ export default function HeroSection() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="padding text-white flex flex-col justify-center items-center md:items-start py-[3rem] gap-11 lg:gap-10 md:pb-[7rem] lg:pb-[16rem] cursor-default h-[calc(100svh-50px)] md:h-full"
+      className="padding text-white flex flex-col justify-center items-center md:items-start py-[3rem] gap-10 lg:gap-8 md:pb-[7rem] lg:pb-[16rem] cursor-default h-[calc(100svh-50px)] md:h-full"
     >
-      <section className="flex flex-col items-center md:items-start">
-        <h1 className="font-extrabold capitalize text-[2.3rem] md:text-[4rem] lg:text-[4.5rem]">
+      <section className="flex flex-col items-center md:items-start italic">
+        <h1 className="font-extrabold capitalize text-[2.3rem] md:text-[4rem]">
           {Hero?.header}
         </h1>
-        <h3 className="text-[1.7rem] text-center md:text-[1.9rem] lg:text-left lg:text-[2rem] text-amber-300">
+        <h3 className="text-[1.7rem] text-center md:text-[1.9rem] lg:text-left text-amber-300">
           {Hero?.secondheader}
         </h3>
       </section>
-      <p className="conText text-md text-center md:text-left text-white/75">
-        {Hero?.context.split("\n").map((item, index) => (
-          <div>{item}</div>
-        ))}
-      </p>
+      <section className="conText text-center md:text-left">
+        <p className="text-white/75">{Hero?.context}</p>
+        <p className="italic font-semibold text-white/80 mt-2">
+          {Hero?.contextWriter}
+        </p>
+      </section>
       <div className="flex gap-5">
         <ScrollMission
           to={target || ""}
           spy={true}
           smooth={true}
-          offset={-60}
+          offset={-10}
           duration={900}
           animate={{ duration: 900, easing: "easeInOutCubic" }}
         >
           <button className="uppercase md:text-[1.2rem] lg:text-[1.3rem] font-semibold px-6 py-3 bg-header hover:bg-white hover:text-black trans">
-            {Hero?.btn2Text}
+            {Hero?.btn1Text}
           </button>
         </ScrollMission>
 
