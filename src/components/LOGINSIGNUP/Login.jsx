@@ -42,12 +42,12 @@ export default function Login() {
 
           <section className="flex items-center justify-center gap-5 mt-5">
             <button
-              className={`${btn} bg-gradient-to-r from-headerHover to-fuchsia-700 text-white hover:ring hover:scale-110 trans`}
+              className={`${btn} bg-gradient-to-r from-headerHover to-fuchsia-700 text-white hover:ring trans`}
             >
               login
             </button>
             <button
-              className={`${btn} bg-gradient-to-r from-headerHover to-fuchsia-700 text-header hover:ring hover:scale-110 trans`}
+              className={`${btn} bg-gradient-to-r from-headerHover to-fuchsia-700 text-header hover:ring trans`}
             >
               <div className="bg-white rounded-full h-10 flex items-center justify-center">
                 create account
