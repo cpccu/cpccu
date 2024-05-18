@@ -31,7 +31,9 @@ export default function HeroSection() {
         </h3>
       </section>
       <p className="conText text-md text-center md:text-left text-white/75">
-        {Hero?.context}
+        {Hero?.context.split("\n").map((item, index) => (
+          <div>{item}</div>
+        ))}
       </p>
       <div className="flex gap-5">
         <ScrollMission
@@ -43,7 +45,7 @@ export default function HeroSection() {
           animate={{ duration: 900, easing: "easeInOutCubic" }}
         >
           <button className="uppercase md:text-[1.2rem] lg:text-[1.3rem] font-semibold px-6 py-3 bg-header hover:bg-white hover:text-black trans">
-            {Hero?.btn1Text}
+            {Hero?.btn2Text}
           </button>
         </ScrollMission>
 
