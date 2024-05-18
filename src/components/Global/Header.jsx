@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import InstitudeInfo from "../../../data/global/institude.json";
-import { FaRegUser } from "react-icons/fa";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { MdOutlineCall } from "react-icons/md";
 
@@ -29,7 +28,7 @@ export default function Header() {
         </p>
       </div>
       <div className="flex gap-3 items-center font-semibold text-sm">
-        <Link to="/join">
+        <Link to="/login">
           <button className="py-2 px-5 bg-header/90 hover:bg-header trans">
             Login
           </button>

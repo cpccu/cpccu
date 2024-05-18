@@ -32,7 +32,7 @@ export default function App() {
           <Route path="profile/:id" element={<Profile />} />
         </Route>
         <Route path="*" element={<NotFound />}></Route>
-        <Route path="join" element={<Login />} />
+        <Route path="login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
