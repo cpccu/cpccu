@@ -31,6 +31,32 @@ export default function LoginSignup() {
           </div>
           {/* input username end */}
 
+          {/* uni info */}
+          {/* full name */}
+          <div className="flex flex-col">
+            <label className={labelCSS} htmlFor="fullName">
+              Full Name
+            </label>
+            <input className={inputCSS} type="text" id="fullName" />
+          </div>
+
+          {/* uni id */}
+          <div className="flex flex-col">
+            <label className={labelCSS} htmlFor="uniID">
+              City University <span className="text-gray-450 font-extrabold text-[18px]">ID</span>
+            </label>
+            <input className={inputCSS} type="number" id="uniID" />
+          </div>
+
+          {/* uni batch*/}
+          <div className="flex flex-col">
+            <label className={labelCSS} htmlFor="uniBatch">
+              City University <span className="text-gray-450 font-extrabold text-[18px]">Batch No.</span>
+            </label>
+            <input className={inputCSS} type="number" id="uniBatch" />
+          </div>
+
+
           {/* input password start */}
           <div className="flex flex-col">
             <label className={labelCSS} htmlFor="passName">
