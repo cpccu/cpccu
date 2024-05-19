@@ -2,7 +2,9 @@
   "bgURL": "https://i.ibb.co/d5q5zjp/IMG-20240505-WA0023.jpg",
   "header": "Welcome to",
   "secondheader": "Competitive Programming Camp City University",
-  "context": "We're excited to launch our new portal, a dedicated space for coding enthusiasts to connect, learn, and grow. It's your go-to place for coding, collaboration, and creativity. Join our community to tackle challenges, share knowledge, and celebrate coding. Let's code, conquer, and create together!",
+  "context1": "We're excited to launch our new portal, a dedicated space for coding enthusiasts to connect, learn, and grow.",
+  "context2": "It's your go-to place for coding, collaboration, and creativity. Join our community to tackle challenges, share knowledge, and celebrate coding.",
+  "context3": "Let's code, conquer, and create together!",
   "contextWriter": "— Our Competitive Programming Camp Team.",
   "btn1Text": "Our mission",
   "btn2Text": "Our story"
