@@ -10,9 +10,9 @@ const UpComingEventCard = ({ data, clName }) => {
         clName
       )}
     >
-      <section className="lg:col-span-3 h-[17rem] overflow-hidden ">
+      <section className="lg:col-span-3 md:h-[22rem]  lg:h-[38rem] overflow-hidden">
         <img
-          className="h-full w-full object-fit"
+          className="h-full w-full object-cover"
           src={data?.img}
           alt={data?.alt}
         />
@@ -22,9 +22,24 @@ const UpComingEventCard = ({ data, clName }) => {
       <section className="h-full lg:col-span-4 flex flex-col items-start gap-4">
         <TimeBox date={data?.date} />
         <h1 className="text-2xl font-semibold lg:line-clamp-1">
-          {data?.headLine}
+          {data?.eventHeadLine1}
         </h1>
         <p className="font-[450] lg:line-clamp-3">{data?.textContext}</p>
+        
+        {/* price */}
+        <h1 className="text-2xl font-semibold lg:line-clamp-1">
+          {data?.eventHeadLine2}
+        </h1>
+        <p className="font-[450] lg:line-clamp-3">{data?.prices}</p>
+
+        <h1 className="text-2xl font-semibold lg:line-clamp-1">
+          {data?.eventHeadLine3}
+        </h1>
+        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules1}</p>
+        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules2}</p>
+        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules3}</p>
+        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules4}</p>
+
         {data?.btnLink ? (
           <Link to={data?.btnLink} target="_blank" rel="noopener noreferrer">
             <button
