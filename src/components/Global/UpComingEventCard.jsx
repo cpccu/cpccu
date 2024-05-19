@@ -6,11 +6,11 @@ const UpComingEventCard = ({ data, clName }) => {
   return (
     <main
       className={cn(
-        "grid lg:grid-cols-7 gap-7 lg:gap-5 cursor-default overflow-hidden",
+        "grid md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-7 gap-7 lg:gap-5 cursor-default overflow-hidden",
         clName
       )}
     >
-      <section className="lg:col-span-3 md:h-[22rem]  lg:h-[38rem] overflow-hidden">
+      <section className="md:col-span-3 lg:col-span-4 xl:col-span-3 md:h-[38rem]  mxl:h-[38rem] xl:h-[38rem] overflow-hidden">
         <img
           className="h-full w-full object-cover"
           src={data?.img}
@@ -19,7 +19,7 @@ const UpComingEventCard = ({ data, clName }) => {
 
         <div className="h-[4%] bg-black/50"></div>
       </section>
-      <section className="h-full lg:col-span-4 flex flex-col items-start gap-4">
+      <section className="h-full md:col-span-3 lg:col-span-3 xl:col-span-4 flex flex-col items-start gap-4">
         <TimeBox date={data?.date} />
         <h1 className="text-2xl font-semibold lg:line-clamp-1">
           {data?.eventHeadLine1}

@@ -7,6 +7,7 @@ export default {
       md: "768px",
       mdd: "905px",
       lg: "976px",
+      mxl: "1280px",
       xl: "1440px",
       xxl: "1920px",
     },
