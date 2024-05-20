@@ -6,25 +6,45 @@ const UpComingEventCard = ({ data, clName }) => {
   return (
     <main
       className={cn(
-        "grid lg:grid-cols-7 gap-7 lg:gap-5 cursor-default overflow-hidden",
+        "grid md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-7 gap-7 lg:gap-5 cursor-default overflow-hidden",
         clName
       )}
     >
-      <section className="lg:col-span-3 h-[17rem] overflow-hidden ">
+
+      {/* Picture Section */}
+      <section className="md:col-span-3 lg:col-span-4 xl:col-span-3 md:h-[38rem]  mxl:h-[38rem] xl:h-[38rem] overflow-hidden">
         <img
-          className="h-full w-full object-fit"
+          className="h-full w-full object-cover"
           src={data?.img}
           alt={data?.alt}
         />
 
         <div className="h-[4%] bg-black/50"></div>
       </section>
-      <section className="h-full lg:col-span-4 flex flex-col items-start gap-4">
+      {/* Picture Section End*/}
+      
+      {/* Content Section */}
+      <section className="h-full md:col-span-3 lg:col-span-3 xl:col-span-4 flex flex-col items-start gap-4">
         <TimeBox date={data?.date} />
-        <h1 className="text-2xl font-semibold lg:line-clamp-1">
-          {data?.headLine}
+        <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold lg:line-clamp-none">
+          {data?.eventHeadLine1}
         </h1>
         <p className="font-[450] lg:line-clamp-3">{data?.textContext}</p>
+        
+        {/* price */}
+        <h1 className="text-2xl font-semibold lg:line-clamp-1">
+          {data?.eventHeadLine2}
+        </h1>
+        <p className="font-[450] lg:line-clamp-3">{data?.prices}</p>
+
+        <h1 className="text-2xl font-semibold lg:line-clamp-1">
+          {data?.eventHeadLine3}
+        </h1>
+        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules1}</p>
+        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules2}</p>
+        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules3}</p>
+        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules4}</p>
+
         {data?.btnLink ? (
           <Link to={data?.btnLink} target="_blank" rel="noopener noreferrer">
             <button
@@ -36,6 +56,8 @@ const UpComingEventCard = ({ data, clName }) => {
           </Link>
         ) : null}
       </section>
+      {/* Content Section End */}
+      
     </main>
   );
 };

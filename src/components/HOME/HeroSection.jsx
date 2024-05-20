@@ -33,7 +33,9 @@ export default function HeroSection() {
         </h3>
       </section>
       <section className="conText text-center md:text-left">
-        <p className="text-white/75">{Hero?.context}</p>
+        <p className="text-white/75">{Hero?.context1}</p>
+        <p className="text-white/75">{Hero?.context2}</p>
+        <p className="text-white/75">{Hero?.context3}</p>
         <p className="italic font-semibold text-white/80 mt-2">
           {Hero?.contextWriter}
         </p>
