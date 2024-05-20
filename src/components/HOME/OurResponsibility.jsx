@@ -17,7 +17,7 @@ export default function OurResponsibility() {
 
 export function CardRes({ item }) {
   return (
-    <main className="flex flex-col justify-center items-center gap-5 group">
+    <main className="flex flex-col justify-start items-center gap-5 group">
       <div className="w-[100px] h-[100px] object-cover rounded-full overflow-hidden group-hover:-translate-y-2 trans">
         <img className="w-full h-full" src={item?.img} alt={item?.alt} />
       </div>
