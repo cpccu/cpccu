@@ -1,20 +1,20 @@
 import Logo from "./../../assets/logo/cpccu.png";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import { useContext, useEffect } from "react";
 import { faArrowLeftLong } from "@fortawesome/free-solid-svg-icons";
+import InputBox from "./InputBox";
 
 export default function Login() {
-  const labelCSS = `uppercase font-semibold text-sm text-gray-800 font-custom`;
-  const inputCSS = `outline-none border-b border-gray-300 py-2 focus:border-black`;
   const btn = `uppercase font-semibold h-12 px-1 rounded-full w-full text-sm`;
 
   return (
     <>
       <Link to="/">
         <button className="bg-header absolute z-50 right-[2rem] mdd:right-[6rem] mt-[5rem] flex items-center justify-center h-10 rounded-lg lg:w-[10rem] gap-3 px-3 py-2 hover:bg-headerHover trans">
-          <FontAwesomeIcon className=" text-white font-extrabold text-2xl" icon={faArrowLeftLong} />
+          <FontAwesomeIcon
+            className=" text-white font-extrabold text-2xl"
+            icon={faArrowLeftLong}
+          />
           <h1 className="font-bold text-white hidden md:block">Home Page</h1>
         </button>
       </Link>
@@ -36,21 +36,10 @@ export default function Login() {
             className="flex flex-col gap-6 w-full"
           >
             {/* input username start */}
-            <div className="flex flex-col">
-              <label className={labelCSS} htmlFor="userName">
-                Email
-              </label>
-              <input className={inputCSS} type="email" id="userName" />
-            </div>
+            <InputBox type={"email"} title={"email"} id={"userMail"} />
             {/* input username end */}
-
             {/* input password start */}
-            <div className="flex flex-col">
-              <label className={labelCSS} htmlFor="passName">
-                Password
-              </label>
-              <input className={inputCSS} type="password" id="passName" />
-            </div>
+            <InputBox type={"password"} title={"password"} id={"userPass"} />
             {/* input password end */}
 
             <section className="flex items-center justify-center gap-5 mt-5">

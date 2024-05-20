@@ -21,7 +21,7 @@ export default function AboutCard({ Data }) {
 
         <Link
           to={`mailto:${Data?.email}`}
-          className="italic flex items-center justify-center gap-1"
+          className="italic flex items-center justify-center gap-1 flex-wrap"
         >
           <MdOutlineEmail size={20} />
           <span>{Data?.email}</span>
