@@ -1,6 +1,7 @@
 {
-  "name": "CPCCU",
-  "shortName": "City University",
+  "fullName": "Competitive Programming Camp",
+  "shortName": "CPCCU",
+  "uniName": "City University",
   "img": "https://i.ibb.co/smKGqmH/cpccu.png",
   "alt": "Logo",
   "email": "cpccu.club@gmail.com",
@@ -74,7 +75,7 @@
 
       {
         "linkName": "Join Us",
-        "url": ""
+        "url": "signup"
       }
     ]
   },

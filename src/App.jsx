@@ -12,6 +12,7 @@ import Committee from "./components/Layout/AboutLayout/Committee";
 import Profile from "./components/Layout/Profile";
 import NotFound from "./components/NotFound";
 import Login from "./components/LOGINSIGNUP/Login";
+import Signup from "./components/LOGINSIGNUP/Signup";
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
         </Route>
         <Route path="*" element={<NotFound />}></Route>
         <Route path="login" element={<Login />} />
+        <Route path="signup" element={<Signup />} />
       </Routes>
     </BrowserRouter>
   );
