@@ -20,7 +20,7 @@ export default function Footer() {
       </main>
 
       {/* rights section start */}
-      <footer className="bg-header text-white/90 h-16 flex items-center justify-center">
+      <footer className="bg-header text-white/90 h-16 flex items-center justify-center text-center">
         &copy;{InstituteInfo?.rights}
       </footer>
       {/* rights section end */}

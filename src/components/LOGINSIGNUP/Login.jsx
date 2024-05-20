@@ -38,10 +38,8 @@ export default function Login() {
             {/* input username start */}
             <InputBox type={"email"} title={"email"} id={"userMail"} />
             {/* input username end */}
-
             {/* input password start */}
             <InputBox type={"password"} title={"password"} id={"userPass"} />
-
             {/* input password end */}
 
             <section className="flex items-center justify-center gap-5 mt-5">
