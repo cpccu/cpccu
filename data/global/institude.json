@@ -25,12 +25,12 @@
   ],
 
   "Footer1": {
-    "conText": "-Sharpen Your Skills.\n -Compete with the Best.\n -Excel Together. \nJoin us to tackle challenges, push your limits, and become a coding champion."
+    "conText": "-> Sharpen Your Skills.\n -> Compete with the Best.\n -> Excel Together.\nJoin us to tackle challenges, push your limits, and become a coding champion.So, get in touch, and let’s conquer the coding world together!"
   },
 
   "Footer2": {
     "header": "Get In Touch",
-    "conText": "We love feedback as much as a coder loves a semicolon. Share your thoughts, suggestions, or just tell us how awesome we are by filling out our Feedback Form. \n So, get in touch, and let’s conquer the coding world together!"
+    "conText": "If you have any questions, issues, or suggestions, please email us below. We will contact you as soon as possible."
   },
   "useFullLink": {
     "header": "Usefull Link",
