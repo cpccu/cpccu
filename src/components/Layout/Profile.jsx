@@ -22,5 +22,5 @@ export default function Profile() {
     searchData();
   }, [searchData]);
 
-  return Data ? <ProfileCard Data={Data} /> : <ProfileNotFound id={id} />;
+  return Data ? <ProfileCard id={id} /> : <ProfileNotFound id={id} />;
 }

@@ -34,6 +34,7 @@ export default {
         textWhite: "E7E7E7",
         scroll: "#334caf",
         pText: "#223f6f",
+        profile: "#f0f2f5",
       },
       fontFamily: {
         custom: ["Inria Sans"],

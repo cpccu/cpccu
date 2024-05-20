@@ -1,12 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import Data from "./../../../data/LogInfo.json";
 
 export default function SideProfile() {
   const [isOpen, setOpen] = useState(false);
+  const navigate = useNavigate();
 
   const { pathname } = useLocation();
+
+  const goProfile = () => {
+    navigate("/profile/rahul");
+  };
 
   useEffect(() => {
     setOpen(false);
@@ -33,10 +39,12 @@ export default function SideProfile() {
       >
         <img
           className="h-12 w-12 ring rounded-full"
-          src="https://i.ibb.co/QrxNkCw/nipon.png"
-          alt="fsd"
+          src="https://i.ibb.co/t3x1BtD/Screenshot-2024-05-15-025744.png"
+          alt="profileIMG"
         />
-        <h1 className="font-semibold text-lg">Rahul Roy Nipon</h1>
+        <h1 onClick={goProfile} className="font-semibold text-lg">
+          {Data?.name}
+        </h1>
       </main>
     </section>
   );
