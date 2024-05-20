@@ -10,6 +10,8 @@ const UpComingEventCard = ({ data, clName }) => {
         clName
       )}
     >
+
+      {/* Picture Section */}
       <section className="md:col-span-3 lg:col-span-4 xl:col-span-3 md:h-[38rem]  mxl:h-[38rem] xl:h-[38rem] overflow-hidden">
         <img
           className="h-full w-full object-cover"
@@ -19,9 +21,12 @@ const UpComingEventCard = ({ data, clName }) => {
 
         <div className="h-[4%] bg-black/50"></div>
       </section>
+      {/* Picture Section End*/}
+      
+      {/* Content Section */}
       <section className="h-full md:col-span-3 lg:col-span-3 xl:col-span-4 flex flex-col items-start gap-4">
         <TimeBox date={data?.date} />
-        <h1 className="text-2xl font-semibold lg:line-clamp-1">
+        <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold lg:line-clamp-none">
           {data?.eventHeadLine1}
         </h1>
         <p className="font-[450] lg:line-clamp-3">{data?.textContext}</p>
@@ -51,6 +56,8 @@ const UpComingEventCard = ({ data, clName }) => {
           </Link>
         ) : null}
       </section>
+      {/* Content Section End */}
+      
     </main>
   );
 };

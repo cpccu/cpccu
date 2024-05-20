@@ -24,12 +24,12 @@
   ],
 
   "Footer1": {
-    "conText": "We are legend Lorem ipsum dolor sitmet, nsecte ipisicing eit, sed do eiusmod tempor incidunt ut et do maga aliqua enim ad minim."
+    "conText": "-Sharpen Your Skills.\n -Compete with the Best.\n -Excel Together. \nJoin us to tackle challenges, push your limits, and become a coding champion."
   },
 
   "Footer2": {
     "header": "Get In Touch",
-    "conText": "We are legend Lorem ipsum dolor sitmet, nsecte ipisicing eit, sed."
+    "conText": "We would love to hear out your new ideas and we are ready to help you aslo.Together we will build a great community of coders."
   },
   "useFullLink": {
     "header": "Usefull Link",
@@ -78,5 +78,5 @@
       }
     ]
   },
-  "rights": "2024 City University, All Rights Reserved"
+  "rights": "2024 Competitive Programming Camp City University, All Rights Reserved"
 }
