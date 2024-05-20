@@ -1,5 +1,5 @@
 import Logo from "./../../assets/logo/cpccu.png";
-
+import { Link } from "react-router-dom";
 export default function Login() {
   const labelCSS = `uppercase font-semibold text-sm text-gray-400 font-custom`;
   const inputCSS = `outline-none border-b border-gray-300 py-2 focus:border-black`;
@@ -49,9 +49,11 @@ export default function Login() {
             <button
               className={`${btn} bg-gradient-to-r from-headerHover to-fuchsia-700 text-header hover:ring trans`}
             >
+              <Link to="/signup">
               <div className="bg-white rounded-full h-10 flex items-center justify-center">
                 create account
               </div>
+              </Link>
             </button>
           </section>
 

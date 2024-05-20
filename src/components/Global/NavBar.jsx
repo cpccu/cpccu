@@ -64,18 +64,18 @@ export default function NavBar() {
       <NavLink to={"/"} onClick={() => setOpen(false)}>
         <section
           onClick={goHome}
-          className="flex items-center justify-center gap-2 py-2 lg:py-4 cursor-default"
+          className="flex items-center justify-center gap-2 py-2 lg:-py-0 cursor-default"
         >
           <img
             className="h-12"
             src={InstitudeInfo?.img}
             alt={InstitudeInfo?.alt}
           />
-          <div>
-            <h1 className="text-xl md:text-2xl text-header font-bold font-custom">
-              {InstitudeInfo?.name}
+          <div className="flex flex-col justify-center">
+            <h1 className="text-lg md:text-2xl text-header font-bold font-custom">
+              {InstitudeInfo?.fullName}
             </h1>
-            <p className="text-sm">{InstitudeInfo?.shortName}</p>
+            <p className="text-sm font-bold">{InstitudeInfo?.uniName}</p>
           </div>
         </section>
       </NavLink>

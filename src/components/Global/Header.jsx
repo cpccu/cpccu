@@ -34,7 +34,7 @@ export default function Header() {
           </button>
         </Link>
 
-        <Link to="/join">
+        <Link to="/signup">
           <button className="py-2 px-5 bg-green-600 hover:bg-green-500 trans">
             Signup
           </button>
