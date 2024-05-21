@@ -2,8 +2,6 @@ import { useContext, useEffect, useState } from "react";
 import UpComingEventCard from "../Global/UpComingEventCard";
 import Data from "./../../../data/upcomingEvent.json";
 import EventScroll from "../../Context/EventScroll/EventScroll";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import Pagination from "../Global/Pagination";
 
 export default function NoticeSection() {
@@ -23,10 +21,6 @@ export default function NoticeSection() {
     const rows = Data.slice(startIdx, endIdx);
     setRows(rows);
   }, [Data, currentPage, pageItem]);
-
-  const handlePaginationClick = (pageNumber) => {
-    setCurrentPage(pageNumber);
-  };
 
   return (
     <section className="bg-responsibility">
