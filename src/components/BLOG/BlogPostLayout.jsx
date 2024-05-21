@@ -12,11 +12,16 @@ export default function BlogPostLayout() {
   const [currentPage, setCurrentPage] = useState(0);
   const [rows, setRows] = useState([]);
 
+  const pageItem = 9;
+
+  // Filter data based on the selected tag
   const filterData = useCallback(() => {
-    const filteredData = res.filter((item) =>
-      item.tag.split(" ").includes(Tag)
-    );
+    const filteredData =
+      Tag === "all"
+        ? res
+        : res.filter((item) => item.tag.split(" ").includes(Tag));
     setData(filteredData);
+    setCurrentPage(0); // Reset to the first page when tag changes
   }, [Tag]);
 
   useEffect(() => {
@@ -27,15 +32,12 @@ export default function BlogPostLayout() {
     setBlogTarget("blogMainLayout");
   }, [setBlogTarget]);
 
-  const pageItem = 9;
-  const pageCount = Math.ceil(Data.length / pageItem);
-
   useEffect(() => {
     const startIdx = currentPage * pageItem;
     const endIdx = startIdx + pageItem;
     const rows = Data.slice(startIdx, endIdx);
     setRows(rows);
-  }, [Data, currentPage, pageItem]);
+  }, [Data, currentPage]);
 
   return (
     <section id="blogMainLayout" className="bg-responsibility py-7 md:py-12">
@@ -50,7 +52,7 @@ export default function BlogPostLayout() {
               item?.tag.toLowerCase() === Tag.toLowerCase()
                 ? "bg-header text-white"
                 : "bg-header/15"
-            } shrink-0 md:block px-2 md:px-6 lg:px-8 py-2  hover:bg-header hover:text-white trans capitalize`}
+            } shrink-0 md:block px-2 md:px-6 lg:px-8 py-2 hover:bg-header hover:text-white trans capitalize`}
           >
             {item.btnText}
           </button>
@@ -66,10 +68,10 @@ export default function BlogPostLayout() {
       </main>
       {/* card end */}
 
-      {/* start pagination  */}
+      {/* start pagination */}
       <Pagination
         currentPage={currentPage}
-        pageCount={pageCount}
+        pageCount={Math.ceil(Data.length / pageItem)}
         onPageChange={setCurrentPage}
       />
       {/* end pagination */}
