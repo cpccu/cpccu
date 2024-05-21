@@ -3,9 +3,19 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong } from "@fortawesome/free-solid-svg-icons";
 import InputBox from "./InputBox";
+import { useCallback, useEffect, useState } from "react";
 
 export default function Login() {
   const btn = `uppercase font-semibold h-12 px-1 rounded-full w-full text-sm`;
+
+  // const [logValue, setLog] = useState(false);
+  // const log = useCallback(() => {
+  //   localStorage.setItem("logStatus", logValue);
+  // }, [logValue]);
+
+  // useEffect(() => {
+  //   log();
+  // });
 
   return (
     <>

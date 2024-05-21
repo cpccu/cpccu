@@ -2,8 +2,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 
 import Data from "./../../../../data/LogInfo.json";
+import { useEffect, useState } from "react";
 
 export default function ProfileCard({ id }) {
+  const [admin, setAdmin] = useState(false);
+  // JSON.parse(localStorage.getItem("logStatus"))
+  useEffect(() => {
+    if (Data?.username == id && Data?.logStatus) {
+      setAdmin(true);
+    }
+  });
+
   return (
     <section className="lg:px-28 xl:px-52 bg-profile py-5 flex flex-col gap-5">
       <header>
@@ -36,7 +45,7 @@ export default function ProfileCard({ id }) {
                 <p className="font-semibold text-gray-500">{Data?.role}</p>
               </div>
 
-              {Data?.username == id && (
+              {admin && (
                 <button className="flex items-center justify-center gap-2 bg-header px-4 py-2 font-semibold text-white self-center">
                   <FontAwesomeIcon icon={faPenToSquare} />
                   <span>Edit</span>
@@ -56,7 +65,7 @@ export default function ProfileCard({ id }) {
         </section>
         <section className="lg:col-span-7 flex flex-col gap-5">
           {/* post section start */}
-          {Data?.username == id && (
+          {admin && (
             <div className="p-3 lg:p-6 flex items-center justify-center gap-3 bg-white lg:rounded-xl border">
               <div className="h-11 w-11 rounded-full overflow-hidden">
                 <img

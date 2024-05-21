@@ -10,7 +10,6 @@ const UpComingEventCard = ({ data, clName }) => {
         clName
       )}
     >
-
       {/* Picture Section */}
       <section className="md:col-span-3 lg:col-span-4 xl:col-span-3 md:h-[38rem]  mxl:h-[38rem] xl:h-[38rem] overflow-hidden">
         <img
@@ -22,7 +21,7 @@ const UpComingEventCard = ({ data, clName }) => {
         <div className="h-[4%] bg-black/50"></div>
       </section>
       {/* Picture Section End*/}
-      
+
       {/* Content Section */}
       <section className="h-full md:col-span-3 lg:col-span-3 xl:col-span-4 flex flex-col items-start gap-4">
         <TimeBox date={data?.date} />
@@ -30,7 +29,7 @@ const UpComingEventCard = ({ data, clName }) => {
           {data?.eventHeadLine1}
         </h1>
         <p className="font-[450] lg:line-clamp-3">{data?.textContext}</p>
-        
+
         {/* price */}
         <h1 className="text-2xl font-semibold lg:line-clamp-1">
           {data?.eventHeadLine2}
@@ -40,10 +39,22 @@ const UpComingEventCard = ({ data, clName }) => {
         <h1 className="text-2xl font-semibold lg:line-clamp-1">
           {data?.eventHeadLine3}
         </h1>
-        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules1}</p>
-        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules2}</p>
-        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules3}</p>
-        <p className="font-[450] lg:line-clamp-3">{" -> "}{data?.rules4}</p>
+        <p className="font-[450] lg:line-clamp-3">
+          {" -> "}
+          {data?.rules1}
+        </p>
+        <p className="font-[450] lg:line-clamp-3">
+          {" -> "}
+          {data?.rules2}
+        </p>
+        <p className="font-[450] lg:line-clamp-3">
+          {" -> "}
+          {data?.rules3}
+        </p>
+        <p className="font-[450] lg:line-clamp-3">
+          {" -> "}
+          {data?.rules4}
+        </p>
 
         {data?.btnLink ? (
           <Link to={data?.btnLink} target="_blank" rel="noopener noreferrer">
@@ -57,7 +68,6 @@ const UpComingEventCard = ({ data, clName }) => {
         ) : null}
       </section>
       {/* Content Section End */}
-      
     </main>
   );
 };
