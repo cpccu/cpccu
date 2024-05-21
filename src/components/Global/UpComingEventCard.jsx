@@ -35,7 +35,7 @@ const UpComingEventCard = ({ data, clName }) => {
         <h1 className="text-2xl font-semibold lg:line-clamp-1">
           {data?.eventHeadLine2}
         </h1>
-        <p className="font-[450] lg:line-clamp-3">{data?.prices}</p>
+        <p className="font-[450] lg:line-clamp-3">{data?.reward}</p>
 
         <h1 className="text-2xl font-semibold lg:line-clamp-1">
           {data?.eventHeadLine3}
