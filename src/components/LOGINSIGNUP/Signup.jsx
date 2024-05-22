@@ -75,14 +75,14 @@ export default function Signup() {
                 type={"number"}
                 title={"CITY UNIVERSITY ID"}
                 id={"userUniID"}
-                clName={"col-span-7"}
+                clName={"col-span-9"}
               />
               {/* uni batch*/}
               <InputBox
                 type={"number"}
                 title={"BATCH NO."}
                 id={"userBatch"}
-                clName={"col-span-5"}
+                clName={"col-span-3"}
               />
               {/* input password start */}
             </section>
@@ -105,6 +105,11 @@ export default function Signup() {
               </button>
             </section>
           </form>
+
+          <section>
+            <h1 className={`${labelCSS} text-[17px]`}>Already created an account?</h1>
+            <Link to={"/login"} className={`${labelCSS} text-[17px] text-header shadow-sm`}>Log In here!</Link>
+          </section>
         </main>
       </div>
     </>

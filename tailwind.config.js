@@ -9,6 +9,8 @@ export default {
       lg: "976px",
       mxl: "1280px",
       xl: "1440px",
+      mmxl: "1600px",
+      mmmxl: "1750px",
       xxl: "1920px",
     },
 
