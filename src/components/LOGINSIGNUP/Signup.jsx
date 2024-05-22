@@ -108,7 +108,7 @@ export default function Signup() {
 
           <section>
             <h1 className={`${labelCSS} text-[17px]`}>Already created an account?</h1>
-            <Link to={"/login"} className={`${labelCSS} text-[17px] text-[crimson]`}>Log In here!</Link>
+            <Link to={"/login"} className={`${labelCSS} text-[17px] text-header shadow-sm`}>Log In here!</Link>
           </section>
         </main>
       </div>
