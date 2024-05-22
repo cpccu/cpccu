@@ -23,7 +23,7 @@ const UpComingEventCard = ({ data, clName }) => {
       {/* Picture Section End*/}
 
       {/* Content Section */}
-      <section className="h-full md:col-span-3 lg:col-span-3 xl:col-span-5 mxl:col-span-5 mmmxl:col-span-7 flex flex-col items-start gap-4">
+      <section className="h-full md:col-span-3 lg:col-span-3 xl:col-span-5 mxl:col-span-5 mmmxl:col-span-4 flex flex-col items-start gap-4">
         <TimeBox date={data?.date} />
         <h1 className="text-2xl lg:text-3xl xl:text-4xl  font-semibold lg:line-clamp-none">{`"`}
           {data?.eventHeadLine1}{`"`}
@@ -66,6 +66,28 @@ const UpComingEventCard = ({ data, clName }) => {
             </button>
           </Link>
         ) : null}
+      </section>
+
+      <section className="hidden mmmxl:block relative py-3  h-full md:col-span-3 lg:col-span-3 xl:col-span-5 mxl:col-span-5 mmmxl:col-span-3 flex flex-col items-start gap-4">
+        <h1 className="text-2xl hidden lg:hidden mmmxl:block  font-semibold lg:line-clamp-1">
+          {data?.eventHeadLine3}
+        </h1>
+        <p className="font-[450] text-xl hidden lg:hidden  mmmxl:block lg:line-clamp-3">
+          {" -> "}
+          {data?.rules1}
+        </p>
+        <p className="font-[450] text-xl hidden lg:hidden  mmmxl:block lg:line-clamp-3">
+          {" -> "}
+          {data?.rules2}
+        </p>
+        <p className="font-[450] text-xl hidden lg:hidden mmmxl:block  lg:line-clamp-3">
+          {" -> "}
+          {data?.rules3}
+        </p>
+        <p className="font-[450] text-xl hidden lg:hidden mmmxl:block  lg:line-clamp-3">
+          {" -> "}
+          {data?.rules4}
+        </p>
       </section>
       {/* Content Section End */}
     </main>
