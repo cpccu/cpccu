@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong } from "@fortawesome/free-solid-svg-icons";
 import InputBox from "./InputBox";
 import { useCallback, useEffect, useState } from "react";
-
+import bgimg from "./../../assets/img/abc.jpg";
 export default function Login() {
   const btn = `uppercase font-semibold h-12 px-1 rounded-full w-full text-sm`;
 
@@ -17,8 +17,10 @@ export default function Login() {
   //   log();
   // });
 
+
+
   return (
-    <>
+    <div>
       <Link to="/">
         <button className="bg-header absolute z-50 right-[2rem] mdd:right-[6rem] mt-[5rem] flex items-center justify-center h-10 rounded-lg lg:w-[10rem] gap-3 px-3 py-2 hover:bg-headerHover trans">
           <FontAwesomeIcon
@@ -29,7 +31,7 @@ export default function Login() {
         </button>
       </Link>
 
-      <div className={`bg-white h-svh padding flex px-3 pb-12`}>
+      <div className={`h-svh padding flex px-3 pb-12`}>
         <main className="mx-auto lg:min-w-[30rem] lg:w-[60rem] lg:max-w-[70rem] flex flex-col gap-14 items-start justify-center padding">
           {/* logo section start */}
           <section className="flex flex-col self-center items-center justify-center gap-2">
@@ -78,6 +80,7 @@ export default function Login() {
           className="w-full items-center justify-center hidden lg:flex relative"
           style={{
             backgroundImage: `url(https://i.ibb.co/3pzb3VW/R.png)`,
+            // backgroundImage:`url(https://i.ibb.co/zrBs2dz/img-e1603104491104-removebg-preview.png)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -88,6 +91,7 @@ export default function Login() {
           </h1>
         </section>
       </div>
-    </>
+      
+    </div>
   );
 }
