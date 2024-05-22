@@ -68,27 +68,30 @@ const UpComingEventCard = ({ data, clName }) => {
         ) : null}
       </section>
 
-      <section className="hidden mmmxl:block relative py-3  h-full md:col-span-3 lg:col-span-3 xl:col-span-5 mxl:col-span-5 mmmxl:col-span-3 flex flex-col items-start gap-4">
-        <h1 className="text-2xl hidden lg:hidden mmmxl:block  font-semibold lg:line-clamp-1">
+      {/* 3rd column - only for mmmxl - 1750px and up */}
+      <section className="hidden mmmxl:flex relative py-3  h-full md:col-span-3 lg:col-span-3 xl:col-span-5 mxl:col-span-5 mmmxl:col-span-3 flex-col items-start gap-4">
+        <h1 className="text-2xl hidden lg:hidden mmmxl:block py-4 font-semibold lg:line-clamp-1">
           {data?.eventHeadLine3}
         </h1>
-        <p className="font-[450] text-xl hidden lg:hidden  mmmxl:block lg:line-clamp-3">
-          {" -> "}
+        <p className="font-[450] text-xl hidden lg:hidden  mmmxl:block py-3lg:line-clamp-3">
+          {" ⛔ "}
           {data?.rules1}
         </p>
-        <p className="font-[450] text-xl hidden lg:hidden  mmmxl:block lg:line-clamp-3">
-          {" -> "}
+        <p className="font-[450] text-xl hidden lg:hidden  mmmxl:block py-3 lg:line-clamp-3">
+          {" ❌ "}
           {data?.rules2}
         </p>
-        <p className="font-[450] text-xl hidden lg:hidden mmmxl:block  lg:line-clamp-3">
-          {" -> "}
+        <p className="font-[450] text-xl hidden lg:hidden mmmxl:block py-3 lg:line-clamp-3">
+          {" 🚫 "}
           {data?.rules3}
         </p>
-        <p className="font-[450] text-xl hidden lg:hidden mmmxl:block  lg:line-clamp-3">
-          {" -> "}
+        <p className="font-[450] text-xl hidden lg:hidden mmmxl:block py-3 lg:line-clamp-3">
+          {" ✅ "}
           {data?.rules4}
         </p>
       </section>
+
+
       {/* Content Section End */}
     </main>
   );
