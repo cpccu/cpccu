@@ -25,7 +25,7 @@ export default function Signup() {
         <section
           className="w-full items-center justify-center hidden lg:flex relative"
           style={{
-            backgroundImage: `url(https://i.ibb.co/3pzb3VW/R.png)`,
+            backgroundImage: `url(https://i.ibb.co/pwRqzpN/R-2.png)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",

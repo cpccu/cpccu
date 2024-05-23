@@ -17,8 +17,6 @@ export default function Login() {
   //   log();
   // });
 
-
-
   return (
     <div>
       <Link to="/">
@@ -79,8 +77,8 @@ export default function Login() {
         <section
           className="w-full items-center justify-center hidden lg:flex relative"
           style={{
-            backgroundImage: `url(https://i.ibb.co/3pzb3VW/R.png)`,
-            // backgroundImage:`url(https://i.ibb.co/zrBs2dz/img-e1603104491104-removebg-preview.png)`,
+            backgroundImage: `url(https://i.ibb.co/pwRqzpN/R-2.png)`,
+            // backgroundImage: `url(https://i.ibb.co/zrBs2dz/img-e1603104491104-removebg-preview.png)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -91,7 +89,6 @@ export default function Login() {
           </h1>
         </section>
       </div>
-      
     </div>
   );
 }

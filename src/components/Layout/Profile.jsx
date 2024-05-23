@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
 import { useCallback, useEffect, useState } from "react";
 import info from "./../../../data/Committee.json";
-import ProfileNotFound from "../ABOUT/ProfileItem/ProfileNotFound";
-import ProfileCard from "./../ABOUT/ProfileItem/ProfileCard";
+import ProfileNotFound from "../PROFILE/ProfileNotFound";
+import ProfileCard from "../PROFILE/ProfileCard";
 
 export default function Profile() {
   const [Data, setData] = useState(null);
