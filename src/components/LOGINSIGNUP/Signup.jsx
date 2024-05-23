@@ -12,7 +12,7 @@ export default function Signup() {
   return (
     <>
       <Link to="/">
-        <button className="bg-header absolute z-50 left-[2rem] mdd:left-[6rem] mt-[5rem] flex items-center justify-center h-10 rounded-lg lg:w-[10rem] gap-3 px-3 py-2 hover:bg-headerHover trans">
+        <button className="bg-header absolute z-30 left-[2rem] mdd:left-[6rem] top-10 md:top-16 flex items-center justify-center h-10 rounded-lg lg:w-[10rem] gap-3 px-3 py-2 hover:bg-headerHover trans">
           <FontAwesomeIcon
             className=" text-white font-extrabold text-2xl"
             icon={faArrowLeftLong}
@@ -21,7 +21,7 @@ export default function Signup() {
         </button>
       </Link>
 
-      <div className={`bg-white h-svh padding flex px-3`}>
+      <div className={`bg-white h-screen padding flex px-3 `}>
         <section
           className="w-full items-center justify-center hidden lg:flex relative"
           style={{
@@ -35,20 +35,18 @@ export default function Signup() {
             Sign up to Join CPCCU
           </h1>
         </section>
-        <main className="mx-auto lg:min-w-[30rem] lg:w-[60rem] lg:max-w-[70rem] flex flex-col gap-12 items-start justify-center padding">
+        <main className="mx-auto w-full lg:min-w-[30rem] lg:w-[60rem] lg:max-w-[70rem] flex flex-col gap-7 items-start justify-center padding">
           {/* logo section start */}
           <section className="flex flex-col self-center items-center justify-center gap-2">
-            <img className="h-24" src={Logo} alt="Logo" />
-
-            <h2 className="text-2xl font-custom">Welcome to</h2>
-            <h1 className="text-2xl text-center font-semibold text-gray-600">
-              Competitive Programming Camp City University
-            </h1>
+            <img className="h-16 md:h-24" src={Logo} alt="Logo" />
+            <h2 className="text-xl md:text-2xl font-custom">
+              Welcome to CPCCU
+            </h2>
           </section>
           {/* logo section end */}
           <form
             onSubmit={(e) => e.preventDefault()}
-            className="flex flex-col gap-6 w-full"
+            className="flex flex-col gap-4 w-full"
           >
             <sections className="grid grid-cols-12 gap-5">
               {/* input username start */}
@@ -69,20 +67,20 @@ export default function Signup() {
                 clName={"col-span-6"}
               />
             </sections>
-            <section className=" grid grid-cols-12 gap-5">
+            <section className=" grid md:grid-cols-12 gap-5">
               {/* uni id */}
               <InputBox
                 type={"number"}
                 title={"CITY UNIVERSITY ID"}
                 id={"userUniID"}
-                clName={"col-span-9"}
+                clName={"md:col-span-9"}
               />
               {/* uni batch*/}
               <InputBox
                 type={"number"}
                 title={"BATCH NO."}
                 id={"userBatch"}
-                clName={"col-span-3"}
+                clName={"md:col-span-3"}
               />
               {/* input password start */}
             </section>
@@ -107,8 +105,15 @@ export default function Signup() {
           </form>
 
           <section>
-            <h1 className={`${labelCSS} text-[17px]`}>Already created an account?</h1>
-            <Link to={"/login"} className={`${labelCSS} text-[17px] text-header shadow-sm`}>Log In here!</Link>
+            <h1 className={`${labelCSS} text-lg`}>
+              Already created an account?
+            </h1>
+            <Link
+              to={"/login"}
+              className={`${labelCSS} text-lg text-header shadow-sm`}
+            >
+              Log In here!
+            </Link>
           </section>
         </main>
       </div>

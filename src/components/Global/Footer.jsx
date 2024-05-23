@@ -46,7 +46,16 @@ export function FooterInfo() {
           <p className="text-sm">{InstituteInfo?.shortName}</p>
         </div>
       </section>
-      <p>{InstituteInfo?.Footer1.conText}</p>
+
+      <p>
+        {" "}
+        <ul className=" list-disc pl-5">
+          {InstituteInfo?.Footer1?.list.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+        {InstituteInfo?.Footer1.conText}
+      </p>
 
       <section className="flex flex-col items-start gap-2 font-semibold text-sm">
         <Link to={`mailto:${InstituteInfo?.email}`}>

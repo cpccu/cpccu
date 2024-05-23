@@ -25,7 +25,12 @@
   ],
 
   "Footer1": {
-    "conText": "-> Sharpen Your Skills.\n -> Compete with the Best.\n -> Excel Together.\nJoin us to tackle challenges, push your limits, and become a coding champion.So, get in touch, and let’s conquer the coding world together!"
+    "list": [
+      "Sharpen Your Skills.",
+      "Compete with the Best.",
+      "Excel Together."
+    ],
+    "conText": "Join us to tackle challenges, push your limits, and become a coding champion.So, get in touch, and let’s conquer the coding world together!"
   },
 
   "Footer2": {
