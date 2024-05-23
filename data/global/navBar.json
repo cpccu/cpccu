@@ -17,6 +17,10 @@
         "path": "/committee"
       },
       {
+        "page": "alumni",
+        "path": "/alumni"
+      },
+      {
         "page": "member",
         "path": "/member"
       }
