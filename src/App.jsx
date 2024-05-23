@@ -13,6 +13,7 @@ import Profile from "./components/Layout/Profile";
 import NotFound from "./components/NotFound";
 import Login from "./components/LOGINSIGNUP/Login";
 import Signup from "./components/LOGINSIGNUP/Signup";
+import Alumni from "./components/Layout/AboutLayout/Alumni";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/" element={<AboutLayout />}>
             <Route path="history" element={<ComingSoon />} />
             <Route path="committee" element={<Committee />} />
+            <Route path="alumni" element={<Alumni />} />
             <Route path="member" element={<ComingSoon />} />
           </Route>
           <Route path="event" element={<Event />} />
