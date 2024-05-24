@@ -2,12 +2,20 @@ import Logo from "./../../assets/logo/cpccu.png";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 import InputBox from "./InputBox";
 
 export default function Signup() {
   const labelCSS = `uppercase font-semibold text-sm text-gray-800 font-custom`;
   const inputCSS = `outline-none border-b border-gray-300 py-2 focus:border-black`;
   const btn = `uppercase font-semibold h-12 px-1 rounded-full w-full text-sm`;
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPass, setConfirmPass] = useState("");
+  const [fullName, setFullName] = useState("");
+  const [uniID, setUniID] = useState("");
+  const [batch, setBatch] = useState("");
 
   return (
     <>
@@ -48,13 +56,15 @@ export default function Signup() {
             onSubmit={(e) => e.preventDefault()}
             className="flex flex-col gap-4 w-full"
           >
-            <sections className="grid grid-cols-12 gap-5">
+            <section className="grid grid-cols-12 gap-5">
               {/* input username start */}
               <InputBox
                 type={"email"}
                 title={"Email"}
                 id={"userEmail"}
                 clName={"col-span-6"}
+                data={email}
+                setData={setEmail}
               />
               {/* input username end */}
 
@@ -65,8 +75,10 @@ export default function Signup() {
                 title={"Full name"}
                 id={"userName"}
                 clName={"col-span-6"}
+                data={fullName}
+                setData={setFullName}
               />
-            </sections>
+            </section>
             <section className=" grid md:grid-cols-12 gap-5">
               {/* uni id */}
               <InputBox
@@ -74,6 +86,8 @@ export default function Signup() {
                 title={"CITY UNIVERSITY ID"}
                 id={"userUniID"}
                 clName={"md:col-span-9"}
+                data={uniID}
+                setData={setUniID}
               />
               {/* uni batch*/}
               <InputBox
@@ -81,15 +95,25 @@ export default function Signup() {
                 title={"BATCH NO."}
                 id={"userBatch"}
                 clName={"md:col-span-3"}
+                data={batch}
+                setData={setBatch}
               />
               {/* input password start */}
             </section>
-            <InputBox type={"password"} title={"Password"} id={"userPass"} />
+            <InputBox
+              type={"password"}
+              title={"Password"}
+              id={"userPass"}
+              data={password}
+              setData={setPassword}
+            />
 
             <InputBox
               type={"password"}
               title={"confirm password"}
               id={"userConfirmPass"}
+              data={confirmPass}
+              setData={setConfirmPass}
             />
             {/* input password end */}
 
