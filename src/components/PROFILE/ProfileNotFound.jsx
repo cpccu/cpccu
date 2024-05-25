@@ -1,4 +1,4 @@
-export default function ProfileNotFound({ ID, id }) {
+export default function ProfileNotFound({ id }) {
   return (
     <main className="h-[calc(100svh-200px)] padding my-12  flex flex-col items-center justify-center gap-5">
       <img
@@ -6,7 +6,7 @@ export default function ProfileNotFound({ ID, id }) {
         alt="not found"
       />
       <h1 className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-5 text-2xl lg:text-4xl font-bold text-pText">
-        <span className="text-black/60  font-custom">{ID || id} </span>
+        <span className="text-black/60  font-custom">{id} </span>
         <span className="text-4xl md:text-5xl lg:text-6xl font-extrabold">
           Not found
         </span>

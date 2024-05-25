@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 
-import Data from "./../../../../data/LogInfo.json";
+import Data from "../../../data/LogInfo.json";
 import { useEffect, useState } from "react";
 
 export default function ProfileCard({ id }) {
