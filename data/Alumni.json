@@ -3,14 +3,76 @@
     "img": "https://i.ibb.co/grSQtQ1/zubayer.jpg",
     "name": "Zubayer Bin Ayub",
     "position": "Mentor",
-    "email": "mdsiaofficial@gmail.com",
+    "email": "@gmail.com",
+    "phone": "+8801885981241"
+  },
+  {
+    "img": "https://i.ibb.co/QPQ83Mv/ahad.jpg",
+    "name": "Abdul Ahad",
+    "position": "Mentor",
+    "email": "@gmail.com",
+    "phone": "+8801865606375"
+  },
+  {
+    "img": "https://i.ibb.co/FK3XTTm/emran.jpg",
+    "name": "Md. Emran Hasan",
+    "position": "Mentor",
+    "email": "@gmail.com",
+    "phone": "+8801885981241"
+  },
+  {
+    "img": "https://i.ibb.co/DMm83kw/ibrahim.jpg",
+    "name": "Ibrahim Khalil",
+    "position": "Mentor",
+    "email": "@gmail.com",
+    "phone": "+8801885981241"
+  },
+  {
+    "img": "https://i.ibb.co/2M8FF3g/monirul.png",
+    "name": "Monirul Alom Al-Amin",
+    "position": "Mentor",
+    "email": "@gmail.com",
     "phone": "+8801885981241"
   },
   {
     "img": "https://i.ibb.co/zPwcRzg/tarikul.jpg",
     "name": "Tarikul Islam",
     "position": "Mentor",
-    "email": "imrulhasan431@gmail.com",
-    "phone": "+8801865606375"
+    "email": "@gmail.com",
+    "phone": "+8801885981241"
+  },
+  {
+    "img": "https://i.ibb.co/Zh37CJ8/boni.jpg",
+    "name": "Boni Yeamin Laju",
+    "position": "Mentor",
+    "email": "@gmail.com",
+    "phone": "+8801885981241"
+  },
+  {
+    "img": "https://i.ibb.co/tcd1DhN/414619740-727288812419297-2867163758430476130-n.jpg",
+    "name": "Foyjul Islam Raju",
+    "position": "Mentor",
+    "email": "@gmail.com",
+    "phone": "+8801885981241"
+  },
+  {
+    "img": "https://i.ibb.co/b2F1SRT/saidur.jpg",
+    "name": "Saidur Rahman",
+    "position": "Mentor",
+    "email": "@gmail.com",
+    "phone": "+8801885981241"
+  },
+  {
+    "img": "https://i.ibb.co/gvD76pr/masud.jpg",
+    "name": "Md. Reduan Masud",
+    "position": "Mentor",
+    "email": "@gmail.com",
+    "phone": "+8801885981241"
+  },  {
+    "img": "https://i.ibb.co/SQSFG0t/abubakar.jpg",
+    "name": "Abu Bakar Siddique",
+    "position": "Mentor",
+    "email": "@gmail.com",
+    "phone": "+8801885981241"
   }
 ]
