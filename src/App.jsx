@@ -14,6 +14,7 @@ import NotFound from "./components/NotFound";
 import Login from "./components/LOGINSIGNUP/Login";
 import Signup from "./components/LOGINSIGNUP/Signup";
 import Alumni from "./components/Layout/AboutLayout/Alumni";
+import Member from "./components/Layout/AboutLayout/Member";
 
 export default function App() {
   return (
@@ -26,7 +27,7 @@ export default function App() {
             <Route path="history" element={<ComingSoon />} />
             <Route path="committee" element={<Committee />} />
             <Route path="alumni" element={<Alumni />} />
-            <Route path="member" element={<ComingSoon />} />
+            <Route path="member" element={<Member />} />
           </Route>
           <Route path="event" element={<Event />} />
           <Route path="gallery" element={<Gallery />} />

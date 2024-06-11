@@ -22,5 +22,11 @@ export default function Profile() {
     searchData();
   }, [searchData]);
 
-  return Data ? <ProfileCard id={id} /> : <ProfileNotFound id={id} />;
+  return Data ? (
+    <section className="bg-profile">
+      <ProfileCard id={id} />
+    </section>
+  ) : (
+    <ProfileNotFound id={id} />
+  );
 }
