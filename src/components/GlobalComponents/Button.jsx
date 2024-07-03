@@ -1,6 +1,6 @@
 import cn from "./../../../lib/cn";
 
-export default function Button({ title, clName }) {
+export default function Button({ title, img, clName }) {
   return (
     <button
       className={cn(
@@ -8,7 +8,7 @@ export default function Button({ title, clName }) {
         clName
       )}
     >
-      {title}
+      <p>{title}</p>
     </button>
   );
 }
