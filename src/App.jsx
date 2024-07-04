@@ -33,7 +33,7 @@ export default function App() {
           <Route path="gallery" element={<Gallery />} />
           <Route path="blog" element={<Blog />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="profile/:id" element={<Profile />} />
+          <Route path="profile/:id" element={<ComingSoon />} />
         </Route>
         <Route path="*" element={<NotFound />}></Route>
         <Route path="login" element={<Login />} />
