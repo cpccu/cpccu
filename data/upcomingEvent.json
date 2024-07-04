@@ -1,5 +1,21 @@
 [
   {
+    "img": "https://i.ibb.co/xmB3jsC/poster-cpccu.png",
+    "alt": "Alternative text for the image",
+    "eventHeadLine1": "Retake Byte Battles CPCCU",
+    "textContext": "A programming contest where participants compete to solve challenging problems and showcase their coding skills.",
+    "eventHeadLine2": "Reward",
+    "reward": "Winners will get a Gifts from the Club & Alumni.",
+    "eventHeadLine3": "Rules",
+    "rules1": "If someone cheats, they will be disqualified of the challenge.",
+    "rules2": "Cheating = Copying other's code, Copy pasting from online search.",
+    "rules3": "Try not to copy others code.",
+    "rules4": "Try to think out the solution yourself.",
+    "btnText": "Join Vjudge Group",
+    "btnLink": "https://vjudge.net/group/cpccu?r=e5n1ED2ylolVtUokPTkD",
+    "date": "2024-07-5"
+  },
+  {
     "img": "https://i.ibb.co/68dp323/poster-cpccu.png",
     "alt": "Alternative text for the image",
     "eventHeadLine1": "Byte Battles CPCCU",
