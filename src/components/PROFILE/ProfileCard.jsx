@@ -1,25 +1,25 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 import ProfileID from "./ProfileID";
-
 import Data from "../../../data/LogInfo.json";
-import { useEffect, useState } from "react";
 import ProfileDetails from "./ProfileDetails";
 import ProfileBlog from "./ProfileBlog";
 
 export default function ProfileCard({ id }) {
   return (
-    <main className="grid grid-cols-12 gap-6 lg:px-28 bg-responsibility lg:py-10">
-      <section className="col-span-12">
-        <ProfileID />
-      </section>
-      <section className="col-span-12 lg:col-span-4">
-        <ProfileDetails />
-      </section>
-      <section className="col-span-12 lg:col-span-8">
-        <ProfileBlog />
-      </section>
-    </main>
+    <>
+      <main className="grid grid-cols-12 gap-6 lg:px-28 bg-responsibility lg:py-10">
+        <section className="col-span-12">
+          <ProfileID />
+        </section>
+        <section className="col-span-12 lg:col-span-4">
+          <ProfileDetails />
+        </section>
+        <section className="col-span-12 lg:col-span-8">
+          <ProfileBlog />
+        </section>
+      </main>
+    </>
   );
 }
 
