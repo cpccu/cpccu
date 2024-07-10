@@ -1,5 +1,37 @@
 [
   {
+    "img": "https://i.ibb.co/58g00t8/poster-cpccu-3.png",
+    "alt": "Alternative text for the image",
+    "eventHeadLine1": "Console Craze Hackathon",
+    "textContext": "## Registration Deadline - 13th July, 2024 ## Hackathone Date - 15th July, 2024. A programming contest where participants compete to create the most creative and innovative console applications. The contest is open to all and offers a great opportunity to showcase your coding skills and creativity. Participants will have the freedom to explore the world of console programming and create their own unique and exciting games, utilities, and more. Whether you're a seasoned programmer or just starting out, this is a great opportunity to learn, grow, and showcase your talents.",
+    "eventHeadLine2": "Reward",
+    "reward": "Winners will get a Gifts from the Club & Alumni.",
+    "eventHeadLine3": "Rules",
+    "rules1": "If someone cheats, they will be disqualified of the challenge.",
+    "rules2": "Cheating = Copying other's code, Copy pasting from online search.",
+    "rules3": "Try not to copy others code.",
+    "rules4": "Try to think out the solution yourself.",
+    "btnText": "Register",
+    "btnLink": "https://forms.gle/92xAyYtmc7zz3ycL7",
+    "date": "2024-07-15"
+  },
+  {
+    "img": "https://i.ibb.co/rx5Z3y6/poster-cpccu-2.png",
+    "alt": "Alternative text for the image",
+    "eventHeadLine1": "Console App Workshop",
+    "textContext": "A workshop for learning C/C++ programming. We will explore the basics of C/C++ and learn how to build console applications. Participants will learn about input/output, loops, conditional statements, functions, and more. This workshop will provide a solid foundation for those who are new to C++ and those who want to brush up on their C++ skills.",
+    "eventHeadLine2": "Guest",
+    "reward": "Zubayer Bin Ayub",
+    "eventHeadLine3": "Agendas",
+    "rules1": "What is console app?",
+    "rules2": "How to build console app?",
+    "rules3": "What is the actual use of console app in real life.",
+    "rules4": "So don't miss the chance",
+    "btnText": "Join Google Meet - 10pm, 9th July, 2024",
+    "btnLink": "https://meet.google.com/wkd-sbuq-hwj",
+    "date": "2024-07-9"
+  },
+  {
     "img": "https://i.ibb.co/xmB3jsC/poster-cpccu.png",
     "alt": "Alternative text for the image",
     "eventHeadLine1": "Retake Byte Battles CPCCU",
@@ -66,8 +98,8 @@
   {
     "img": "https://i.ibb.co/bb8j4Tj/poster-cpccu.png",
     "alt": "Alternative text for the image",
-    "eventHeadLine1": "Code Queens Chanllenge",
-    "textContext": "Contest for our wonderfull ladies in our CSE Dept.",
+    "eventHeadLine1": "Code Queens Challenge",
+    "textContext": "Contest for our wonderful ladies in our CSE Dept.",
     "eventHeadLine2": "Reward",
     "reward": "Winners will get a University authorized certificate",
     "eventHeadLine3": "Rules",
