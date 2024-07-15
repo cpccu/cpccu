@@ -66,6 +66,19 @@ const UpComingEventCard = ({ data, clName }) => {
             </button>
           </Link>
         ) : null}
+
+        {data?.btnLink1 ? (
+          <Link to={data?.btnLink1} target="_blank" rel="noopener noreferrer">
+            <button
+              className="bg-black/30 text-white font-bold uppercase px-5 py-2 
+          hover:text-gray-600 hover:bg-white border-[3px] border-white trans"
+            >
+              {data?.btnText1}
+            </button>
+          </Link>
+        ) : null}
+
+
       </section>
 
       {/* 3rd column - only for mmmxl - 1750px and up */}
