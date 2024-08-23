@@ -54,7 +54,7 @@ Competitive Programming Camp City University,
             padding: 10px 20px;
             font-size: 16px;
             color: #ffffff;
-            background-color: #007bff;
+            background-color: transparent;
             text-decoration: none;
             border-radius: 5px;
             text-align: center;
