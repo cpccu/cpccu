@@ -28,6 +28,7 @@ export default {
 
     extend: {
       colors: {
+        login: "#6460DC",
         primary: "#F35F3B",
         header: "#3b60c9",
         headerHover: "#5b80e6",
