@@ -1,5 +1,5 @@
 {
-    "name": "server",
+    "name": "cpccu-server",
     "version": "1.0.0",
     "description": "ai + social media",
     "main": "index.js",

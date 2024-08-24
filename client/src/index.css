@@ -20,3 +20,43 @@ body {
 .conText {
   @apply md:text-lg lg:text-[1.1rem] leading-7;
 }
+
+.width {
+  @apply max-w-full lg:max-w-[1350px] xxl:max-w-[1600px] mx-auto;
+}
+
+.padding-x {
+  @apply px-5 md:px-7 lg:px-9 xxl:px-12;
+}
+
+.padding-y {
+  @apply py-2 lg:py-2 xxl:py-4;
+}
+
+
+.input {
+  @apply rounded-lg shadow-sm px-4  py-3 md:py-2 lg:py-2 xxl:py-3;
+}
+
+.or::before {
+  content: "";
+  display: block;
+  height: 0.05rem;
+  background-color: black;
+  width: 33%;
+  opacity: 50%;
+  position: absolute;
+  top: 14px;
+}
+
+.or::after {
+  content: "";
+  display: block;
+  height: 0.05rem;
+  opacity: 50%;
+  background-color: black;
+  width: 33%;
+  position: absolute;
+  right: 0px;
+  top: 14px;
+}

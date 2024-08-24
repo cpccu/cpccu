@@ -1,6 +1,7 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { cn } from "../../lib/cn";
+import cn from "../../lib/cn";
+
 
 const Modal = ({ isOpen, children, onClose, clName, Zindex }) => {
   return (

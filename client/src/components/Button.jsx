@@ -1,6 +1,6 @@
-import React from "react";
-import { cn } from "../../lib/cn";
+
 import { motion } from "framer-motion";
+import cn from "../../lib/cn";
 
 const Button = ({
   type = "button",
