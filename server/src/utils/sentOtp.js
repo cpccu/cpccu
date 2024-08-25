@@ -96,7 +96,7 @@ const sendOTP = (email, otp, purpose, data = {}) => {
                 <p>Dear ${fullname},</p>
                 <p>Thank you for registering with us! To complete your registration, please use the following One-Time Password (OTP):</p>
                 <div class="otp-container">
-                    <p class="otp" onclick="copyOTP('${otp}')">${otp}</p>
+                    <div class="otp" onclick="copyOTP('${otp}')">${otp}</div>
                 </div>
                 <p>This OTP is valid for ${OTP_TIME} minutes. Please do not share this code with anyone.</p>
                 <p>If you did not request this, please ignore this email.</p>
