@@ -12,7 +12,7 @@ export default function Layout() {
       <NavBar />
       <Outlet />
       <Footer />
-      {/* <SideProfile /> */}
+      <SideProfile />
       <GoToTop />
     </>
   );

@@ -3,11 +3,13 @@ import { useMutation } from "@tanstack/react-query";
 import { apiPost } from "../utils/apiAxios.util";
 import { useAuthContext } from "../Context/Auth.context";
 import { useErrorContext } from "../Context/Error.context";
+import { useNavigate } from "react-router-dom";
 
 const useLogin = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isShowPass, setShowPass] = useState(false);
+  const navigate = useNavigate();
   const { addError } = useErrorContext();
   const { addUser } = useAuthContext();
 
@@ -19,6 +21,7 @@ const useLogin = () => {
     },
     onSuccess: (data) => {
       addUser(data.data);
+      navigate(`/profile/${data.data._id}`);
     },
     onError: (error) => {
       console.log(error);

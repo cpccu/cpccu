@@ -9,7 +9,12 @@ import { faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 
 import Data from "../../../data/global/navBar.json";
 import GoToTop from "./GoToTop";
+import { useLogout } from "../../hooks/useLogout";
+import { useAuthContext } from "../../Context/Auth.context";
+
 export default function NavBar() {
+  const { logoutHandler } = useLogout();
+  const { logStatus } = useAuthContext();
   const navigate = useNavigate();
   const [fixed, setFixed] = useState(false);
   const [open, setOpen] = useState(false);
@@ -122,12 +127,22 @@ export default function NavBar() {
           {/* nav link */}
           <NavItem setOpen={setOpen} />
 
-          <Link to="/login">
-            <button className="trans hover:ring bg-gradient-to-r from-header to-green-500 text-white flex md:hidden items-center justify-center gap-2 py-2 absolute bottom-20 left-10 right-10 rounded-full font-semibold">
-              <FontAwesomeIcon icon={faSignInAlt} />
-              <span>Login</span>
+          {logStatus ? (
+            <button
+              onClick={logoutHandler}
+              className="trans hover:ring bg-gradient-to-r from-header to-green-500 text-white flex md:hidden items-center justify-center gap-2 py-2 absolute bottom-20 left-10 right-10 rounded-full font-semibold"
+            >
+              <FontAwesomeIcon className=" rotate-180" icon={faSignInAlt} />
+              <span>Logout</span>
             </button>
-          </Link>
+          ) : (
+            <Link to="/login">
+              <button className="trans hover:ring bg-gradient-to-r from-header to-green-500 text-white flex md:hidden items-center justify-center gap-2 py-2 absolute bottom-20 left-10 right-10 rounded-full font-semibold">
+                <FontAwesomeIcon icon={faSignInAlt} />
+                <span>Login</span>
+              </button>
+            </Link>
+          )}
         </nav>
 
         {/* nav link end */}

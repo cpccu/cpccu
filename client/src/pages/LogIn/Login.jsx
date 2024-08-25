@@ -32,12 +32,6 @@ export default function Login() {
     navigate("/signup");
   };
 
-  useEffect(() => {
-    if (isSuccess) {
-      navigate("/profile");
-    }
-  }, [isSuccess]);
-
   return (
     <div className="width padding-x">
       <ForgotPassword isOpen={isForgot} setOpen={setForgot} />
