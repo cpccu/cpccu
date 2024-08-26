@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 
@@ -7,16 +8,16 @@ export default function AboutCard({ Data }) {
       <section className="h-[20rem]">
         <img
           className="h-full w-full object-cover group-hover:scale-105 trans"
-          src={Data?.img}
-          alt={Data?.name}
+          src={Data?.avatar}
+          alt={Data?.fullname}
         />
       </section>
       <section className="flex flex-col items-center text-center justify-center gap-1">
         <h1 className="text-2xl font-semibold capitalize text-pText">
-          {Data?.name}
+          {Data?.fullname}
         </h1>
         <p className={`italic capitalize text-xl ${Data?.type && "font-bold"}`}>
-          {Data?.position}
+          {Data?.roles?.positionName}
         </p>
 
         <Link
@@ -31,7 +32,7 @@ export default function AboutCard({ Data }) {
 
       <section>
         <Link
-          to={`/profile/${Data?.name.replace(/\s/g, "").toLowerCase()}`}
+          to={`/profile/${Data?._id}`}
           className="mt-5 px-5 py-3 font-semibold border rounded-full bg-header hover:bg-gray-900 trans text-white"
         >
           View Profile

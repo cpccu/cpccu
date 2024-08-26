@@ -1,7 +1,7 @@
 [
   {
-    "img": "https://i.ibb.co/grSQtQ1/zubayer.jpg",
-    "name": "Zubayer Bin Ayub",
+    "avatar": "https://i.ibb.co/grSQtQ1/zubayer.jpg",
+    "fullname": "Zubayer Bin Ayub",
     "position": "Senior Software Engineer",
     "batch": "27th",
     "technology": "Dotnet",
@@ -16,11 +16,12 @@
       "github": "https://github.com/zubayer01913",
       "linkedin": "https://www.linkedin.com/in/zubayer-bin-ayub/",
       "facebook": "https://www.facebook.com/zubayer.binayub"
-    }
+    },
+    "_id": "1"
   },
   {
-    "img": "https://i.ibb.co/Zh37CJ8/boni.jpg",
-    "name": "Boni Yeamin",
+    "avatar": "https://i.ibb.co/Zh37CJ8/boni.jpg",
+    "fullname": "Boni Yeamin",
     "position": "Cyber Security Engineer",
     "batch": "46",
     "technology": "",
@@ -33,11 +34,12 @@
       "github": "https://github.com/boniyeamincse",
       "linkedin": "https://linkedin.com/in/boniyeamin/",
       "facebook": ""
-    }
+    },
+    "_id": "2"
   },
   {
-    "img": "https://i.ibb.co/RHPXFnX/ashraf.jpg",
-    "name": "Kazi Ashraf Hossain",
+    "avatar": "https://i.ibb.co/RHPXFnX/ashraf.jpg",
+    "fullname": "Kazi Ashraf Hossain",
     "position": "SQA Engineer",
     "batch": "38",
     "technology": "SQA",
@@ -50,11 +52,12 @@
       "github": "https://github.com/kaziashrafhossain",
       "linkedin": "https://linkedin.com/in/kazi0ashraf",
       "facebook": ""
-    }
+    },
+    "_id": "3"
   },
   {
-    "img": "https://i.ibb.co/wWkKxWY/sakibulalam.jpg",
-    "name": "Md. Sakibul Alam",
+    "avatar": "https://i.ibb.co/wWkKxWY/sakibulalam.jpg",
+    "fullname": "Md. Sakibul Alam",
     "position": "Senior Software Engineer",
     "batch": "41th",
     "technology": "",
@@ -67,11 +70,12 @@
       "github": "https://github.com/mdskrumi",
       "linkedin": "https://www.linkedin.com/in/mdskrumi/",
       "facebook": "https://www.facebook.com/mdskrumi/"
-    }
+    },
+    "_id": "4"
   },
   {
-    "img": "https://i.ibb.co/SQSFG0t/abubakar.jpg",
-    "name": "Abu Bakar Siddik",
+    "avatar": "https://i.ibb.co/SQSFG0t/abubakar.jpg",
+    "fullname": "Abu Bakar Siddik",
     "position": "Junior Software & Data Engineer",
     "batch": "53",
     "technology": "",
@@ -84,11 +88,12 @@
       "github": "https://github.com/siddik718",
       "linkedin": "https://www.linkedin.com/in/abu-bakar-siddik-b59097208/",
       "facebook": "https://www.facebook.com/nahid.na.007"
-    }
+    },
+    "_id": "5"
   },
   {
-    "img": "https://i.ibb.co/fQvSxn1/helal.jpg",
-    "name": "Helal Hossen",
+    "avatar": "https://i.ibb.co/fQvSxn1/helal.jpg",
+    "fullname": "Helal Hossen",
     "position": "Research Assistant",
     "batch": "",
     "technology": "",
@@ -101,11 +106,12 @@
       "github": "",
       "linkedin": "http://linkedin.com/in/helal-hossen-8044bb135",
       "facebook": "https://www.facebook.com/profile.php?id=100009459280714&mibextid=LQQJ4d"
-    }
+    },
+    "_id": "6"
   },
   {
-    "img": "https://i.ibb.co/dQKr5G9/monirul.jpg",
-    "name": "Md. Monirul Alom",
+    "avatar": "https://i.ibb.co/dQKr5G9/monirul.jpg",
+    "fullname": "Md. Monirul Alom",
     "position": "Software Engineer",
     "batch": "42th",
     "technology": "",
@@ -118,11 +124,12 @@
       "github": "https://github.com/monirulalom",
       "linkedin": "https://www.linkedin.com/in/monirulalom",
       "facebook": "https://fb.com/olikhitokabbo"
-    }
+    },
+    "_id": "7"
   },
   {
-    "img": "https://i.ibb.co/Lp7xQJj/tarikulislam.jpg",
-    "name": "Tarikul Islam",
+    "avatar": "https://i.ibb.co/Lp7xQJj/tarikulislam.jpg",
+    "fullname": "Tarikul Islam",
     "position": "Senior Software Engineer",
     "batch": "43th",
     "technology": "",
@@ -135,11 +142,12 @@
       "github": "https://github.com/TarikulCSE31",
       "linkedin": "https://www.linkedin.com/in/tarikul-islam-513682160",
       "facebook": "https://www.facebook.com/tarikul.cse.31"
-    }
+    },
+    "_id": "8"
   },
   {
-    "img": "https://i.ibb.co/2c3Hp28/almustakim.jpg",
-    "name": "Al Mustakim",
+    "avatar": "https://i.ibb.co/2c3Hp28/almustakim.jpg",
+    "fullname": "Al Mustakim",
     "position": "Software Engineer II",
     "batch": "",
     "technology": "",
@@ -154,11 +162,12 @@
       "github": "https://github.com/almustakim",
       "linkedin": "https://www.linkedin.com/in/almustakim/",
       "facebook": "https://www.facebook.com/bma.mustakim"
-    }
+    },
+    "_id": "9"
   },
   {
-    "img": "https://i.ibb.co/dDFcSQj/alimran.jpg",
-    "name": "Al Imran Hossain",
+    "avatar": "https://i.ibb.co/dDFcSQj/alimran.jpg",
+    "fullname": "Al Imran Hossain",
     "position": "Software Engineer",
     "batch": "",
     "technology": "",
@@ -171,11 +180,12 @@
       "github": "https://github.com/imimran",
       "linkedin": "https://linkedin.com/in/imalimran",
       "facebook": ""
-    }
+    },
+    "_id": "10"
   },
   {
-    "img": "https://i.ibb.co/DMm83kw/ibrahim.jpg",
-    "name": "Ibrahim Khalil",
+    "avatar": "https://i.ibb.co/DMm83kw/ibrahim.jpg",
+    "fullname": "Ibrahim Khalil",
     "position": "Software Engineer",
     "batch": "39th",
     "technology": "",
@@ -188,11 +198,12 @@
       "github": "",
       "linkedin": "https://www.linkedin.com/in/ibrahimkhalil2022/",
       "facebook": ""
-    }
+    },
+    "_id": "11"
   },
   {
-    "img": "https://i.ibb.co/FK3XTTm/emran.jpg",
-    "name": "Md Emran Hasan",
+    "avatar": "https://i.ibb.co/FK3XTTm/emran.jpg",
+    "fullname": "Md Emran Hasan",
     "position": "Software Engineer",
     "batch": "39th",
     "technology": "",
@@ -205,11 +216,12 @@
       "github": "",
       "linkedin": "https://www.linkedin.com/in/emrancub/",
       "facebook": ""
-    }
+    },
+    "_id": "12"
   },
   {
-    "img": "https://i.ibb.co/QPQ83Mv/ahad.jpg",
-    "name": "Abdul Ahad",
+    "avatar": "https://i.ibb.co/QPQ83Mv/ahad.jpg",
+    "fullname": "Abdul Ahad",
     "position": "Software Engineer",
     "batch": "39th",
     "technology": "",
@@ -217,63 +229,66 @@
       "Software Engineer": ""
     },
     "email": "csabdulahad@gmail.com",
-    "phone": "",
+    "phone": "+8801678554268",
     "socials": {
       "github": "https://github.com/csabdulahad",
-      "linkedin": "https://www.linkedin.com/in/csabdulahad",
-      "facebook": "https://www.facebook.com/csabdulahad",
-      "youtube": "https://www.youtube.com/channel/UCl5bPpJvBWosO6hBKk9Tj2A"
-    }
+      "linkedin": "https://www.linkedin.com/in/abdulahadcs/",
+      "facebook": "https://www.facebook.com/abdul.ahad.378"
+    },
+    "_id": "13"
   },
   {
-    "img": "https://i.ibb.co/gvD76pr/masud.jpg",
-    "name": "Md. Reduan Masud",
+    "avatar": "https://i.ibb.co/3S0GzR3/arnab.jpg",
+    "fullname": "Arnab Sarker",
+    "position": "Frontend Developer",
+    "batch": "36th",
+    "technology": "",
+    "job": {
+      "Frontend Developer": "TechnoWizards"
+    },
+    "email": "arnab.cse0218@gmail.com",
+    "phone": "+8801987467825",
+    "socials": {
+      "github": "https://github.com/arnabcs",
+      "linkedin": "https://www.linkedin.com/in/arnab-sarker",
+      "facebook": ""
+    },
+    "_id": "14"
+  },
+  {
+    "avatar": "https://i.ibb.co/ZXK9p3d/nahid.jpg",
+    "fullname": "Nahid Hasan",
     "position": "Software Engineer",
-    "batch": "49th",
+    "batch": "43",
+    "technology": "",
+    "job": {
+      "Software Engineer": "Mindtree Ltd"
+    },
+    "email": "nahid.hasan@mindtree.com",
+    "phone": "+8801871717432",
+    "socials": {
+      "github": "https://github.com/nahidhasan37",
+      "linkedin": "https://www.linkedin.com/in/nahid-hasan-879969218/",
+      "facebook": "https://www.facebook.com/nahidhasan/"
+    },
+    "_id": "15"
+  },
+  {
+    "avatar": "https://i.ibb.co/ZzMjfsw/kaiser.jpg",
+    "fullname": "Kaiser Ahmed",
+    "position": "Software Engineer",
+    "batch": "39th",
     "technology": "",
     "job": {
       "Software Engineer": ""
     },
-    "email": "reduanmasudcse@gmail.com",
-    "phone": "+8801752883928",
+    "email": "kaiser.ahmed.cse@gmail.com",
+    "phone": "+8801709293484",
     "socials": {
-      "github": "https://github.com/reduanmasud",
-      "linkedin": "https://www.linkedin.com/in/reduan-masud/",
-      "facebook": ""
-    }
-  },
-  {
-    "img": "https://i.ibb.co/tcd1DhN/414619740-727288812419297-2867163758430476130-n.jpg",
-    "name": "Foyjul Islam Raju",
-    "position": "Software Engineer",
-    "batch": "47th",
-    "technology": "",
-    "job": {
-      "Software Engineer": ""
+      "github": "https://github.com/kaiserahmed",
+      "linkedin": "https://www.linkedin.com/in/kaiser-ahmed/",
+      "facebook": "https://www.facebook.com/kaiser.ahmed.9"
     },
-    "email": "",
-    "phone": "",
-    "socials": {
-      "github": "",
-      "linkedin": "",
-      "facebook": ""
-    }
-  },
-  {
-    "img": "https://i.ibb.co/b2F1SRT/saidur.jpg",
-    "name": "Saidur Rahman",
-    "position": "Software Engineer",
-    "batch": "46th",
-    "technology": "",
-    "job": {
-      "Software Engineer": ""
-    },
-    "email": "saidurraahmaan@gmail.com",
-    "phone": "+8801304730345",
-    "socials": {
-      "github": "https://github.com/saidurraahmaan",
-      "linkedin": "https://www.linkedin.com/in/saidur-raahmaan/",
-      "facebook": ""
-    }
+    "_id": "16"
   }
 ]

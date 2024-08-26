@@ -2,7 +2,6 @@ import Modal from "../../components/Modal";
 import Button from "../../components/Button";
 import { SlCheck } from "react-icons/sl";
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
 
 export default function SuccessRegi({ isSuccess }) {
   const navigate = useNavigate();

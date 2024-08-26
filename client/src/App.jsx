@@ -21,16 +21,24 @@ import Member from "./components/Layout/AboutLayout/Member";
 import NotFound from "./components/NotFound";
 import { useNetworkConnection } from "./Context/Network.context";
 import { useErrorContext } from "./Context/Error.context";
+import { useAuthContext } from "./Context/Auth.context";
+import Spinner from "./components/Spinner";
 
 export default function App() {
   const { isConnected } = useNetworkConnection();
   const { addError } = useErrorContext();
+  const { isLoading, isPending } = useAuthContext();
 
   useEffect(() => {
     if (!isConnected) {
       addError("No internet connection. Please check your network settings.");
     }
   }, [isConnected]);
+
+  if (isLoading || isPending) {
+    return <Spinner />;
+  }
+
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -72,14 +80,6 @@ export default function App() {
             element={
               <RouteTransition>
                 <RenewPass />
-              </RouteTransition>
-            }
-          />
-          <Route
-            path="/profile"
-            element={
-              <RouteTransition>
-                <ProtectedRoute element={<Dashborad />} />
               </RouteTransition>
             }
           />

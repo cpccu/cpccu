@@ -85,4 +85,10 @@ const uploadORchangeIMG = asyncHandler(async (req, res) => {
         .json(new ApiResponse(200, user, `${key} is uploaded successfully`));
 });
 
-export { getUserInfo, updateUserInfo, uploadORchangeIMG };
+const memberHandler = asyncHandler(async (req, res) => {
+    const member = await User.find({}, PUBLIC_ITEM);
+
+    return res.status(200).json(new ApiResponse(200, member, 'Members data'));
+});
+
+export { getUserInfo, updateUserInfo, uploadORchangeIMG, memberHandler };

@@ -2,6 +2,7 @@ import { Router } from 'express';
 
 import {
     getUserInfo,
+    memberHandler,
     updateUserInfo,
     uploadORchangeIMG,
 } from '../controllers/user.controller.js';
@@ -16,5 +17,7 @@ router.route('/userInfo-update').patch(verifyToken, updateUserInfo);
 router
     .route('/user/upload-image/:key')
     .patch(verifyToken, upload.single('image'), uploadORchangeIMG);
+
+router.route('/member').get(memberHandler);
 
 export default router;
