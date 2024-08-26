@@ -6,6 +6,7 @@ import { RxReload } from "react-icons/rx";
 import ForgotPassword from "./ForgotPassword.jsx";
 import { useNavigate } from "react-router-dom";
 import useLogin from "../../hooks/useLogin.js";
+import GoogleLogin from "./GoogleLogin.jsx";
 
 export default function Login() {
   const {
@@ -123,7 +124,7 @@ export default function Login() {
               <OrPartition text={"or, Login with"} />
 
               <section className="flex items-center justify-center">
-                <Button clName={"input"}>Sign in with Google</Button>
+                <GoogleLogin />
               </section>
               <p className="text-center">
                 <span className="opacity-50 text-sm">

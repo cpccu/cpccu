@@ -14,6 +14,7 @@ import {
     sendOTP,
     generateOTP,
 } from '../utils/utility.js';
+import { auth } from '../utils/firebaseAuth.js';
 
 // when user registers account manually
 const registrationHandler = asyncHandler(async (req, res) => {
@@ -289,6 +290,97 @@ const resetPasswordHandler = asyncHandler(async (req, res) => {
         .json(new ApiResponse(200, null, 'Password successfully reset'));
 });
 
+const googleLoginHandler = asyncHandler(async (req, res) => {
+    const { idToken } = req.body;
+
+    if (!idToken) {
+        throw new ApiError(400, 'Google ID token is required');
+    }
+
+    let decodedToken;
+    try {
+        decodedToken = await auth.verifyIdToken(idToken);
+    } catch (error) {
+        throw new ApiError(401, 'Invalid Google ID token');
+    }
+
+    const { uid, email } = decodedToken;
+
+    const user = await User.findOne({
+        $or: [{ googleID: uid }, { email: email }],
+    });
+
+    if (!user) {
+        throw new ApiError(404, 'User not found');
+    }
+
+    const accessToken = user.generateAccessToken();
+    const refreshToken = user.generateRefreshToken();
+
+    const expire = new Date(Date.now() + TOKEN_TIME * 24 * 60 * 60 * 1000);
+
+    user.refreshTokens.push({
+        token: refreshToken,
+        expire,
+    });
+    await user.save({ validateBeforeSave: false });
+
+    const loginUser = await User.findById(user._id).select(PUBLIC_ITEM);
+
+    return res
+        .status(200)
+        .cookie('accessToken', accessToken, COOKIE_OPTIONS)
+        .cookie('refreshToken', refreshToken, COOKIE_OPTIONS)
+        .json(new ApiResponse(200, loginUser, 'Login successful'));
+});
+
+const googleRegiHandler = asyncHandler(async (req, res) => {
+    const { idToken } = req.body;
+
+    // Verify the Google ID token
+    let decodedToken;
+    try {
+        decodedToken = await auth.verifyIdToken(idToken);
+    } catch (error) {
+        throw new ApiError(401, 'Invalid Google ID token');
+    }
+
+    const { uid, email, name, picture } = decodedToken;
+
+    // Check if the user already exists
+    const existingUser = await User.findOne({
+        $or: [{ googleID: uid }, { email: email }],
+    });
+
+    if (existingUser && existingUser.isValid) {
+        // If the user already exists, do not create a new account
+        throw new ApiError(
+            409,
+            'User with this email or Google ID already exists'
+        );
+    }
+
+    // Create a new user
+    const newUser = new User({
+        googleID: uid,
+        email,
+        fullname: name,
+        avatar: picture,
+        isValid: true,
+    });
+    await newUser.save();
+
+    return res
+        .status(201)
+        .json(
+            new ApiResponse(
+                201,
+                newUser,
+                'User account created successfully. Verify the OTP sent to your email.'
+            )
+        );
+});
+
 export {
     registrationHandler,
     verifyOTPHandler,
@@ -297,4 +389,6 @@ export {
     logoutHandler,
     forgottenPasswordHandler,
     resetPasswordHandler,
+    googleLoginHandler,
+    googleRegiHandler,
 };

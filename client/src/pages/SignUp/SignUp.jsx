@@ -9,6 +9,7 @@ import Button from "../../components/Button";
 import OrPartition from "../../components/OrPartition";
 import { useRegistration } from "../../hooks/useRegistration";
 import VerifyOTP from "./VerifyOTP";
+import GoogleSignUp from "./GoogleSignUp";
 
 // Input field information for each page
 const inputFieldInfo = [
@@ -132,8 +133,7 @@ export default function SignUp() {
             </header>
 
             {/* Google Sign-Up Button */}
-            <Button>Sign up with Google</Button>
-
+            <GoogleSignUp />
             {/* Or partition */}
             <OrPartition clName="mb-3 mt-4" text="or" />
 

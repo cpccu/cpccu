@@ -8,6 +8,8 @@ import {
     verifyOTPHandler,
     forgottenPasswordHandler,
     resetPasswordHandler,
+    googleLoginHandler,
+    googleRegiHandler,
 } from '../controllers/auth.controller.js';
 import { verifyToken } from '../middlewares/Auth.middleware.js';
 import { upload } from '../middlewares/upload.middleware.js';
@@ -23,5 +25,8 @@ router.route('/logout').get(verifyToken, logoutHandler);
 
 router.route('/reset-link/:email').get(forgottenPasswordHandler);
 router.route('/reset-password').patch(resetPasswordHandler);
+
+router.route('/google-signin').post(googleLoginHandler);
+router.route('/google-signup').post(googleRegiHandler);
 
 export default router;
