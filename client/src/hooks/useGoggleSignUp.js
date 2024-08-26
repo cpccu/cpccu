@@ -15,16 +15,13 @@ const useGoogleSignUp = () => {
     mutationFn: async (idToken) => {
       return apiPost("/api/auth/google-signup", { idToken });
     },
-    onSuccess: (data) => {
-      addUser(data.data);
-      navigate(`/profile/${data.data._id}`);
-    },
+
     onError: (error) => {
       addError(error.message);
     },
   });
 
-  const loginHandler = async () => {
+  const signUpHandler = async () => {
     try {
       const result = await signInWithPopup(auth, googleAuthProvider);
       console.log(result.user);
@@ -34,7 +31,8 @@ const useGoogleSignUp = () => {
   };
 
   return {
-    loginHandler,
+    signUpHandler,
+    created: mutation.isSuccess,
     isLoading: mutation.isLoading,
     isPending: mutation.isPending,
   };

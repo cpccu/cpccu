@@ -10,6 +10,9 @@ import OrPartition from "../../components/OrPartition";
 import { useRegistration } from "../../hooks/useRegistration";
 import VerifyOTP from "./VerifyOTP";
 import GoogleSignUp from "./GoogleSignUp";
+import useGoogleSignUp from "../../hooks/useGoggleSignUp";
+import SuccessRegi from "./SuccessRegi";
+import GoogleLogo from "./../../assets/img/Google.png";
 
 // Input field information for each page
 const inputFieldInfo = [
@@ -59,7 +62,8 @@ const inputFieldInfo = [
 
 export default function SignUp() {
   const [isOpen, setOpen] = useState(false);
-  const [pageNumber, setPageNumber] = useState(0); // Page index
+  const [pageNumber, setPageNumber] = useState(0); // Page
+  const { created, signUpHandler } = useGoogleSignUp();
   const navigate = useNavigate();
   const {
     formValues,
@@ -92,7 +96,7 @@ export default function SignUp() {
     }
   };
 
-  // Handle back button click
+  // Handle back button cli ck
   const handleBack = () => {
     if (pageNumber > 0) {
       setPageNumber(pageNumber - 1);
@@ -111,6 +115,7 @@ export default function SignUp() {
       {/* OTP Verification Modal */}
       <VerifyOTP isOpen={isOpen} setOpen={setOpen} mail={formValues?.email} />
 
+      {created && <SuccessRegi isSuccess={created} />}
       <div className="flex h-screen items-center justify-center">
         <section className="lg:w-1/2">
           <motion.div
@@ -133,7 +138,18 @@ export default function SignUp() {
             </header>
 
             {/* Google Sign-Up Button */}
-            <GoogleSignUp />
+            <motion.button
+              whileTap={{ scale: 0.99 }}
+              onClick={signUpHandler}
+              className="flex gap-2 items-center justify-center ring-1 ring-black/20  bg-white shadow-custom p-2 rounded"
+            >
+              <div>
+                <img className="h-6" src={GoogleLogo} alt="" />
+              </div>
+              <div className="font-semibold text-gray-600">
+                Sign up with Google
+              </div>
+            </motion.button>
             {/* Or partition */}
             <OrPartition clName="mb-3 mt-4" text="or" />
 

@@ -21,6 +21,11 @@ export default function NavBar() {
   const mobileNav = useRef(null);
   const mobileNavToggler = useRef(null);
 
+  const logoutHandlerBTN = () => {
+    navigate("/login");
+    logoutHandler();
+  };
+
   const navHandler = () => {
     setOpen((prev) => !prev);
   };
@@ -129,7 +134,7 @@ export default function NavBar() {
 
           {logStatus ? (
             <button
-              onClick={logoutHandler}
+              onClick={logoutHandlerBTN}
               className="trans hover:ring bg-gradient-to-r from-header to-green-500 text-white flex md:hidden items-center justify-center gap-2 py-2 absolute bottom-20 left-10 right-10 rounded-full font-semibold"
             >
               <FontAwesomeIcon className=" rotate-180" icon={faSignInAlt} />

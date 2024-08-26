@@ -7,6 +7,7 @@ import ForgotPassword from "./ForgotPassword.jsx";
 import { useNavigate } from "react-router-dom";
 import useLogin from "../../hooks/useLogin.js";
 import GoogleLogin from "./GoogleLogin.jsx";
+import { useAuthContext } from "../../Context/Auth.context.jsx";
 
 export default function Login() {
   const {
@@ -21,6 +22,8 @@ export default function Login() {
     isPending,
     isSuccess,
   } = useLogin();
+
+  const { logStatus } = useAuthContext(); // Ensure logStatus correctly reflects login status
 
   const [isForgot, setForgot] = useState(false);
   const navigate = useNavigate();

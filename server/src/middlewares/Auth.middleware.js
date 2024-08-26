@@ -34,7 +34,6 @@ const verifyToken = asyncHandler(async (req, res, next) => {
         // Log the error for debugging
         console.error('Token verification error:', error);
 
-        // Handle token expiration
         if (error.name === 'TokenExpiredError') {
             const refreshToken = req.cookies?.refreshToken;
 
@@ -80,7 +79,7 @@ const verifyToken = asyncHandler(async (req, res, next) => {
             }
         }
 
-        // For other errors, throw a generic unauthorized error
+        // Handle other types of errors
         throw new ApiError(401, error.message || 'Unauthorized request');
     }
 });

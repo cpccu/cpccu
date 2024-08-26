@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import InstitudeInfo from "../../../data/global/institude.json";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { MdOutlineCall } from "react-icons/md";
@@ -8,6 +8,12 @@ import { useLogout } from "../../hooks/useLogout";
 export default function Header() {
   const { logStatus } = useAuthContext();
   const { logoutHandler } = useLogout();
+  const navigate = useNavigate();
+
+  const logoutHandlerBTN = () => {
+    navigate("/login");
+    logoutHandler();
+  };
 
   return (
     <header
@@ -35,7 +41,7 @@ export default function Header() {
       {logStatus ? (
         <div className="flex justify-end  items-center">
           <button
-            onClick={logoutHandler}
+            onClick={logoutHandlerBTN}
             className="py-2 px-5 bg-header/90 hover:bg-header trans text-sm font-semibold"
           >
             Logout

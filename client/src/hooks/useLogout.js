@@ -5,15 +5,10 @@ import { useErrorContext } from "../Context/Error.context";
 
 const useLogout = () => {
   const navigate = useNavigate();
-  const { addError } = useErrorContext();
 
   const mutation = useMutation({
     mutationFn: () => {
       return apiGet("/api/auth/logout");
-    },
-    onSuccess: (data) => {
-      console.log(data);
-      navigate("/login");
     },
   });
 
