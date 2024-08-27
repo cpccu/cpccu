@@ -1,0 +1,36 @@
+{
+    "name": "cpccu-server",
+    "version": "1.0.0",
+    "description": "ai + social media",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "express",
+        "mongoose"
+    ],
+    "author": "Rahul Roy Nipon",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cloudinary": "^2.3.1",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-session": "^1.18.0",
+        "firebase-admin": "^12.4.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.5.1",
+        "multer": "^1.4.5-lts.1",
+        "nodemailer": "^6.9.14"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4",
+        "prettier": "^3.3.3"
+    }
+}

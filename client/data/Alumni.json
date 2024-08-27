@@ -1,0 +1,294 @@
+[
+  {
+    "avatar": "https://i.ibb.co/grSQtQ1/zubayer.jpg",
+    "fullname": "Zubayer Bin Ayub",
+    "position": "Senior Software Engineer",
+    "batch": "27th",
+    "technology": "Dotnet",
+    "job": {
+      "Founder": "Lustmanager",
+      "Senior Software Engineer": "Wafi Solutions bd",
+      "Consultant": "Sufia Institute (USA)"
+    },
+    "email": "zubayer01913@gmail.com",
+    "phone": "+8801823937230",
+    "socials": {
+      "github": "https://github.com/zubayer01913",
+      "linkedin": "https://www.linkedin.com/in/zubayer-bin-ayub/",
+      "facebook": "https://www.facebook.com/zubayer.binayub"
+    },
+    "_id": "1"
+  },
+  {
+    "avatar": "https://i.ibb.co/Zh37CJ8/boni.jpg",
+    "fullname": "Boni Yeamin",
+    "position": "Cyber Security Engineer",
+    "batch": "46",
+    "technology": "",
+    "job": {
+      "Cyber Security Engineer": "Akij Group"
+    },
+    "email": "boniyeamin.cse46@gmail.com",
+    "phone": "+8801914638653",
+    "socials": {
+      "github": "https://github.com/boniyeamincse",
+      "linkedin": "https://linkedin.com/in/boniyeamin/",
+      "facebook": ""
+    },
+    "_id": "2"
+  },
+  {
+    "avatar": "https://i.ibb.co/RHPXFnX/ashraf.jpg",
+    "fullname": "Kazi Ashraf Hossain",
+    "position": "SQA Engineer",
+    "batch": "38",
+    "technology": "SQA",
+    "job": {
+      "SQA Engineer": "Inflack Limited"
+    },
+    "email": "Ashrafcse020@gmail.com",
+    "phone": "+8801832550020",
+    "socials": {
+      "github": "https://github.com/kaziashrafhossain",
+      "linkedin": "https://linkedin.com/in/kazi0ashraf",
+      "facebook": ""
+    },
+    "_id": "3"
+  },
+  {
+    "avatar": "https://i.ibb.co/wWkKxWY/sakibulalam.jpg",
+    "fullname": "Md. Sakibul Alam",
+    "position": "Senior Software Engineer",
+    "batch": "41th",
+    "technology": "",
+    "job": {
+      "Senior Software Engineer": "Strativ AB"
+    },
+    "email": "mdskrumi@gmail.com",
+    "phone": "01686382343",
+    "socials": {
+      "github": "https://github.com/mdskrumi",
+      "linkedin": "https://www.linkedin.com/in/mdskrumi/",
+      "facebook": "https://www.facebook.com/mdskrumi/"
+    },
+    "_id": "4"
+  },
+  {
+    "avatar": "https://i.ibb.co/SQSFG0t/abubakar.jpg",
+    "fullname": "Abu Bakar Siddik",
+    "position": "Junior Software & Data Engineer",
+    "batch": "53",
+    "technology": "",
+    "job": {
+      "Junior Software & Data Engineer": "Be Data Solutions"
+    },
+    "email": "absiddik718@gmail.com",
+    "phone": "",
+    "socials": {
+      "github": "https://github.com/siddik718",
+      "linkedin": "https://www.linkedin.com/in/abu-bakar-siddik-b59097208/",
+      "facebook": "https://www.facebook.com/nahid.na.007"
+    },
+    "_id": "5"
+  },
+  {
+    "avatar": "https://i.ibb.co/fQvSxn1/helal.jpg",
+    "fullname": "Helal Hossen",
+    "position": "Research Assistant",
+    "batch": "",
+    "technology": "",
+    "job": {
+      "Research Assistant": "University of Texas at Dallas"
+    },
+    "email": "helal.h0174@gmail.com",
+    "phone": "",
+    "socials": {
+      "github": "",
+      "linkedin": "http://linkedin.com/in/helal-hossen-8044bb135",
+      "facebook": "https://www.facebook.com/profile.php?id=100009459280714&mibextid=LQQJ4d"
+    },
+    "_id": "6"
+  },
+  {
+    "avatar": "https://i.ibb.co/dQKr5G9/monirul.jpg",
+    "fullname": "Md. Monirul Alom",
+    "position": "Software Engineer",
+    "batch": "42th",
+    "technology": "",
+    "job": {
+      "Software Engineer": ""
+    },
+    "email": "monirulalom@gmail.com",
+    "phone": "+8801723358503",
+    "socials": {
+      "github": "https://github.com/monirulalom",
+      "linkedin": "https://www.linkedin.com/in/monirulalom",
+      "facebook": "https://fb.com/olikhitokabbo"
+    },
+    "_id": "7"
+  },
+  {
+    "avatar": "https://i.ibb.co/Lp7xQJj/tarikulislam.jpg",
+    "fullname": "Tarikul Islam",
+    "position": "Senior Software Engineer",
+    "batch": "43th",
+    "technology": "",
+    "job": {
+      "Senior Software Engineer": "Brain Station 23 PLC"
+    },
+    "email": "sw.engineer.tarikul@gmail.com",
+    "phone": "01688865731",
+    "socials": {
+      "github": "https://github.com/TarikulCSE31",
+      "linkedin": "https://www.linkedin.com/in/tarikul-islam-513682160",
+      "facebook": "https://www.facebook.com/tarikul.cse.31"
+    },
+    "_id": "8"
+  },
+  {
+    "avatar": "https://i.ibb.co/2c3Hp28/almustakim.jpg",
+    "fullname": "Al Mustakim",
+    "position": "Software Engineer II",
+    "batch": "",
+    "technology": "",
+    "job": {
+      "Software Engineer II": "Brotecs Technologies Ltd.",
+      "Software Engineer II": "Stitel Networks LLC.",
+      "Founder": "Zerodevs LTD."
+    },
+    "email": "badhonmdabdullah@gmail.com",
+    "phone": "+880 1780290571",
+    "socials": {
+      "github": "https://github.com/almustakim",
+      "linkedin": "https://www.linkedin.com/in/almustakim/",
+      "facebook": "https://www.facebook.com/bma.mustakim"
+    },
+    "_id": "9"
+  },
+  {
+    "avatar": "https://i.ibb.co/dDFcSQj/alimran.jpg",
+    "fullname": "Al Imran Hossain",
+    "position": "Software Engineer",
+    "batch": "",
+    "technology": "",
+    "job": {
+      "Software Engineer": "Technonext Ltd"
+    },
+    "email": "engr.aih@gmail.com",
+    "phone": "",
+    "socials": {
+      "github": "https://github.com/imimran",
+      "linkedin": "https://linkedin.com/in/imalimran",
+      "facebook": ""
+    },
+    "_id": "10"
+  },
+  {
+    "avatar": "https://i.ibb.co/DMm83kw/ibrahim.jpg",
+    "fullname": "Ibrahim Khalil",
+    "position": "Software Engineer",
+    "batch": "39th",
+    "technology": "",
+    "job": {
+      "Software Engineer": ""
+    },
+    "email": "Ibrahim.khalil.cub@gmail.com",
+    "phone": "+88015566218336",
+    "socials": {
+      "github": "",
+      "linkedin": "https://www.linkedin.com/in/ibrahimkhalil2022/",
+      "facebook": ""
+    },
+    "_id": "11"
+  },
+  {
+    "avatar": "https://i.ibb.co/FK3XTTm/emran.jpg",
+    "fullname": "Md Emran Hasan",
+    "position": "Software Engineer",
+    "batch": "39th",
+    "technology": "",
+    "job": {
+      "Software Engineer": ""
+    },
+    "email": "myself.emranhasan@gmail.com",
+    "phone": "+8801970111247",
+    "socials": {
+      "github": "",
+      "linkedin": "https://www.linkedin.com/in/emrancub/",
+      "facebook": ""
+    },
+    "_id": "12"
+  },
+  {
+    "avatar": "https://i.ibb.co/QPQ83Mv/ahad.jpg",
+    "fullname": "Abdul Ahad",
+    "position": "Software Engineer",
+    "batch": "39th",
+    "technology": "",
+    "job": {
+      "Software Engineer": ""
+    },
+    "email": "csabdulahad@gmail.com",
+    "phone": "+8801678554268",
+    "socials": {
+      "github": "https://github.com/csabdulahad",
+      "linkedin": "https://www.linkedin.com/in/abdulahadcs/",
+      "facebook": "https://www.facebook.com/abdul.ahad.378"
+    },
+    "_id": "13"
+  },
+  {
+    "avatar": "https://i.ibb.co/3S0GzR3/arnab.jpg",
+    "fullname": "Arnab Sarker",
+    "position": "Frontend Developer",
+    "batch": "36th",
+    "technology": "",
+    "job": {
+      "Frontend Developer": "TechnoWizards"
+    },
+    "email": "arnab.cse0218@gmail.com",
+    "phone": "+8801987467825",
+    "socials": {
+      "github": "https://github.com/arnabcs",
+      "linkedin": "https://www.linkedin.com/in/arnab-sarker",
+      "facebook": ""
+    },
+    "_id": "14"
+  },
+  {
+    "avatar": "https://i.ibb.co/ZXK9p3d/nahid.jpg",
+    "fullname": "Nahid Hasan",
+    "position": "Software Engineer",
+    "batch": "43",
+    "technology": "",
+    "job": {
+      "Software Engineer": "Mindtree Ltd"
+    },
+    "email": "nahid.hasan@mindtree.com",
+    "phone": "+8801871717432",
+    "socials": {
+      "github": "https://github.com/nahidhasan37",
+      "linkedin": "https://www.linkedin.com/in/nahid-hasan-879969218/",
+      "facebook": "https://www.facebook.com/nahidhasan/"
+    },
+    "_id": "15"
+  },
+  {
+    "avatar": "https://i.ibb.co/ZzMjfsw/kaiser.jpg",
+    "fullname": "Kaiser Ahmed",
+    "position": "Software Engineer",
+    "batch": "39th",
+    "technology": "",
+    "job": {
+      "Software Engineer": ""
+    },
+    "email": "kaiser.ahmed.cse@gmail.com",
+    "phone": "+8801709293484",
+    "socials": {
+      "github": "https://github.com/kaiserahmed",
+      "linkedin": "https://www.linkedin.com/in/kaiser-ahmed/",
+      "facebook": "https://www.facebook.com/kaiser.ahmed.9"
+    },
+    "_id": "16"
+  }
+]
