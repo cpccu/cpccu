@@ -19,6 +19,12 @@
 # Mobile with navigation
 ![image](https://github.com/cpccu/cpccu/assets/22385106/e8e0eadd-1c5f-4fef-af82-a4149df58197)
 
+https://i.ibb.co.com/Nm3q6c0/Artboard-1.png
+https://i.ibb.co.com/j3sTfZM/Artboard-1-1.png
+https://i.ibb.co.com/jyXyv28/Artboard-1-cir.png
+https://i.ibb.co.com/pWCpvsr/Artboard-1new.png
+https://i.ibb.co.com/6BFjFf7/Artboard-1new.png
+
 ## project work init commands for newbies
 `npm install`
 
