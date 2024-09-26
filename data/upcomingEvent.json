@@ -1,9 +1,27 @@
 [
   {
-    "img": "https://i.ibb.co/58g00t8/poster-cpccu-3.png",
+    "img": "https://i.ibb.co.com/fS43LjZ/poster-cpccu.png",
     "alt": "Alternative text for the image",
-    "eventHeadLine1": "Console Craze Hackathon",
-    "textContext": "Get ready for an adrenaline-pumping 3-hour online hackathon where you'll put your command-line skills to the ultimate test. Join us for Console Craze, a thrilling event designed to challenge your creativity, problem-solving abilities, and coding prowess.",
+    "eventHeadLine1": "Gen-Z Programming Contest",
+    "textContext": "A programming contest where participants compete to solve challenging problems and showcase their coding skills.",
+    "eventHeadLine2": "Reward",
+    "reward": "Winners will get a University authorized certificate",
+    "eventHeadLine3": "Rules",
+    "rules1": "If someone cheats, they will be disqualified of the challenge.",
+    "rules2": "Cheating = Copying other's code, Copy pasting from online search.",
+    "rules3": "Try not to copy others code.",
+    "rules4": "Try to think out the solution yourself.",
+    "btnText": "Join Vjudge Group",
+    "btnLink": "https://vjudge.net/group/cpccu?r=e5n1ED2ylolVtUokPTkD",
+    "btnText1": "Contest Link",
+    "btnLink1": "https://vjudge.net/contest/658071",
+    "date": "2024-09-27"
+  },
+  {
+    "img": "https://i.ibb.co.com/xDYx1xb/poster-cpccu-1.png",
+    "alt": "Alternative text for the image",
+    "eventHeadLine1": "Re-stack cpccu",
+    "textContext": "A programming contest where participants compete to solve challenging problems and showcase their coding skills.",
     "eventHeadLine2": "Reward",
     "reward": "Winners will get a Gifts from the Club & Alumni.",
     "eventHeadLine3": "Rules",
@@ -11,11 +29,11 @@
     "rules2": "Cheating = Copying other's code, Copy pasting from online search.",
     "rules3": "Try not to copy others code.",
     "rules4": "Try to think out the solution yourself.",
-    "btnText": "Problem Set",
-    "btnLink": "https://drive.google.com/file/d/1ozgphiJOVmOqZlF278TnMylMZy0U3GxM/view?usp=sharing",
-    "btnText1": "Submit Solution",
-    "btnLink1": "https://forms.gle/Z4rh7qWWD4sQuyzu9",
-    "date": "2024-07-15"
+    "btnText": "Join Vjudge Group",
+    "btnLink": "https://vjudge.net/group/cpccu?r=e5n1ED2ylolVtUokPTkD",
+    "btnText1": "Contest Link",
+    "btnLink1": "https://vjudge.net/contest/655529",
+    "date": "2024-09-19"
   },
   {
     "img": "https://i.ibb.co/58g00t8/poster-cpccu-3.png",
