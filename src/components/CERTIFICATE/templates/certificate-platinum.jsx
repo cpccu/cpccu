@@ -634,7 +634,7 @@ export function PlatinumParticipation({ view, theme, signatory }) {
   const resolvedSignatory = signatory || view?.signatory || null;
   const presidentSig =
     resolvedSignatory?.president?.signatureUrl ||
-    '/assets/certificates/signature_zalim.png';
+    '/assets/certificates/signature_zahin.png';
   const vpSig =
     resolvedSignatory?.vicePresident?.signatureUrl ||
     resolvedSignatory?.coordinator?.signatureUrl ||
@@ -1047,7 +1047,7 @@ export function PlatinumAchievement({ view, theme, signatory }) {
   const resolvedSignatory = signatory || view?.signatory || null;
   const presidentSig =
     resolvedSignatory?.president?.signatureUrl ||
-    '/assets/certificates/signature_zalim.png';
+    '/assets/certificates/signature_zahin.png';
   const vpSig =
     resolvedSignatory?.vicePresident?.signatureUrl ||
     resolvedSignatory?.coordinator?.signatureUrl ||
