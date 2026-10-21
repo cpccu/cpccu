@@ -6,6 +6,7 @@ import { CertificateModern } from './certificate-modern';
 import { CertificateTech } from './certificate-tech';
 import { CertificateElegant } from './certificate-elegant';
 import { CertificateVibrant } from './certificate-vibrant';
+import { CertificatePlatinum } from './certificate-platinum';
 import {
   CERTIFICATE_HEIGHT,
   CERTIFICATE_WIDTH,
@@ -23,6 +24,9 @@ const TEMPLATE_COMPONENTS = {
   tech: CertificateTech,
   elegant: CertificateElegant,
   vibrant: CertificateVibrant,
+  platinum: CertificatePlatinum,
+  'platinum-participation': CertificatePlatinum,
+  'platinum-achievement': CertificatePlatinum,
 };
 
 /**

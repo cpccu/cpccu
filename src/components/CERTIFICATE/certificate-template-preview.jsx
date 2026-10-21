@@ -30,6 +30,9 @@ export function CertificateTemplatePreview({
   const isVibrant = palette.key === 'vibrant';
   const isElegant = palette.key === 'elegant';
   const isClassic = palette.key === 'classic';
+  const isPlatinum = palette.key === 'platinum';
+  const isPlatinumParticipation = palette.key === 'platinum-participation';
+  const isPlatinumAchievement = palette.key === 'platinum-achievement';
 
   const bar = (width, height, color, extra = {}) => (
     <span
@@ -156,6 +159,120 @@ export function CertificateTemplatePreview({
               background: accentSoft,
             }}
           />
+        ) : null}
+
+        {isPlatinum ? (
+          <>
+            {/* Top-right award ribbon swatch */}
+            <span
+              style={{
+                position: 'absolute',
+                top: 0,
+                right: '10%',
+                width: 14,
+                height: 26,
+                background: '#0B1B3D',
+                border: '1px solid #C5A059',
+                borderTop: 'none',
+              }}
+            />
+            {/* Top-left wave swatch */}
+            <span
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: 22,
+                height: 22,
+                borderBottomRightRadius: '100%',
+                background: '#0B1B3D',
+                borderRight: '1.5px solid #C5A059',
+                borderBottom: '1.5px solid #C5A059',
+              }}
+            />
+            {/* Bottom-right wave swatch */}
+            <span
+              style={{
+                position: 'absolute',
+                bottom: 0,
+                right: 0,
+                width: 22,
+                height: 22,
+                borderTopLeftRadius: '100%',
+                background: '#0B1B3D',
+                borderLeft: '1.5px solid #C5A059',
+                borderTop: '1.5px solid #C5A059',
+              }}
+            />
+          </>
+        ) : null}
+
+        {isPlatinumParticipation ? (
+          <>
+            {/* Left curved wave */}
+            <span
+              style={{
+                position: 'absolute',
+                top: 0,
+                bottom: 0,
+                left: 0,
+                width: '18%',
+                background: '#0B1B3D',
+                borderRight: '1.5px solid #C5A059',
+              }}
+            />
+            {/* Top-right QR swatch */}
+            <span
+              style={{
+                position: 'absolute',
+                top: 4,
+                right: 4,
+                width: 10,
+                height: 10,
+                border: '1px solid #0B1B3D',
+                background: '#FFFFFF',
+              }}
+            />
+          </>
+        ) : null}
+
+        {isPlatinumAchievement ? (
+          <>
+            {/* Double border */}
+            <span
+              style={{
+                position: 'absolute',
+                inset: 3,
+                border: '1px solid #C5A059',
+              }}
+            />
+            {/* Center Medal Badge swatch */}
+            <span
+              style={{
+                position: 'absolute',
+                top: '52%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+                width: 16,
+                height: 16,
+                borderRadius: '50%',
+                border: '1.5px solid #C5A059',
+                background: '#0B1B3D',
+              }}
+            />
+            {/* Top-right QR swatch */}
+            <span
+              style={{
+                position: 'absolute',
+                top: 4,
+                right: 4,
+                width: 10,
+                height: 10,
+                border: '1px solid #0B1B3D',
+                background: '#FFFFFF',
+              }}
+            />
+          </>
         ) : null}
 
         {isVibrant ? (

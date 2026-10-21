@@ -18,6 +18,9 @@ export const CERTIFICATE_TEMPLATE_KEYS = [
   'tech',
   'elegant',
   'vibrant',
+  'platinum',
+  'platinum-participation',
+  'platinum-achievement',
 ];
 
 export const DEFAULT_CERTIFICATE_TEMPLATE_KEY = 'classic';
@@ -88,6 +91,42 @@ export const CERTIFICATE_TEMPLATES = [
     ink: '#18181B',
     paper: '#FFFFFF',
     fontDisplay: 'sans',
+    fontBody: 'sans',
+  },
+  {
+    key: 'platinum',
+    label: 'Platinum Tech',
+    description:
+      'Luxury deep-navy and gold border with isometric tech illustration and trophy ribbon.',
+    accent: '#0B1B3D',
+    accentSoft: '#DCE7F7',
+    ink: '#0B1B3D',
+    paper: '#F8F8F6',
+    fontDisplay: 'serif',
+    fontBody: 'sans',
+  },
+  {
+    key: 'platinum-participation',
+    label: 'Platinum Participation',
+    description:
+      'Curved navy wave with CPCCU emblem, quote pill card and QR verification.',
+    accent: '#0B1B3D',
+    accentSoft: '#EFF6FF',
+    ink: '#0B1B3D',
+    paper: '#FFFFFF',
+    fontDisplay: 'serif',
+    fontBody: 'sans',
+  },
+  {
+    key: 'platinum-achievement',
+    label: 'Platinum Achievement',
+    description:
+      'Double gold and navy border with golden laurel medal ribbon position badge.',
+    accent: '#C5A059',
+    accentSoft: '#FEF3C7',
+    ink: '#0B1B3D',
+    paper: '#FFFFFF',
+    fontDisplay: 'serif',
     fontBody: 'sans',
   },
 ];
